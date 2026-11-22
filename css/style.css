@@ -201,44 +201,16 @@ button {
 }
 
 .profile-bio {
-  margin: 14px 0 16px;
+  margin: 14px 0 0;
   font-size: 0.88rem;
   line-height: 1.65;
   color: var(--ink-secondary);
 }
 
-.profile-stats {
-  margin: 0;
-  padding-top: 14px;
-  border-top: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-
-.stat-item {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.stat-item dt {
-  font-size: 0.73rem;
-  color: var(--ink-muted);
-}
-
-.stat-item dd {
-  margin: 0;
-  font-family: var(--font-mono);
-  font-size: 1rem;
-  font-weight: 500;
-  font-variant-numeric: tabular-nums;
-  color: var(--ink);
-}
-
 .sidebar-collapsible {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
 }
 
 .nav-section {
@@ -438,7 +410,7 @@ button {
 
 .utility-bar {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 6px;
 }
 
@@ -467,14 +439,6 @@ button {
 .icon-moon { display: block; }
 [data-theme="dark"] .icon-sun { display: block; }
 [data-theme="dark"] .icon-moon { display: none; }
-
-.sync-stamp {
-  margin: 2px 4px 0;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  color: var(--ink-muted);
-  text-align: center;
-}
 
 /* Main Column & Sticky Toolbar */
 .main-column {
@@ -672,15 +636,23 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   flex-wrap: wrap;
 }
 
 .post-meta-left {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
+}
+
+.post-time-btn {
+  border: none;
+  background: transparent;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
 }
 
 .post-time {
@@ -688,60 +660,27 @@ button {
   font-size: 0.8rem;
   color: var(--ink-muted);
   font-variant-numeric: tabular-nums;
+  transition: color 0.15s ease;
 }
 
-.post-id-btn {
-  border: none;
-  background: var(--bg-muted);
-  padding: 2px 7px;
-  border-radius: 0px;
-  font-family: var(--font-mono);
-  font-size: 0.73rem;
-  color: var(--ink-secondary);
-  transition: all 0.15s ease;
-}
-
-.post-id-btn:hover {
-  background: var(--accent-soft);
+.post-time-btn:hover .post-time {
   color: var(--accent);
 }
 
-.post-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 2px 8px;
-  border-radius: 0px;
-  font-size: 0.74rem;
-  color: var(--ink-secondary);
-  background: var(--bg-muted);
-}
-
-.post-badge-edited {
-  font-size: 0.72rem;
+.forwarded-line {
+  font-size: 0.78rem;
   color: var(--ink-muted);
 }
 
-.forwarded-banner {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 10px;
-  padding: 4px 10px;
-  border-radius: var(--radius-sm);
-  background: var(--bg-muted);
-  font-size: 0.79rem;
+.forwarded-line a {
   color: var(--ink-secondary);
-}
-
-.forwarded-banner a {
-  color: var(--accent);
-  font-weight: 500;
   text-decoration: none;
+  border-bottom: 1px solid var(--border-strong);
 }
 
-.forwarded-banner a:hover {
-  text-decoration: underline;
+.forwarded-line a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
 }
 
 /* Reply Quote Block */
@@ -1603,10 +1542,6 @@ button {
     overflow: visible;
   }
 
-  .search-kbd {
-    display: none;
-  }
-
   .mobile-only {
     display: inline-flex;
   }
@@ -1621,16 +1556,10 @@ button {
 
   .toolbar {
     top: 8px;
-    flex-wrap: wrap;
   }
 
   .search-box {
-    min-width: 100%;
-  }
-
-  .toolbar-actions {
-    width: 100%;
-    justify-content: flex-end;
+    min-width: 0;
   }
 
   .post-card {

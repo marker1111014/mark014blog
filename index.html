@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mark's Blog — 生活隨筆與網路資源筆記</title>
-  <meta name="description" content="想到什麼說什麼，可能是網路上的免費資源，也可能只是單純的感悟、發牢騷。來自 @mark014blog 的生活記錄與數位花園。">
+  <meta name="description" content="想到什麼說什麼，可能是網路上的免費資源，也可能只是單純的感悟、發牢騷。來自 @mark014blog 的生活記錄。">
   <meta property="og:title" content="Mark's Blog">
   <meta property="og:description" content="想到什麼說什麼・可能是網路上的免費資源・也可能只是單純的感悟、發牢騷">
   <meta property="og:type" content="website">
@@ -34,7 +34,7 @@
 <body>
   <div class="site-shell">
     <!-- Left Identity & Navigation Rail -->
-    <aside class="sidebar" id="sidebar" aria-label="頻道介紹與篩選導覽">
+    <aside class="sidebar" id="sidebar" aria-label="頻道介紹與導覽">
       <div class="sidebar-inner">
         <header class="profile-card">
           <div class="profile-top">
@@ -43,8 +43,8 @@
               alt="Mark's Blog 頭像"
               class="profile-avatar"
               id="profile-avatar"
-              width="68"
-              height="68"
+              width="60"
+              height="60"
               onerror="this.style.display='none'"
             >
             <div class="profile-title-group">
@@ -63,7 +63,7 @@
               id="mobile-filter-toggle"
               aria-expanded="false"
               aria-controls="sidebar-collapsible"
-              title="展開篩選與歸檔"
+              title="展開導覽"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="18" x2="14" y2="18"/></svg>
             </button>
@@ -72,66 +72,22 @@
           <p class="profile-bio" id="profile-bio">
             想到什麼說什麼<br>可能是網路上的免費資源<br>也可能只是單純的感悟、發牢騷
           </p>
-
-          <dl class="profile-stats" id="profile-stats" aria-label="頻道統計">
-            <div class="stat-item">
-              <dt>筆記</dt>
-              <dd id="stat-posts">—</dd>
-            </div>
-            <div class="stat-item">
-              <dt>影像</dt>
-              <dd id="stat-photos">—</dd>
-            </div>
-            <div class="stat-item">
-              <dt>連結</dt>
-              <dd id="stat-links">—</dd>
-            </div>
-          </dl>
         </header>
 
         <div class="sidebar-collapsible" id="sidebar-collapsible">
           <nav class="nav-section" aria-label="內容分類">
-            <h2 class="section-heading">瀏覽視角</h2>
             <div class="filter-list" id="view-filters">
               <button type="button" class="filter-btn active" data-filter="all">
-                <span class="filter-label">全部動態</span>
-                <span class="filter-count" id="count-all">—</span>
-              </button>
-              <button type="button" class="filter-btn" data-filter="gallery">
-                <span class="filter-label">相片牆</span>
-                <span class="filter-count" id="count-gallery">—</span>
+                <span class="filter-label">全部貼文</span>
               </button>
               <button type="button" class="filter-btn" data-filter="original">
                 <span class="filter-label">原創隨筆</span>
-                <span class="filter-count" id="count-original">—</span>
               </button>
-              <button type="button" class="filter-btn" data-filter="media">
-                <span class="filter-label">圖文影像</span>
-                <span class="filter-count" id="count-media">—</span>
-              </button>
-              <button type="button" class="filter-btn" data-filter="links">
-                <span class="filter-label">資源與連結</span>
-                <span class="filter-count" id="count-links">—</span>
-              </button>
-              <button type="button" class="filter-btn" data-filter="forwarded">
-                <span class="filter-label">轉發收藏</span>
-                <span class="filter-count" id="count-forwarded">—</span>
+              <button type="button" class="filter-btn" data-filter="gallery">
+                <span class="filter-label">相片牆</span>
               </button>
             </div>
           </nav>
-
-          <section class="nav-section" aria-label="月份歸檔">
-            <div class="section-heading-row">
-              <h2 class="section-heading">時光歸檔</h2>
-              <button type="button" class="text-link-btn" id="toggle-all-months" hidden>展開全部</button>
-            </div>
-            <div class="archive-list" id="archive-list"></div>
-          </section>
-
-          <section class="nav-section" id="tags-section" aria-label="主題標籤">
-            <h2 class="section-heading">常用標籤</h2>
-            <div class="tag-cloud" id="tag-cloud"></div>
-          </section>
 
           <footer class="sidebar-footer">
             <a
@@ -140,7 +96,7 @@
               rel="noopener noreferrer"
               class="primary-cta"
             >
-              <span>在 Telegram 訂閱頻道</span>
+              <span>前往 Telegram 頻道</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
             </a>
 
@@ -149,18 +105,12 @@
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
                 <span>RSS</span>
               </a>
-              <button type="button" class="utility-btn" id="open-sync-guide">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 16h5v5"/></svg>
-                <span>自動同步</span>
-              </button>
               <button type="button" class="utility-btn" id="theme-toggle" aria-label="切換深淺色主題" title="切換深淺色主題">
                 <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
                 <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
                 <span id="theme-label">深色</span>
               </button>
             </div>
-
-            <p class="sync-stamp" id="sync-stamp">同步檢查中…</p>
           </footer>
         </div>
       </div>
@@ -175,11 +125,10 @@
             type="search"
             id="search-input"
             class="search-input"
-            placeholder="搜尋生活隨筆、工具資源、#標籤…"
+            placeholder="搜尋貼文內容…"
             aria-label="搜尋動態內容"
             autocomplete="off"
           >
-          <kbd class="search-kbd" id="search-kbd">/</kbd>
           <button type="button" class="search-clear" id="search-clear" aria-label="清除搜尋" hidden>×</button>
         </div>
 
@@ -188,16 +137,12 @@
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 16 4 4 4-4"/><path d="M7 20V4"/><path d="m21 8-4-4-4 4"/><path d="M17 4v16"/></svg>
             <span id="sort-label">最新</span>
           </button>
-          <button type="button" class="tool-pill" id="random-post-btn" title="隨機回顧一則過去的紀錄">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="12" height="12" x="2" y="10" rx="2" ry="2"/><path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/><path d="M6 18h.01"/><path d="M10 14h.01"/><path d="M15 6h.01"/><path d="M18 9h.01"/></svg>
-            <span>隨機回顧</span>
-          </button>
         </div>
       </div>
 
       <div class="active-filter-bar" id="active-filter-bar" hidden>
         <div class="active-filter-text" id="active-filter-text"></div>
-        <button type="button" class="clear-filters-btn" id="clear-filters-btn">重置篩選</button>
+        <button type="button" class="clear-filters-btn" id="clear-filters-btn">清除篩選</button>
       </div>
 
       <div id="feed-container" class="feed-container" aria-live="polite">
@@ -237,44 +182,10 @@
     <div class="modal-backdrop" data-close-modal="post-modal"></div>
     <div class="modal-dialog">
       <div class="modal-header">
-        <span class="modal-title" id="post-modal-title">貼文詳情</span>
+        <span class="modal-title" id="post-modal-title">貼文</span>
         <button type="button" class="modal-close" data-close-modal="post-modal" aria-label="關閉">×</button>
       </div>
       <div class="modal-body" id="post-modal-body"></div>
-    </div>
-  </div>
-
-  <!-- Sync Architecture Info Modal -->
-  <div class="modal" id="sync-modal" role="dialog" aria-modal="true" aria-label="Telegram 自動同步架構說明" hidden>
-    <div class="modal-backdrop" data-close-modal="sync-modal"></div>
-    <div class="modal-dialog modal-dialog-wide">
-      <div class="modal-header">
-        <span class="modal-title">Telegram 頻道自動同步機制</span>
-        <button type="button" class="modal-close" data-close-modal="sync-modal" aria-label="關閉">×</button>
-      </div>
-      <div class="modal-body sync-guide-body">
-        <p class="sync-intro">
-          本網站直接與公開頻道 <a href="https://t.me/mark014blog" target="_blank" rel="noopener noreferrer">@mark014blog</a> 連動，無需資料庫或付費主機，只要在 Telegram 發佈或編輯貼文，網站即可自動更新。
-        </p>
-
-        <div class="sync-method-card">
-          <div class="sync-method-badge">方案一 · GitHub Actions 自動排程（目前啟用）</div>
-          <h3>每 15 分鐘自動檢查頻道更新</h3>
-          <p>
-            透過 <code>scripts/sync_telegram.py</code> 定時解析公開網頁預覽 <code>t.me/s/mark014blog</code>，自動同步新貼文、編輯紀錄、瀏覽數與表情反應，產生 <code>data/posts.json</code> 與 <code>feed.xml</code> 後部署至 GitHub Pages。
-          </p>
-        </div>
-
-        <div class="sync-method-card">
-          <div class="sync-method-badge">方案二 · 毫秒級即時觸發（進階可選）</div>
-          <h3>Telegram Bot Webhook + Cloudflare Worker</h3>
-          <p>
-            若需要發完訊息立刻更新，也可部署 <code>worker/telegram-webhook.js</code> 並綁定頻道管理員機器人，透過 <code>repository_dispatch</code> 立即喚醒 GitHub Actions 部署。
-          </p>
-        </div>
-
-        <div class="sync-meta-footer" id="sync-modal-meta"></div>
-      </div>
     </div>
   </div>
 
