@@ -258,18 +258,18 @@
         </p>
 
         <div class="sync-method-card">
-          <div class="sync-method-badge">方案二 · 毫秒級即時觸發（主力模式）</div>
-          <h3>Telegram Bot Webhook + Cloudflare Worker</h3>
+          <div class="sync-method-badge">方案一 · GitHub Actions 自動排程（目前啟用）</div>
+          <h3>每 15 分鐘自動檢查頻道更新</h3>
           <p>
-            頻道發佈或編輯訊息時，Telegram 會在毫秒內推送 Webhook 到 Cloudflare Worker（<code>worker/telegram-webhook.js</code>），Worker 隨即發送 <code>repository_dispatch</code> 喚醒 GitHub Actions 抓取最新內容並部署至 GitHub Pages。
+            透過 <code>scripts/sync_telegram.py</code> 定時解析公開網頁預覽 <code>t.me/s/mark014blog</code>，自動同步新貼文、編輯紀錄、瀏覽數與表情反應，產生 <code>data/posts.json</code> 與 <code>feed.xml</code> 後部署至 GitHub Pages。
           </p>
         </div>
 
         <div class="sync-method-card">
-          <div class="sync-method-badge">方案一 · 定時巡檢備援</div>
-          <h3>GitHub Actions 定時檢查瀏覽數與近期編輯</h3>
+          <div class="sync-method-badge">方案二 · 毫秒級即時觸發（進階可選）</div>
+          <h3>Telegram Bot Webhook + Cloudflare Worker</h3>
           <p>
-            透過 <code>scripts/sync_telegram.py</code> 解析公開網頁預覽 <code>t.me/s/mark014blog</code>，同步更新 <code>data/posts.json</code> 與 <code>feed.xml</code>，定期刷新貼文瀏覽數與反應表情。
+            若需要發完訊息立刻更新，也可部署 <code>worker/telegram-webhook.js</code> 並綁定頻道管理員機器人，透過 <code>repository_dispatch</code> 立即喚醒 GitHub Actions 部署。
           </p>
         </div>
 

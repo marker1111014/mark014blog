@@ -53,7 +53,7 @@ curl -X POST "https://api.telegram.org/bot<BOT_TOKEN>/setWebhook" \
   }'
 ```
 
-完成後，只要你在 `@mark014blog` 發新訊息或修改訊息，Worker 就會立刻透過 `repository_dispatch` 觸發部署，約 25～40 秒後網站就會同步更新！同時 [`.github/workflows/sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml) 也會每 2 小時定時巡檢一次瀏覽數與表情反應。
+完成後，只要你在 `@mark014blog` 發新訊息或修改訊息，Worker 就會立刻透過 `repository_dispatch` 觸發部署，約 25～40 秒後網站就會同步更新！即使未設定 Bot 與 Worker，[`.github/workflows/sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml) 也會每 **15 分鐘**自動同步一次新貼文、瀏覽數與表情反應。
 
 ---
 

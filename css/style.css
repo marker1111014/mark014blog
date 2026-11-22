@@ -21,10 +21,10 @@
   --shadow-card: 0 2px 10px rgba(30, 24, 16, 0.035), 0 1px 2px rgba(30, 24, 16, 0.03);
   --shadow-float: 0 16px 40px rgba(24, 19, 12, 0.14);
 
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 18px;
-  --radius-pill: 999px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-pill: 0px;
 
   --font-sans: "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif;
   --font-serif: "Noto Serif TC", Georgia, serif;
@@ -166,7 +166,7 @@ button {
 .profile-avatar {
   width: 60px;
   height: 60px;
-  border-radius: 16px;
+  border-radius: 0px;
   object-fit: cover;
   border: 1px solid var(--border-strong);
   flex-shrink: 0;
@@ -536,7 +536,7 @@ button {
   position: absolute;
   right: 10px;
   padding: 1px 6px;
-  border-radius: 5px;
+  border-radius: 0px;
   border: 1px solid var(--border-strong);
   background: var(--bg-muted);
   color: var(--ink-muted);
@@ -552,7 +552,7 @@ button {
   width: 22px;
   height: 22px;
   border: none;
-  border-radius: 50%;
+  border-radius: 0px;
   background: var(--bg-muted);
   color: var(--ink-secondary);
   font-size: 1rem;
@@ -694,7 +694,7 @@ button {
   border: none;
   background: var(--bg-muted);
   padding: 2px 7px;
-  border-radius: 6px;
+  border-radius: 0px;
   font-family: var(--font-mono);
   font-size: 0.73rem;
   color: var(--ink-secondary);
@@ -711,7 +711,7 @@ button {
   align-items: center;
   gap: 4px;
   padding: 2px 8px;
-  border-radius: 6px;
+  border-radius: 0px;
   font-size: 0.74rem;
   color: var(--ink-secondary);
   background: var(--bg-muted);
@@ -753,7 +753,7 @@ button {
   margin-bottom: 12px;
   border-left: 3px solid var(--accent);
   background: var(--bg);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  border-radius: 0px;
   text-decoration: none;
   color: inherit;
   transition: background-color 0.15s ease;
@@ -767,7 +767,7 @@ button {
 .reply-thumb {
   width: 38px;
   height: 38px;
-  border-radius: 6px;
+  border-radius: 0px;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -819,7 +819,7 @@ button {
 
 .post-text code {
   padding: 2px 6px;
-  border-radius: 5px;
+  border-radius: 0px;
   background: var(--bg-muted);
   font-family: var(--font-mono);
   font-size: 0.85em;
@@ -847,7 +847,7 @@ button {
   padding: 8px 14px;
   border-left: 3px solid var(--border-strong);
   background: var(--bg);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  border-radius: 0px;
   color: var(--ink-secondary);
 }
 
@@ -856,7 +856,7 @@ button {
   background: var(--accent-soft);
   color: var(--accent);
   padding: 1px 7px;
-  border-radius: 6px;
+  border-radius: 0px;
   font-size: 0.88em;
   font-weight: 500;
   transition: background-color 0.15s ease;
@@ -874,7 +874,7 @@ button {
 .tg-spoiler {
   background: var(--ink);
   color: transparent;
-  border-radius: 4px;
+  border-radius: 0px;
   padding: 0 4px;
   cursor: pointer;
   user-select: none;
@@ -922,7 +922,7 @@ button {
   display: block;
   padding: 0;
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 0px;
   overflow: hidden;
   background: var(--bg-muted);
 }
@@ -1003,7 +1003,7 @@ button {
 .video-play-circle {
   width: 54px;
   height: 54px;
-  border-radius: 50%;
+  border-radius: 0px;
   background: rgba(255, 255, 255, 0.92);
   color: #111111;
   display: flex;
@@ -1054,7 +1054,7 @@ button {
 .doc-icon {
   width: 38px;
   height: 38px;
-  border-radius: 10px;
+  border-radius: 0px;
   background: var(--accent-soft);
   color: var(--accent);
   display: flex;
@@ -1140,7 +1140,7 @@ button {
 .lp-thumb {
   width: 84px;
   height: 84px;
-  border-radius: 10px;
+  border-radius: 0px;
   object-fit: cover;
   flex-shrink: 0;
   border: 1px solid var(--border);
@@ -1202,7 +1202,7 @@ button {
   border: none;
   background: transparent;
   padding: 3px 6px;
-  border-radius: 6px;
+  border-radius: 0px;
   font-size: 0.78rem;
   color: var(--ink-muted);
   text-decoration: none;
@@ -1304,7 +1304,7 @@ button {
   margin: 0 auto 12px;
   border: 2.5px solid var(--border-strong);
   border-top-color: var(--accent);
-  border-radius: 50%;
+  border-radius: 0px;
   animation: spin 0.8s linear infinite;
 }
 
@@ -1320,7 +1320,7 @@ button {
   z-index: 30;
   width: 42px;
   height: 42px;
-  border-radius: 50%;
+  border-radius: 0px;
   border: 1px solid var(--border-strong);
   background: var(--bg-elevated);
   color: var(--ink);
@@ -1374,7 +1374,7 @@ button {
 .lightbox-figure img {
   max-width: 86vw;
   max-height: 78vh;
-  border-radius: 10px;
+  border-radius: 0px;
   object-fit: contain;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
@@ -1393,7 +1393,7 @@ button {
   right: 22px;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 0px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   background: rgba(30, 30, 30, 0.65);
   color: #ffffff;
@@ -1410,7 +1410,7 @@ button {
   transform: translateY(-50%);
   width: 44px;
   height: 44px;
-  border-radius: 50%;
+  border-radius: 0px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(25, 25, 25, 0.65);
   color: #ffffff;
@@ -1478,7 +1478,7 @@ button {
 .modal-close {
   width: 32px;
   height: 32px;
-  border-radius: 50%;
+  border-radius: 0px;
   border: none;
   background: var(--bg-muted);
   color: var(--ink-secondary);
@@ -1545,7 +1545,7 @@ button {
 
 .sync-method-card code {
   padding: 1px 5px;
-  border-radius: 4px;
+  border-radius: 0px;
   background: var(--bg-muted);
   font-family: var(--font-mono);
   font-size: 0.82em;

@@ -7,8 +7,8 @@ on:
     # 方案二主力：由 Telegram Bot + Cloudflare Worker 收到訊息後毫秒級即時觸發
     types: [telegram-update]
   schedule:
-    # 備援排程：每 2 小時同步一次瀏覽數、反應表情與較早貼文的補充更新
-    - cron: "0 */2 * * *"
+    # 每 15 分鐘自動同步一次（錯開整點尖峰降低排隊延遲）
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       full_sync:
