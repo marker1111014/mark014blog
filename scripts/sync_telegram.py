@@ -908,7 +908,22 @@ def main() -> int:
     cache_media_locally(sorted_posts, site_info, root_dir, download_all=args.download_media)
 
     site_summary = build_site_summary(site_info, sorted_posts)
-    posts_path.write_text(json.dumps(sorted_posts, ensure_ascii=False, indent=2), encoding="utf-8")
+    new_posts_str = json.dumps(sorted_posts, ensure_ascii=False, indent=2)
+    old_posts_str = posts_path.read_text(encoding="utf-8") if posts_path.exists() else ""
+
+    content_changed = (new_posts_str != old_posts_str)
+    if site_path.exists() and not content_changed:
+        try:
+            old_site = json.loads(site_path.read_text(encoding="utf-8"))
+            old_cmp = {k: v for k, v in old_site.items() if k != "last_synced_at"}
+            new_cmp = {k: v for k, v in site_summary.items() if k != "last_synced_at"}
+            if old_cmp == new_cmp and (root_dir / "feed.xml").exists() and (root_dir / "sitemap.xml").exists():
+                print("No post or profile changes detected; skipping timestamp-only file writes.", flush=True)
+                return 0
+        except Exception:
+            pass
+
+    posts_path.write_text(new_posts_str, encoding="utf-8")
     site_path.write_text(json.dumps(site_summary, ensure_ascii=False, indent=2), encoding="utf-8")
     generate_rss(site_summary, sorted_posts, args.site_url, root_dir / "feed.xml")
     generate_sitemap(sorted_posts, args.site_url, root_dir / "sitemap.xml")
