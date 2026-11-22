@@ -9,25 +9,25 @@
   "counters": {
     "subscribers": "78",
     "photos": "473",
-    "videos": "9",
+    "videos": "10",
     "files": "4",
-    "links": "685"
+    "links": "686"
   },
   "avatar_local": "media/avatar.jpg",
-  "last_synced_at": "2026-11-22T23:06:52.812331+08:00",
+  "last_synced_at": "2026-11-22T23:53:48.312787+08:00",
   "stats": {
-    "total_posts": 938,
+    "total_posts": 941,
     "total_photos": 473,
-    "total_videos": 11,
-    "total_with_links": 616,
-    "total_forwarded": 288,
+    "total_videos": 12,
+    "total_with_links": 617,
+    "total_forwarded": 289,
     "earliest_date": "2025-05-03",
     "latest_date": "2026-11-22"
   },
   "months": [
     {
       "month": "2026-11",
-      "count": 42
+      "count": 45
     },
     {
       "month": "2026-10",
