@@ -139,7 +139,7 @@
       document.documentElement.removeAttribute('data-theme');
     }
     try {
-      localStorage.setItem('mark11blog-theme', next);
+      localStorage.setItem('mark014blog-theme', next);
     } catch {}
     updateThemeUI();
   }
@@ -548,7 +548,7 @@
       video.addEventListener('error', () => {
         const wrap = video.closest('.video-wrap');
         if (!wrap) return;
-        const tgUrl = wrap.dataset.tgUrl || 'https://t.me/mark11blog';
+        const tgUrl = wrap.dataset.tgUrl || 'https://t.me/mark014blog';
         const thumb = wrap.dataset.thumb || '';
         const dur = wrap.dataset.dur ? ` (${wrap.dataset.dur})` : '';
         wrap.innerHTML = `

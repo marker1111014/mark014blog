@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mark's Blog — 生活隨筆與網路資源筆記</title>
-  <meta name="description" content="想到什麼說什麼，可能是網路上的免費資源，也可能只是單純的感悟、發牢騷。來自 @mark11blog 的生活記錄與數位花園。">
+  <meta name="description" content="想到什麼說什麼，可能是網路上的免費資源，也可能只是單純的感悟、發牢騷。來自 @mark014blog 的生活記錄與數位花園。">
   <meta property="og:title" content="Mark's Blog">
   <meta property="og:description" content="想到什麼說什麼・可能是網路上的免費資源・也可能只是單純的感悟、發牢騷">
   <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
   <script>
     (function () {
       try {
-        var saved = localStorage.getItem('mark11blog-theme');
+        var saved = localStorage.getItem('mark014blog-theme');
         var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         if (saved === 'dark' || (!saved && prefersDark)) {
           document.documentElement.setAttribute('data-theme', 'dark');
@@ -50,12 +50,12 @@
             <div class="profile-title-group">
               <h1 class="site-title" id="site-title">Mark's Blog</h1>
               <a
-                href="https://t.me/mark11blog"
+                href="https://t.me/mark014blog"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="channel-handle"
                 id="channel-handle"
-              >@mark11blog</a>
+              >@mark014blog</a>
             </div>
             <button
               type="button"
@@ -135,7 +135,7 @@
 
           <footer class="sidebar-footer">
             <a
-              href="https://t.me/mark11blog"
+              href="https://t.me/mark014blog"
               target="_blank"
               rel="noopener noreferrer"
               class="primary-cta"
@@ -254,22 +254,22 @@
       </div>
       <div class="modal-body sync-guide-body">
         <p class="sync-intro">
-          本網站直接與公開頻道 <a href="https://t.me/mark11blog" target="_blank" rel="noopener noreferrer">@mark11blog</a> 連動，無需資料庫或付費主機，只要在 Telegram 發佈或編輯貼文，網站即可自動更新。
+          本網站直接與公開頻道 <a href="https://t.me/mark014blog" target="_blank" rel="noopener noreferrer">@mark014blog</a> 連動，無需資料庫或付費主機，只要在 Telegram 發佈或編輯貼文，網站即可自動更新。
         </p>
 
         <div class="sync-method-card">
-          <div class="sync-method-badge">方案一 · 零設定最省心（預設啟用）</div>
-          <h3>GitHub Actions 定時爬蟲 + GitHub Pages</h3>
+          <div class="sync-method-badge">方案二 · 毫秒級即時觸發（主力模式）</div>
+          <h3>Telegram Bot Webhook + Cloudflare Worker</h3>
           <p>
-            不需要申請 Telegram Bot Token，利用公開頻道網頁預覽 <code>t.me/s/mark11blog</code>，透過內建的純 Python 腳本 <code>scripts/sync_telegram.py</code> 每 30 分鐘自動檢查新貼文、近期編輯與反應數，更新 <code>data/posts.json</code> 與 <code>feed.xml</code> 後自動部署上線。
+            頻道發佈或編輯訊息時，Telegram 會在毫秒內推送 Webhook 到 Cloudflare Worker（<code>worker/telegram-webhook.js</code>），Worker 隨即發送 <code>repository_dispatch</code> 喚醒 GitHub Actions 抓取最新內容並部署至 GitHub Pages。
           </p>
         </div>
 
         <div class="sync-method-card">
-          <div class="sync-method-badge">方案二 · 毫秒級即時觸發（進階可選）</div>
-          <h3>Telegram Bot Webhook + Cloudflare Worker</h3>
+          <div class="sync-method-badge">方案一 · 定時巡檢備援</div>
+          <h3>GitHub Actions 定時檢查瀏覽數與近期編輯</h3>
           <p>
-            若想發完訊息 30 秒內立刻出現在網站，可將機器人設為頻道管理員，並將專案內的 <code>worker/telegram-webhook.js</code> 部署到 Cloudflare Workers；頻道一有 <code>channel_post</code> 或 <code>edited_channel_post</code>，Worker 便會立即發送 <code>repository_dispatch</code> 喚醒 GitHub Actions 更新網站。
+            透過 <code>scripts/sync_telegram.py</code> 解析公開網頁預覽 <code>t.me/s/mark014blog</code>，同步更新 <code>data/posts.json</code> 與 <code>feed.xml</code>，定期刷新貼文瀏覽數與反應表情。
           </p>
         </div>
 

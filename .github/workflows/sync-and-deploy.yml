@@ -3,12 +3,12 @@ name: Sync Telegram & Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
-  schedule:
-    # 每 30 分鐘自動檢查 @mark11blog 新貼文與近期編輯
-    - cron: "*/30 * * * *"
   repository_dispatch:
-    # 可由 Telegram Bot + Cloudflare Worker 毫秒級即時觸發
+    # 方案二主力：由 Telegram Bot + Cloudflare Worker 收到訊息後毫秒級即時觸發
     types: [telegram-update]
+  schedule:
+    # 備援排程：每 2 小時同步一次瀏覽數、反應表情與較早貼文的補充更新
+    - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
       full_sync:
@@ -29,7 +29,7 @@ permissions:
 
 concurrency:
   group: "pages-sync"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync-and-deploy:
@@ -47,7 +47,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Sync Telegram channel (@mark11blog)
+      - name: Sync Telegram channel (@mark014blog)
         run: |
           OWNER="${{ github.repository_owner }}"
           REPO="${{ github.event.repository.name }}"
@@ -65,8 +65,15 @@ jobs:
             FLAGS="$FLAGS --download-media"
           fi
 
+          WAIT_ID="${{ github.event.client_payload.message_id || 0 }}"
+          if [ "$WAIT_ID" != "0" ]; then
+            # 稍微等待 2 秒讓多圖相簿與網頁預覽完成同步
+            sleep 2
+            FLAGS="$FLAGS --wait-post-id $WAIT_ID"
+          fi
+
           python3 scripts/sync_telegram.py \
-            --channel mark11blog \
+            --channel mark014blog \
             --root . \
             --site-url "$SITE_URL" \
             $FLAGS
@@ -77,7 +84,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ media/ feed.xml sitemap.xml
           if ! git diff --cached --quiet; then
-            git commit -m "chore: sync @mark11blog posts [skip ci]"
+            git commit -m "chore: sync @mark014blog posts [skip ci]"
+            git pull --rebase origin main || true
             git push
           else
             echo "No content changes since last sync."

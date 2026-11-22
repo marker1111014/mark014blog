@@ -2,292 +2,292 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Mark's Blog</title>
-  <link>https://t.me/mark11blog</link>
+  <link>https://marker1111014.github.io/mark014blog</link>
   <description>想到什麼說什麼
 可能是網路上的免費資源
 也可能只是單純的感悟、發牢騷</description>
   <language>zh-Hant</language>
-  <lastBuildDate>Sun, 22 Nov 2026 14:29:13 +0000</lastBuildDate>
-  <atom:link href="https://t.me/mark11blog/feed.xml" rel="self" type="application/rss+xml" />
+  <lastBuildDate>Sun, 22 Nov 2026 14:51:00 +0000</lastBuildDate>
+  <atom:link href="https://marker1111014.github.io/mark014blog/feed.xml" rel="self" type="application/rss+xml" />
   <item>
     <title>如何评价文章「让本科生做回本科生」？ | 原文</title>
-    <link>https://t.me/mark11blog/1054</link>
-    <guid isPermaLink="false">mark11blog-1054</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1054</link>
+    <guid isPermaLink="false">mark014blog-1054</guid>
     <pubDate>Sun, 22 Nov 2026 13:47:41 +0000</pubDate>
     <description><![CDATA[<div><a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%96%87%E7%AB%A0%E8%AE%A9%E6%9C%AC%E7%A7%91%E7%94%9F%E5%81%9A%E5%9B%9E%E6%9C%AC%E7%A7%91%E7%94%9F-11-22" target="_blank" rel="noopener noreferrer">如何评价文章「让本科生做回本科生」？</a> | <a href="https://www.zhihu.com/question/2085831224610796441/answer/2105418214838748055" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E6%96%87%E7%AB%A0%E8%AE%A9%E6%9C%AC%E7%A7%91%E7%94%9F%E5%81%9A%E5%9B%9E%E6%9C%AC%E7%A7%91%E7%94%9F-11-22">如何评价文章「让本科生做回本科生」？</a><br>回答正文 放在现在的小登可能很难想象，我在川大读书那会老师经常说的一句话是“外面太阳这么好就别窝教室了，今天早点下课，大家出去玩”。 躺在江安图书馆旁边的草坡晒太阳，骑着车沐浴着夕阳漫无目的地散心曾经是我重要的休闲活动，是的，有点无聊，也没啥意义，但的确是我回忆本科时候的第一印象。 我以为回了北京就不再有这种蜀犬吠日的地域笑话，可直到前两天我有事去石景山，回来路上坐了一段公交，看着路边像超市蔬菜摊一样在午后阳光下五彩斑斓的小树林，我才反应过来，我已经好久没晒过太阳了。 好笑吗？是的，很好笑——因为这几年…</blockquote>]]></description>
   </item>
   <item>
     <title>Linux的分區步驟好多啊</title>
-    <link>https://t.me/mark11blog/1053</link>
-    <guid isPermaLink="false">mark11blog-1053</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1053</link>
+    <guid isPermaLink="false">mark014blog-1053</guid>
     <pubDate>Sun, 22 Nov 2026 09:29:28 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/tTJCdtnHC5KMS9cFpJz86_eisWWh0aLaXeIafMmKrzOlVayH-K2JxFal8q5-kcDAiJxQDoMGfg87Aasfrp8f0Mo-uER-8Bq4PbzzMp-T8d2TmiPqpA4c4sNzI02Nz3_z6Gtqt1BWqT-ru-vwfXoHEQZJynDs6F_K_22ipDFXGDn-WSMbd0UoRrCo_LpBhlDQw5FBQifp-eLqWyJO7ClUye_iXJQDQGMevJbaASN6jWMlJKqN2SqE6bgRhOj5sczcXSkHY0m3WdRUKBx0uZFq2WZUT8p0fIFoIgTSt6a2bhoDlYVrEHAEO06sBPDXLRiClWK2eXgbTjpfSA-WTU4pKQ.jpg" alt="photo"></p>
 <div>Linux的分區步驟好多啊<br>一大堆沒法秒懂的專有名詞<br><br><a href="https://github.com/harunaadoga/rhcsa-ex200-exam-labs/blob/main/solutions/04-local-storage/tasks.md" target="_blank" rel="noopener noreferrer">https://github.com/harunaadoga/rhcsa-ex200-exam-labs/blob/main/solutions/04-local-storage/tasks.md</a></div>]]></description>
   </item>
   <item>
     <title>黑客利用 Windows 旧漏洞入侵 700 余台 POS 终端，窃取百万份信用卡数据</title>
-    <link>https://t.me/mark11blog/1052</link>
-    <guid isPermaLink="false">mark11blog-1052</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1052</link>
+    <guid isPermaLink="false">mark014blog-1052</guid>
     <pubDate>Sun, 22 Nov 2026 05:13:42 +0000</pubDate>
     <description><![CDATA[<div><b>黑客利用 Windows 旧漏洞入侵 700 余台 POS 终端，窃取百万份信用卡数据</b><br><a href="https://www.ithome.com/1/030/501.htm" target="_blank" rel="noopener noreferrer">https://www.ithome.com</a>/~<br><a href="https://cybernews.com/security/windows-bug-pos-terminals-stolen-credit-cards/" target="_blank" rel="noopener noreferrer">https://cybernews.com</a>/~</div>
 <blockquote><a href="https://ithome.com/1/030/501.htm">黑客利用 Windows 旧漏洞入侵 700 余台 POS 终端，窃取百万份信用卡数据 - IT之家</a><br>这场攻击之所以败露，是因为犯罪团伙将一台服务器暴露给公众访问。研究人员入侵服务器后，发现其中存有包含了恶意软件源代码的海量数据，以及这场攻击的起因和实施细节。</blockquote>]]></description>
   </item>
   <item>
     <title>https://mizore.blog/posts/live-a-happier-life/</title>
-    <link>https://t.me/mark11blog/1051</link>
-    <guid isPermaLink="false">mark11blog-1051</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1051</link>
+    <guid isPermaLink="false">mark014blog-1051</guid>
     <pubDate>Fri, 20 Nov 2026 22:11:06 +0000</pubDate>
     <description><![CDATA[<div><a href="https://mizore.blog/posts/live-a-happier-life/" target="_blank" rel="noopener noreferrer">https://mizore.blog/posts/live-a-happier-life/</a></div>
 <blockquote><a href="https://mizore.blog/posts/live-a-happier-life">如何过爽</a><br>别把一次结果当成对自我的判决，也别把失败想成自动复利。聊聊比较、奖励函数、主动开口，以及怎样设计一次即使没成也有剩余价值的尝试。</blockquote>]]></description>
   </item>
   <item>
     <title>为什么家长会觉得读完博士之后啥都有了？ | 原文</title>
-    <link>https://t.me/mark11blog/1050</link>
-    <guid isPermaLink="false">mark11blog-1050</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1050</link>
+    <guid isPermaLink="false">mark014blog-1050</guid>
     <pubDate>Thu, 19 Nov 2026 09:55:12 +0000</pubDate>
     <description><![CDATA[<div><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%B6%E9%95%BF%E4%BC%9A%E8%A7%89%E5%BE%97%E8%AF%BB%E5%AE%8C%E5%8D%9A%E5%A3%AB%E4%B9%8B%E5%90%8E%E5%95%A5%E9%83%BD%E6%9C%89%E4%BA%86-11-19" target="_blank" rel="noopener noreferrer">为什么家长会觉得读完博士之后啥都有了？</a> | <a href="https://www.zhihu.com/question/2104486364230242468/answer/2105929630632907529" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%B6%E9%95%BF%E4%BC%9A%E8%A7%89%E5%BE%97%E8%AF%BB%E5%AE%8C%E5%8D%9A%E5%A3%AB%E4%B9%8B%E5%90%8E%E5%95%A5%E9%83%BD%E6%9C%89%E4%BA%86-11-19">为什么家长会觉得读完博士之后啥都有了？</a><br>回答正文 彼岸论，是最蠢的，会造成深刻的心理创伤。 因为你到达彼岸以后发现哪里没有应许的幸福。 依然是重复无穷的重复，写不完的本子，做不完的实验，发不完的 Paper。 硬着头皮、违着心，写自己根本不感兴趣的课题，只因为这个东西好申请经费。 建议大家都读读《有限与无限的游戏》，提前想清楚这一点。 高考完了，上大学的彼岸，是不存在的。 考研的彼岸也是不存在的。 拿到 Ph.D. 彼岸也是不存在的。 考公上岸更加没有彼岸。 你创业了，走完 A、B 天使，Pre IPO 了，以至于上市解禁都套现完了，那里也没有彼岸。…</blockquote>]]></description>
   </item>
   <item>
     <title>魔禁第三季是沒經費 + 沒工期了嗎</title>
-    <link>https://t.me/mark11blog/1049</link>
-    <guid isPermaLink="false">mark11blog-1049</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1049</link>
+    <guid isPermaLink="false">mark014blog-1049</guid>
     <pubDate>Wed, 18 Nov 2026 12:44:41 +0000</pubDate>
     <description><![CDATA[<div>魔禁第三季是沒經費 + 沒工期了嗎<br>劇情進展超快，站樁解說的場面更多了<br><span class="tg-spoiler" tabindex="0" title="點擊顯示劇透">Lv5第二名跟一方通行打個半集就沒了</span><br><span class="tg-spoiler" tabindex="0" title="點擊顯示劇透">好沒面子的第二名啊</span></div>]]></description>
   </item>
   <item>
     <title>#好</title>
-    <link>https://t.me/mark11blog/1048</link>
-    <guid isPermaLink="false">mark11blog-1048</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1048</link>
+    <guid isPermaLink="false">mark014blog-1048</guid>
     <pubDate>Wed, 18 Nov 2026 12:38:22 +0000</pubDate>
     <description><![CDATA[<div><button type="button" class="inline-tag" data-tag="好">#好</button><br><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%80%E6%9C%89%E7%9A%84%E5%BE%AE%E4%BF%A1QQ%E7%BE%A4%E6%85%A2%E6%85%A2%E9%83%BD%E6%B2%A1%E4%BA%BA%E8%AF%B4%E8%AF%9D%E4%BA%86-11-18" target="_blank" rel="noopener noreferrer">为什么所有的微信/QQ群慢慢都没人说话了？</a> | <a href="https://www.zhihu.com/question/638714430/answer/3510679775" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%80%E6%9C%89%E7%9A%84%E5%BE%AE%E4%BF%A1QQ%E7%BE%A4%E6%85%A2%E6%85%A2%E9%83%BD%E6%B2%A1%E4%BA%BA%E8%AF%B4%E8%AF%9D%E4%BA%86-11-18">为什么所有的微信/QQ群慢慢都没人说话了？</a><br>回答正文 群聊的活跃是假象，这种假象由「核心成员」和「活跃成员」共同演绎，群聊的模式注定它缺乏延续性、无法长久。 A群是游戏群，刚开始群主设法添加1000人，其中900人冒泡后选择潜水，只剩100人经常发言。 这100人中，与群主观念相合且聊得来的人，会转变成核心成员——即当群内发生争执时，群主的立场会偏向此人。 100个活跃人员中，有9个人是核心成员，加上群主共10人，组成「核心小团体」。 剩余90人要么是「纯散人」要么是「非核心成员的小团体」。 核心团体，以及非核心团体，这两类团体具有强烈的「排外性」。…</blockquote>]]></description>
   </item>
   <item>
     <title>https://youtu.be/ay_suATarug</title>
-    <link>https://t.me/mark11blog/1047</link>
-    <guid isPermaLink="false">mark11blog-1047</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1047</link>
+    <guid isPermaLink="false">mark014blog-1047</guid>
     <pubDate>Wed, 18 Nov 2026 05:49:47 +0000</pubDate>
     <description><![CDATA[<div><a href="https://youtu.be/ay_suATarug" target="_blank" rel="noopener noreferrer">https://youtu.be/ay_suATarug</a></div>
 <blockquote><a href="https://youtu.be/ay_suATarug">【INMU KING】原発関連の公開討論で突然野獣ポーズをし、「お前やりますねぇスギ」と言う台湾の政治家　#淫夢 #INMU_KING #野獣先輩</a><br>ほんへ→ https://www.youtube.com/live/qYCofZZZJjI?si=DDPT3e1snuV4PKaB</blockquote>]]></description>
   </item>
   <item>
     <title>没有足够的植物纤维肠道细菌可能会吃你的肠道内壁</title>
-    <link>https://t.me/mark11blog/1046</link>
-    <guid isPermaLink="false">mark11blog-1046</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1046</link>
+    <guid isPermaLink="false">mark014blog-1046</guid>
     <pubDate>Tue, 17 Nov 2026 10:58:10 +0000</pubDate>
     <description><![CDATA[<div><a href="https://www.solidot.org/story?sid=85904" target="_blank" rel="noopener noreferrer"><b><u>没有足够的植物纤维肠道细菌可能会吃你的肠道内壁</u></b></a><br><button type="button" class="inline-tag" data-tag="科学">#科学</button><br><br>植物性食物中的纤维和蛋白对我们有益，但它们是如何在人体内发挥有益作用的？普林斯顿大学研究团队在 PNAS 和 Nature Metabolism 期刊上发表了两篇论文，揭示了植物蛋白和纤维在体内转化为有益代谢产物的过程。研究人员针对了名为酚代谢物的化学物质：当肠道细菌消化特定氨基酸时会产生的酚代谢物。酚代谢物源自两种氨基酸酪氨酸（tyrosine）和苯丙氨酸（phenylalanine）。研究人员发现，植物纤维和特定蛋白能影响这些氨基酸最终转化为何种化学物质。研究发现，植物纤维和无法被消化的蛋白 Prif 能改变酚代谢物的平衡，将原本由酪氨酸转化而成的有害代谢产物，转变为由苯丙氨酸衍生而来的有益代谢产物。小鼠实验还发现，一旦植物纤维耗尽，肠道细菌开始以肠壁黏液层为食，进而产生可能对人体有害的化合物。研究凸显了在饮食中摄入植物性食物的重要性。<br><a href="https://www.sciencealert.com/without-enough-fiber-gut-bacteria-can-turn-to-eating-your-gut-lining-instead" target="_blank" rel="noopener noreferrer">https://www.sciencealert.com/without-enough-fiber-gut-bacteria-can-turn-to-eating-your-gut-lining-instead</a></div>]]></description>
   </item>
   <item>
     <title>Rhel dvd iso檔要10GB</title>
-    <link>https://t.me/mark11blog/1045</link>
-    <guid isPermaLink="false">mark11blog-1045</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1045</link>
+    <guid isPermaLink="false">mark014blog-1045</guid>
     <pubDate>Tue, 17 Nov 2026 10:51:17 +0000</pubDate>
     <description><![CDATA[<div>Rhel dvd iso檔要10GB<br>！？大大！？</div>]]></description>
   </item>
   <item>
     <title>什麼時候能把Line給淘汰掉啊</title>
-    <link>https://t.me/mark11blog/1044</link>
-    <guid isPermaLink="false">mark11blog-1044</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1044</link>
+    <guid isPermaLink="false">mark014blog-1044</guid>
     <pubDate>Tue, 17 Nov 2026 09:33:47 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/VN7dZ9Uu_CrwxQX-sIB_vZ6AzYK_5RwrEIDoNv4qreLHi1lhdAYWRr5rijTComg4hFFa1qDL7UdvHoq6cnEr7lRonYLBFaYXw-B8x7Pu3ovrgXtGTxb7iYE2aG5ctHymxaIhf0WsVFgnBTzA-N-g0zEJMldafRfSTU53herBXhVyXpZctuWklj8VXDw8wrHo_HqY0-MF2eTHurhf-PQ00EKYQDeu3KlkhizcgpsP9dZ2QqOeYA9rIZ5QxIohnuMz3A4JoI4sPeNwfUaDwg1sOpECU2Lj0ci1XTNmJEmxZzRuvLDctNt1YHPobgIMtNsvkruZdgFAYWa1cGNgLe3Ebw.jpg" alt="photo"></p>
 <div>什麼時候能把Line給淘汰掉啊</div>]]></description>
   </item>
   <item>
     <title>補了舊番：魔法禁書目錄</title>
-    <link>https://t.me/mark11blog/1043</link>
-    <guid isPermaLink="false">mark11blog-1043</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1043</link>
+    <guid isPermaLink="false">mark014blog-1043</guid>
     <pubDate>Tue, 17 Nov 2026 05:57:43 +0000</pubDate>
     <description><![CDATA[<div>補了舊番：魔法禁書目錄<br>目前看到第二季第13集<br><br>男主話也太多，正論一堆<br>而且一定要站著講完<br>就不能邊打邊講嗎<br><br>Index 後面就瘋狂咬人<br>這兩人給我的觀感都很差<br>魔法側的劇情也是都有夠突然跟倉促<br>反派登場<br>跟男主相處沒多久的人物受傷<br>男主生氣念一堆台詞給反派聽<br>男主也受傷，換顆聰明的腦袋<br>衝上去一拳給對方打趴<br><br>發福利就是讓男主開門看女的換衣服<br>不是，一兩次就算了<br>沒幾集甚至一集裡發生多次這種事件也太膩了吧<br>公式劇情，真是公公又式式啊<br><br>科學側的劇情還有意思點<br>起碼打得激烈、有一堆超能力</div>]]></description>
   </item>
   <item>
     <title>为什么现在的年轻人大多数都“活着也行，死了也无所谓”的状态？ | 原文</title>
-    <link>https://t.me/mark11blog/1042</link>
-    <guid isPermaLink="false">mark11blog-1042</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1042</link>
+    <guid isPermaLink="false">mark014blog-1042</guid>
     <pubDate>Tue, 17 Nov 2026 05:26:44 +0000</pubDate>
     <description><![CDATA[<div><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A4%A7%E5%A4%9A%E6%95%B0%E9%83%BD%E6%B4%BB%E7%9D%80%E4%B9%9F%E8%A1%8C%E6%AD%BB%E4%BA%86%E4%B9%9F%E6%97%A0%E6%89%80%E8%B0%93%E7%9A%84%E7%8A%B6%E6%80%81-11-16-2" target="_blank" rel="noopener noreferrer">为什么现在的年轻人大多数都“活着也行，死了也无所谓”的状态？</a> | <a href="https://www.zhihu.com/question/2101388232353118124/answer/2104371321895498117" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A4%A7%E5%A4%9A%E6%95%B0%E9%83%BD%E6%B4%BB%E7%9D%80%E4%B9%9F%E8%A1%8C%E6%AD%BB%E4%BA%86%E4%B9%9F%E6%97%A0%E6%89%80%E8%B0%93%E7%9A%84%E7%8A%B6%E6%80%81-11-16-2">为什么现在的年轻人大多数都“活着也行，死了也无所谓”的状态？</a><br>回答正文 沉迷于稳定性的人是没有未来的 人最稀缺和最应该培养的就是跑路的能力。 很多人追求的“稳定”，其实是小农社会统治者的规训结果。 在传统农业社会的统治者眼里，流动意味着威胁，所以他们发明了最有利于自己政权统治的方式就是户籍制度和宗族管理，并且将流动性强、见识广、信息通畅，脑子活跃不好忽悠、有社会阅历的行业都归为“下九流”“贱籍”。 包括现在人人尊敬的医生，在古代也属于下九流的行业。 因为这些流动行业没有固定产业，走南闯北，可以到处生存，人一旦多走多看，听过见过不一样的人事物，就很难被单一的意识形态洗脑。…</blockquote>]]></description>
   </item>
   <item>
     <title>Heithon:</title>
-    <link>https://t.me/mark11blog/1041</link>
-    <guid isPermaLink="false">mark11blog-1041</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1041</link>
+    <guid isPermaLink="false">mark014blog-1041</guid>
     <pubDate>Mon, 16 Nov 2026 16:20:43 +0000</pubDate>
     <description><![CDATA[<div><a href="https://twitter.com/UFO2002616" target="_blank" rel="noopener noreferrer">Heithon</a>:<br>Gemini发布的模型越来越多了，我帮 Google 想了一个天才般的解决方案<br>  <br>以下是我设计的全新方案，Google 免费拿去用，不用谢！ <br><br><a href="https://twitter.com/UFO2002616/status/2122321834331005104" target="_blank" rel="noopener noreferrer">https://twitter.com/UFO2002616/status/2122321834331005104</a></div>]]></description>
   </item>
   <item>
     <title>開源版的IDM</title>
-    <link>https://t.me/mark11blog/1040</link>
-    <guid isPermaLink="false">mark11blog-1040</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1040</link>
+    <guid isPermaLink="false">mark014blog-1040</guid>
     <pubDate>Mon, 16 Nov 2026 15:09:07 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/QC-eV_9L5_mo37nXn4r48u3jECkv2-xrKnol4irAozvQN8w6PfB4HxVTUtZB_3KWo-QCG9G9jiPgKkj0y4GpRL8CB_xlTdtm0cnalrhTtrW342CXzF4eBPbz8AM4U5-q9zoE1FwTb7W57UOCpbC7FYXNgojOsgKFYQ8mECkObQEfcXt1stl50ksOvU1JGAoVR4gYvOR2EtKus1UEtMZMhWCJIizZ4EsA2T562CDjFFm9PpJqhI8QK6ijppW6vDNF8SGMH5vYv0wdE1cl1iWjv2ZtoTEkBWvyvj02AvdeLgyEh4F7MdXz1RcZryEcx0IpkONSjsmt5oDotUw33f7hTQ.jpg" alt="photo"></p>
 <div>開源版的IDM<br>用 Rust 語言寫的，類似近期正火的 Artcaft 專案<br>好時代，來臨力 (喜<br><br><a href="https://github.com/anefzaoui/misterdownloadmanager" target="_blank" rel="noopener noreferrer">https://github.com/anefzaoui/misterdownloadmanager</a></div>]]></description>
   </item>
   <item>
     <title>弄好了，代碼逼近1萬行</title>
-    <link>https://t.me/mark11blog/1039</link>
-    <guid isPermaLink="false">mark11blog-1039</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1039</link>
+    <guid isPermaLink="false">mark014blog-1039</guid>
     <pubDate>Sat, 14 Nov 2026 11:12:00 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/GraBFafqUuGFoB_TMDKPezOogldLuxvjP7j_dKCPpJKRCysFillM-ha6F8f-cPTOqT9tkuZhQK6RB97AHED_AnlDEbszBUHsgEhiHyyQlrGdemOuxHAEOSrgmEgVGgsyb8KQxJ9v9E59jFIDsdBqdubngcbFQ17oL96eq3W6Tda2o7YLpQFE0sYTS5hm1raoHoLVlc3c8L7xEJjB73ZGZN5UxwMMsDAE6LLXf5d43ZoHMfVIIxvuxNESxOg9ZaRmnHtaaNdgo9F0-t2OOB_fLRdUyNvX2Aq8Sl9qHlfFgwnXMR8x9dlyvy4xwGZZJq7GBLVBs1-pVKX7BYenDo0_Sw.jpg" alt="photo"></p>
 <div>弄好了，代碼逼近1萬行<br><br><a href="https://greasyfork.org/zh-TW/scripts/605388-anime1-me-%E5%8B%95%E7%95%AB%E7%98%8B%E5%BD%88%E5%B9%95" target="_blank" rel="noopener noreferrer">https://greasyfork.org/zh-TW/scripts/605388-anime1-me-%E5%8B%95%E7%95%AB%E7%98%8B%E5%BD%88%E5%B9%95</a></div>]]></description>
   </item>
   <item>
     <title>Gemini 新模型(Hydrogen)有料</title>
-    <link>https://t.me/mark11blog/1038</link>
-    <guid isPermaLink="false">mark11blog-1038</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1038</link>
+    <guid isPermaLink="false">mark014blog-1038</guid>
     <pubDate>Fri, 13 Nov 2026 12:50:10 +0000</pubDate>
     <description><![CDATA[<div>Gemini 新模型(Hydrogen)有料<br>許願把動畫瘋的彈幕跟 anime1的無廣告片頭片源結合起來<br>一次就成功，都不需要像之前還要把報錯來回溝通好幾次<br>再看能不能把動畫瘋的界面風格復刻進去<br>腳本完成後再上傳到 greay fork</div>
 <blockquote><a href="https://greasyfork.org/zh-TW/scripts/605388-anime1-me-%E5%8B%95%E7%95%AB%E7%98%8B%E5%BD%88%E5%B9%95">Anime1.me 動畫瘋彈幕</a><br>在 anime1.me 播放動畫時，自動根據當前動畫系列與集數載入巴哈姆特動畫瘋彈幕，支援時間軸偏移、樣式設定與手動配對</blockquote>]]></description>
   </item>
   <item>
     <title>灌 win11 還得登入微軟帳號才能用</title>
-    <link>https://t.me/mark11blog/1037</link>
-    <guid isPermaLink="false">mark11blog-1037</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1037</link>
+    <guid isPermaLink="false">mark014blog-1037</guid>
     <pubDate>Fri, 13 Nov 2026 10:22:29 +0000</pubDate>
     <description><![CDATA[<div>灌 win11 還得登入微軟帳號才能用<br>還是用 IOT Enterprise 版好了<br>不知道日常用會不會有啥問題</div>]]></description>
   </item>
   <item>
     <title>用多了 linux 後</title>
-    <link>https://t.me/mark11blog/1036</link>
-    <guid isPermaLink="false">mark11blog-1036</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1036</link>
+    <guid isPermaLink="false">mark014blog-1036</guid>
     <pubDate>Fri, 13 Nov 2026 10:14:35 +0000</pubDate>
     <description><![CDATA[<div>用多了 linux 後<br>時常會出現 在 windows 上按 ctrl + space 切輸入法<br>或 在 linux 上按 windows + space 的情況</div>]]></description>
   </item>
   <item>
     <title>https://telegra.ph/上世纪的漫画触目惊心-11-13</title>
-    <link>https://t.me/mark11blog/1035</link>
-    <guid isPermaLink="false">mark11blog-1035</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1035</link>
+    <guid isPermaLink="false">mark014blog-1035</guid>
     <pubDate>Fri, 13 Nov 2026 10:12:40 +0000</pubDate>
     <description><![CDATA[<div><a href="https://telegra.ph/%E4%B8%8A%E4%B8%96%E7%BA%AA%E7%9A%84%E6%BC%AB%E7%94%BB%E8%A7%A6%E7%9B%AE%E6%83%8A%E5%BF%83-11-13" target="_blank" rel="noopener noreferrer">https://telegra.ph/上世纪的漫画触目惊心-11-13</a></div>
 <blockquote><a href="https://telegra.ph/%E4%B8%8A%E4%B8%96%E7%BA%AA%E7%9A%84%E6%BC%AB%E7%94%BB%E8%A7%A6%E7%9B%AE%E6%83%8A%E5%BF%83-11-13">上世纪的漫画，触目惊心</a><br>来源：《纽约客漫画全集》 #黑白漫画[话题]# #画里的故事[话题]# #漫画分享[话题]# #每天一个治愈小漫画[话题]##书影里的热烈时光[话题]# #旧书百回读[话题]# 已选评论（8） 小红薯615301B5 （图片评论） 昨天 09:18 · 上海 · 赞 349 GGOUIW 现在ai来了，可以再补一张 2天前 · 广东 · 赞 438 Satwreck P3啥意思 2天前 · 天津 · 赞 4 ↳ 白白白白 窗外是湖泊上面有船，沙漠都变成湖泊了，施工合同才批下来 昨天 09:08 · 山东…</blockquote>]]></description>
   </item>
   <item>
     <title>https://sspai.com/post/95343</title>
-    <link>https://t.me/mark11blog/1034</link>
-    <guid isPermaLink="false">mark11blog-1034</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1034</link>
+    <guid isPermaLink="false">mark014blog-1034</guid>
     <pubDate>Thu, 12 Nov 2026 13:20:19 +0000</pubDate>
     <description><![CDATA[<div><a href="https://sspai.com/post/95343" target="_blank" rel="noopener noreferrer">https://sspai.com/post/95343</a><br><br>值得再看</div>]]></description>
   </item>
   <item>
     <title>難崩</title>
-    <link>https://t.me/mark11blog/1033</link>
-    <guid isPermaLink="false">mark11blog-1033</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1033</link>
+    <guid isPermaLink="false">mark014blog-1033</guid>
     <pubDate>Thu, 12 Nov 2026 01:47:56 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/u6GzwkOMaTJmATJLmDcx6v5hB161S0MA6TfKgtXWYQN2YCNA3HYVppl-QDT6mgwifskyshEbROTUwkOrABIIgfKAYufc7iavUaBpGpnKRlfm4Mf0EnuDf5_wUYrrJ-DceN37-7QHjNgmshF6NidUC7pvPn_aL-fN79NBX0nKgG64JQ-NhAT2W29gBlbcwOMLrqhcTInqiuGoubGu5R325O_YFMf2X-Ae7DnuE0OnvAKxOJx53uwJAIAkZYBJl3id7sXgAS03VD0M8KwHg7icnG98WyCKpVm09IdEVsq5shV0rGtKiFgEnuB6M_3TtQDHxM5wu72MIzmI8kMgh4_nLw.jpg" alt="photo"></p>
 <div>難崩<br><br><a href="https://ivonblog.com/posts/can-ai-generated-software-replace-established-open-source-projects/" target="_blank" rel="noopener noreferrer">https://ivonblog.com/posts/can-ai-generated-software-replace-established-open-source-projects/</a></div>]]></description>
   </item>
   <item>
     <title>💧 #小众软件</title>
-    <link>https://t.me/mark11blog/1032</link>
-    <guid isPermaLink="false">mark11blog-1032</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1032</link>
+    <guid isPermaLink="false">mark014blog-1032</guid>
     <pubDate>Tue, 10 Nov 2026 16:55:31 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/iusUPRpxQpvU1gK2oyk1hRIe5aiyYIGafOszkHP-unEBNRfbNMJ5UostbhQW_zzNwKr1MtdYdCXtypaTUJGx094W_3hQ90HNI3V7xn4qNcpoycqBjMsepaWmFdDECt8DW1DHzEJZl_OVZAew7yg8ZYGSV-591doJ0C_VlQ53ohOLXMG6Sn1cuma3nkS23YFnw459mbQfkRzqqbEUEfiSfjLYmEY4N6c7ouAb-coh9hmxavcwEaWhr20Er9XTbmJ5q5jl83KAK87rz51b6kqlcDt1FF3k7oaZE19s0OnWUpwmYfWHc14ZiPUnv1ZVONwjbMrC4bHpQat3Bu0CVAXpOw.jpg" alt="photo"></p>
 <div>💧 <button type="button" class="inline-tag" data-tag="小众软件">#小众软件</button><br><b>Hookshot：让《塞尔达传说：时之笛》重制版在 PC 原生运行</b><br><br>Hookshot 通过静态重编译，将指定版本的 Switch 2 游戏数据转换为 Windows、Linux 可运行的程序，无需模拟器，并支持画面调整、手柄和 Mod。<br><br><b>支持 Windows 10/11 64 位及兼容的 Linux；至少需要 16GB 内存、支持 Vulkan 1.3 和 Mesh Shader 的显卡，编译约需 60GB 磁盘空间并耗时约 40 分钟</b>。运行构建工具还需从 GitHub 下载数百 MB 文件。<br><br>阅读原文：<a href="https://www.appinn.com/hookshot/" target="_blank" rel="noopener noreferrer">https://www.appinn.com/hookshot/</a><br><br>💧<a href="http://t.me/appinnfeed" target="_blank" rel="noopener noreferrer">小众软件</a> · <a href="https://meta.appinn.net/c/faxian/10" target="_blank" rel="noopener noreferrer">投稿</a> · <a href="https://t.me/AppinnSubmitBot" target="_blank" rel="noopener noreferrer">爆料</a></div>]]></description>
   </item>
   <item>
     <title>写的真好，推荐</title>
-    <link>https://t.me/mark11blog/1031</link>
-    <guid isPermaLink="false">mark11blog-1031</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1031</link>
+    <guid isPermaLink="false">mark014blog-1031</guid>
     <pubDate>Sun, 08 Nov 2026 14:57:14 +0000</pubDate>
     <description><![CDATA[<div>写的真好，推荐<br><br><a href="https://lamentxu.top/posts/2026-11-08-php2shell/" target="_blank" rel="noopener noreferrer">https://lamentxu.top/posts/2026-11-08-php2shell/</a></div>
 <blockquote><a href="https://lamentxu.top/posts/2026-11-08-php2shell">PHP2shell 漫谈</a><br>PHP 是互联网的基础。 我无数次想向所有人证明这句话。可是，我们都知道当一个道理本身正确且影响范围足够广，那么往往就不需要劳烦人来证明，时间迟早会给出自己的答案。 PHP2Shell 刚出来的这几天，我已经在很多集会讲过这玩意的技术细节了。而且，网络上很多专家对此的分析已经很详尽，可以参考鸟哥的博客。可以说，前人之述备矣；而且我也说累了。所以让我来写一篇漫谈，讲讲技术之外的东西。 对于这次事件，</blockquote>]]></description>
   </item>
   <item>
     <title>賽爾達：王國之淚 原生PC版</title>
-    <link>https://t.me/mark11blog/1030</link>
-    <guid isPermaLink="false">mark11blog-1030</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1030</link>
+    <guid isPermaLink="false">mark014blog-1030</guid>
     <pubDate>Fri, 06 Nov 2026 02:20:01 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/cBvKb4_xmTjOMPoMFLTrjYXWGCPupqqmadz6MJLQkulYLKW2acA2xKbR6_M_Gj1_qxVJc974en4QTn3Is_-PBvphhbyJ7GEPetlRghE78OdRGR-Qvlsl_wxvNCTaLD2EU9a9e-sWE4RBkdec4YTkUtzRaRMGL6vPXFrEx52TRc67Fz8J2FRMXj5vdL8F1AOfLJ4Vn9T0EQ7W_wAZxlAQytfhbm6fekCsYK35JQjrEcXo9vK808-x-g37rgGpf3hATWE0WMSCiMK6whss71gn_Kd1sYTVsAFdzD9FavGQSQKUkd84HHnlmdDmzAEF-lDCr4U1C8LGVRq-L4gNi1Sdcg.jpg" alt="photo"></p>
 <div>賽爾達：王國之淚 原生PC版<br><br>時不時就會掉幀<br>不知道是不是2060不行了<br>算是能玩吧</div>]]></description>
   </item>
   <item>
     <title>蓝牙7.0纳入HDT高数据吞吐量技术，低功耗传输速率由2Mbps提升至7.5Mbps</title>
-    <link>https://t.me/mark11blog/1029</link>
-    <guid isPermaLink="false">mark11blog-1029</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1029</link>
+    <guid isPermaLink="false">mark014blog-1029</guid>
     <pubDate>Thu, 05 Nov 2026 14:09:10 +0000</pubDate>
     <description><![CDATA[<div>蓝牙7.0纳入HDT高数据吞吐量技术，低功耗传输速率由2Mbps提升至7.5Mbps<br><a href="https://mashdigi.com/bluetooth-hdt-core-7-standard-analysis/" target="_blank" rel="noopener noreferrer">https://mashdigi.com/bluetooth-hdt-core-7-standard-analysis/</a></div>]]></description>
   </item>
   <item>
     <title>中国数字时代</title>
-    <link>https://t.me/mark11blog/1028</link>
-    <guid isPermaLink="false">mark11blog-1028</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1028</link>
+    <guid isPermaLink="false">mark014blog-1028</guid>
     <pubDate>Thu, 05 Nov 2026 03:34:19 +0000</pubDate>
     <description><![CDATA[<div>中国数字时代 <br>星球商业评论｜领导应该谢谢这个善良的司机 <a href="https://telegra.ph/%E6%98%9F%E7%90%83%E5%95%86%E4%B8%9A%E8%AF%84%E8%AE%BA%E9%A2%86%E5%AF%BC%E5%BA%94%E8%AF%A5%E8%B0%A2%E8%B0%A2%E8%BF%99%E4%B8%AA%E5%96%84%E8%89%AF%E7%9A%84%E5%8F%B8%E6%9C%BA---%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3-11-04" target="_blank" rel="noopener noreferrer">Telegraph</a> | <a href="https://chinadigitaltimes.net/chinese/733562.html" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E6%98%9F%E7%90%83%E5%95%86%E4%B8%9A%E8%AF%84%E8%AE%BA%E9%A2%86%E5%AF%BC%E5%BA%94%E8%AF%A5%E8%B0%A2%E8%B0%A2%E8%BF%99%E4%B8%AA%E5%96%84%E8%89%AF%E7%9A%84%E5%8F%B8%E6%9C%BA---%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3-11-04">星球商业评论｜领导应该谢谢这个善良的司机 - 中国数字时代</a><br>CDT 档案卡标题：星球商业评论｜领导应该谢谢这个善良的司机 作者：郝大星 发表日期：2026.11.3 来源：微信公众号-星球商业评论 主题归类：万圣节 CDS收藏：公民馆 版权说明：该作品版权归原作者所有。中国数字时代仅对原作进行存档，以对抗中国的网络审查。详细版权说明。</blockquote>]]></description>
   </item>
   <item>
     <title>韩国游戏 PC 启动器被植入恶意代码</title>
-    <link>https://t.me/mark11blog/1027</link>
-    <guid isPermaLink="false">mark11blog-1027</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1027</link>
+    <guid isPermaLink="false">mark014blog-1027</guid>
     <pubDate>Thu, 05 Nov 2026 02:22:22 +0000</pubDate>
     <description><![CDATA[<div><a href="https://www.solidot.org/story?sid=85798" target="_blank" rel="noopener noreferrer"><b><u>韩国游戏 PC 启动器被植入恶意代码</u></b></a><br><button type="button" class="inline-tag" data-tag="安全">#安全</button><br><br>韩国游戏《胜利女神：新的希望（NIKKE）》的 PC 启动器被植入恶意代码。恶意代码是通过纂改 Level Infinite CDN 分发的四个官方 JavaScript 文件实现的，篡改发生于 2026 年 9 月 27 日前后，攻击则始于 2026 年 10 月 23 日到 11 月 3 日，在此期间打开 PC 启动器的用户可能会被植入木马。恶意程序会窃取浏览器保存的密码、Windows 凭据管理器信息、SSH 密钥以及云服务或 AI 服务的访问令牌，还能窃取 28 种基于浏览器的加密货币钱包数据、执行任意命令、读取文件以及屏幕截图。攻击期间打开过启动器的玩家可以打开游戏文件夹，搜寻 debug.log，打开该文件后寻找 k2f_chan，如果找到且显示 registered，那么最好立即卸载游戏并用杀毒软件进行扫描。<br><a href="https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5" target="_blank" rel="noopener noreferrer">https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5</a></div>]]></description>
   </item>
   <item>
     <title>#security</title>
-    <link>https://t.me/mark11blog/1026</link>
-    <guid isPermaLink="false">mark11blog-1026</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1026</link>
+    <guid isPermaLink="false">mark014blog-1026</guid>
     <pubDate>Thu, 05 Nov 2026 02:11:19 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/dJi9Ph5ZdYE5fzcE_L0zgL5l0dpk4rNTof9MwciPwsna-XQa-rYeDqhhYKtXvgBv87jgUCqhtZ_GW5iRlwccGBXxaMCJSbyc7IFpDfXinrmJHxh1n96qi91VkTrxi53DxJavcwJPjoifAj3q9b9l9i6reo4HyOlQxr6mm2aFU-EI0imu9RAgxJCfv68aOoEn4ORVmQMLexXXrHdImWk27yb7O--FilZ-D1oDttz84YmqxUVsSOknTmo1w45-WpyhiJQ477F3yTKQ21WcscJu52dPYci8kWw4pX0UBJSjbwMczbW0aJj7YkiDPe2mvvfCH5W9dsp9et5zlfA_A_2y5g.jpg" alt="photo"></p>
 <div><button type="button" class="inline-tag" data-tag="security">#security</button> <br>Telegram 啥时候更新的这个功能</div>]]></description>
   </item>
   <item>
     <title>中国手机如何监控你的一举一动？</title>
-    <link>https://t.me/mark11blog/1025</link>
-    <guid isPermaLink="false">mark11blog-1025</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1025</link>
+    <guid isPermaLink="false">mark014blog-1025</guid>
     <pubDate>Thu, 05 Nov 2026 02:06:05 +0000</pubDate>
     <description><![CDATA[<div><b>中国手机如何监控你的一举一动？</b><br><br>每打一次 QQ、WeChat 语音视频电话，你的手机可能都在静默录屏。<br>我对一台未解锁 BL 的小米 13 Pro（HyperOS 3.0）进行了 ADB 动态取证和 DEX 逆向分析，发现系统安全中心内置了一个名为 fraud_detection_data.db 的反诈行为数据库。<br>其中 voip_record 表包含：<br>  你使用哪个 App 通话<br>  通话开始与结束时间<br>  通话持续时长<br>  是否被标记为涉诈通话<br>不仅如此，系统还会毫秒级记录截屏时间，并设计了屏幕共享、电话通信和第三方应用安装等行为记录表。<br><br>令人哭笑不得的是，小米工程师再一次展示了极其强劲的英语水平，在数据库中把原本用来记录截图时间的 screenshot 字段错误拼写成了 screenshort_time（多了一个 r）。仅在这一个数据库的转储信息中，我们就捕获到了 669 次高频连续读写操作。<br><br>更离谱的来了，我们发现系统预置的 GuardProvider 模块被授予了极高的系统特权，直接绕过了 Android 官方弹窗校验，实现了无感静默录屏与录音，代码中甚至直接出现了 clip.mp4 视频切片及 Base64 编码回传逻辑。<br><br>除了音视频监控，还有一个名为 SystemHelper的全天候遥测后门。它拥有特权级硬件读取与后台定位权限，通过系统闹钟定时将自己从后台唤醒，静默收集手机硬件标识（IMEI、IMSI、ICCID）、后台精确 GPS 定位，以及你过去 24 小时内每个 App 的前台精准使用时长，并打包上传至运营商及风控平台。<br><br>最让人无法接受的是，这些模块在系统 UI 上全部无法真正关闭。即使你在设置中关掉了所有的“反诈/安全守护”开关，它仅仅是不再给你弹窗提示，底层的监听、入库和上传依旧照常运行。<br><br>为了防止用户发现异常，小米工程师还在代码里设计了“机身过热熔断”与“音频通道冲突避让”机制：<br> 过热熔断：720p 录屏极其耗电，一旦检测到手机温度升高，立即中断录屏，防止机身发烫引起用户怀疑。<br>音频避让：若检测到麦克风正在被通话占用，则主动放弃音频采样，防止通话出现断音或杂音而暴露。<br>即便如此小心，它还是在系统日志里露出了马脚：GuardProvider 在息屏状态下曾持续霸占 CPU 达 2 分 33 秒（占用率高达 25.6%），因为后台负载过于沉重，超出了系统阈值，被 Android 电源机制强杀。<br><br>涉及以下数据回传与风控域名：<br>├─ flash[.]sec[.]miui[.]com (小米安全中心多媒体/视频回传通道)<br>├─ fraud-detection[.]engine[.]miui[.]com (反诈行为特征与哈希上报)<br>├─ eps[.]caict[.]ac[.]cn (中国信通院统一反诈接口)<br>├─ gateway-papa[.]cloud[.]weizhi[.]com (第三方风控网关)<br>└─ dm[.]wo[.]com[.]cn:18080 (中国联通终端管理遥测平台)<br><br><a href="https://x.com/kiraequal/status/2117911467471114475" target="_blank" rel="noopener noreferrer">source</a></div>]]></description>
   </item>
   <item>
     <title>讓每部YT影片的音量都一樣的方法</title>
-    <link>https://t.me/mark11blog/1024</link>
-    <guid isPermaLink="false">mark11blog-1024</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1024</link>
+    <guid isPermaLink="false">mark014blog-1024</guid>
     <pubDate>Wed, 04 Nov 2026 12:16:47 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/FC5nd3dhJXjQlzGOsZH8eVQItA091LCXoI2BvmKNOejdSwEAcQplohXpd17qcaRR3D7mRELqCZEG_6spzPRLdfr7BFL6HaELwnHoXvJdugO_gRp-e919pgoVfIvXq83QxtN--IYu3UDoVabdntusQBDwXez0q_af0Ct8kQZM0dnqLXN70deMMdgrCThD0D1nkDUZSvVOLEOegNrhmqrSCodFlJdAWivffx7EgdgQyzhiYFUGOtHa0oIKfNputzYW5cKLwWfEoiqiKyLgQiygMoq7D7-fFJ6RHjLiiDe7LwIK_Acs3hC_k5ROPmiVbX2GThbBtFuupJAfIGZlbcExmg.jpg" alt="photo"></p>
 <div>讓每部YT影片的音量都一樣的方法<br>聲音控制台 - 裝置 - Enhancements - Loudness Equalization</div>]]></description>
   </item>
   <item>
     <title>乔布斯在1996年接受连线杂志的采访时说过这样一段话：</title>
-    <link>https://t.me/mark11blog/1023</link>
-    <guid isPermaLink="false">mark11blog-1023</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1023</link>
+    <guid isPermaLink="false">mark014blog-1023</guid>
     <pubDate>Wed, 04 Nov 2026 08:45:26 +0000</pubDate>
     <description><![CDATA[<div>乔布斯在1996年接受连线杂志的采访时说过这样一段话：<br><br><blockquote>“年轻的时候看电视，你会以为存在一场合谋：各大电视网串通起来，刻意把大众变蠢。等到年纪稍长你才意识到事实并非如此。电视台做生意，本质就是把人们真正想要的东西交付给他们。这个真相反而更加令人沮丧。</blockquote><br><blockquote>阴谋论反而是一种乐观想法——至少你可以打倒幕后那些坏蛋，发起一场变革。可现实是：电视台只是提供大众主动选择的内容，这才是真相。”</blockquote><br><br><br>出处：1996年2月《连线》（Wired）杂志，Gary Wolf 的访谈《Steve Jobs: The Next Insanely Great Thing》。<br><br>原话：<br><blockquote>"When you're young, you look at television and think, There's a conspiracy. The networks have conspired to dumb us down. But when you get a little older, you realize that's not true. The networks are in business to give people exactly what they want. That's a far more depressing thought. Conspiracy is optimistic! You can shoot the bastards! We can have a revolution! But the networks are really in business to give people what they want. It's the truth."</blockquote></div>]]></description>
   </item>
   <item>
     <title>TotK Recomp - 在 Windows 上原生运行《塞尔达传说：王国之泪》，不需要模拟器！</title>
-    <link>https://t.me/mark11blog/1022</link>
-    <guid isPermaLink="false">mark11blog-1022</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1022</link>
+    <guid isPermaLink="false">mark014blog-1022</guid>
     <pubDate>Tue, 03 Nov 2026 09:07:00 +0000</pubDate>
     <description><![CDATA[<div>TotK Recomp - 在 Windows 上原生运行《塞尔达传说：王国之泪》，不需要模拟器！ <br><br><a href="https://www.appinn.com/totk-recomp/" target="_blank" rel="noopener noreferrer">https://www.appinn.com/totk-recomp/</a></div>]]></description>
   </item>
   <item>
     <title>會贏的</title>
-    <link>https://t.me/mark11blog/1021</link>
-    <guid isPermaLink="false">mark11blog-1021</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1021</link>
+    <guid isPermaLink="false">mark014blog-1021</guid>
     <pubDate>Tue, 03 Nov 2026 03:39:00 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/cDnt3bFo-HIyjHrCH1bADyJtMJpAnawN1sDeOesAJqpzrwWFG_3eaKqQYj005k0jnmwzbUKWmofwYilyOPYRWdL-1G5GlAHrGYEn29dOEpsPB_Lpx_UnMrrHqkrBjEA5uu4Ko1nm9CJkNlU_prHoV0ctsx8tCKmV8GRI1Z_3tG9nX9NMj0YuB1MqFAhkfceNd8ShbBFrkqMvkyxNSQGdy1IZJOGMTUBgsnamh6woL1MBC1-6p_8ESx-6iq9tqAMAlgXluhvmSnuCGCgCf6xuZlDNOZxNeGyLtnbo65iXYkH4sTh5e4zj7_lFcc4-kGST6fTBdUZDke879-YjXdF4sw.jpg" alt="photo"></p>
 <div>會贏的<br><br>漫畫名：<br>除了身体之外毫无价值的学校</div>]]></description>
   </item>
   <item>
     <title>中国数字时代</title>
-    <link>https://t.me/mark11blog/1020</link>
-    <guid isPermaLink="false">mark11blog-1020</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1020</link>
+    <guid isPermaLink="false">mark014blog-1020</guid>
     <pubDate>Tue, 03 Nov 2026 03:12:32 +0000</pubDate>
     <description><![CDATA[<div>中国数字时代 <br>挪威TALK｜78个人共用针头啊 <a href="https://telegra.ph/%E6%8C%AA%E5%A8%81TALK78%E4%B8%AA%E4%BA%BA%E5%85%B1%E7%94%A8%E9%92%88%E5%A4%B4%E5%95%8A---%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3-11-03" target="_blank" rel="noopener noreferrer">Telegraph</a> | <a href="https://chinadigitaltimes.net/chinese/733524.html" target="_blank" rel="noopener noreferrer">原文</a></div>
 <blockquote><a href="https://telegra.ph/%E6%8C%AA%E5%A8%81TALK78%E4%B8%AA%E4%BA%BA%E5%85%B1%E7%94%A8%E9%92%88%E5%A4%B4%E5%95%8A---%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3-11-03">挪威TALK｜78个人共用针头啊 - 中国数字时代</a><br>这事儿离谱到你甚至不会相信发生在今天，按理说我不太写社会热点了，但这个事儿看了忍不住想喷一下，就是县城里学生检查肺结核抽血。 结果有个医护人员用同一个针头，给前后78个人抽血，78个人啊。</blockquote>]]></description>
   </item>
   <item>
     <title>多国户外广告屏遭到黑客攻击并播放色情视频，黑客称只是提醒广告屏管理系统有漏洞</title>
-    <link>https://t.me/mark11blog/1019</link>
-    <guid isPermaLink="false">mark11blog-1019</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1019</link>
+    <guid isPermaLink="false">mark014blog-1019</guid>
     <pubDate>Tue, 03 Nov 2026 03:08:22 +0000</pubDate>
     <description><![CDATA[<div><b>多国户外广告屏遭到黑客攻击并播放色情视频，黑客称只是提醒广告屏管理系统有漏洞</b><br><a href="https://t.me/iv?rhash=a1e336d0d1348d&amp;amp;url=https%3A%2F%2Fwww.landian.news%2Farchives%2F127939.html" target="_blank" rel="noopener noreferrer">‎</a><a href="https://www.landian.news/archives/127939.html" target="_blank" rel="noopener noreferrer">https://www.landian.news</a>/~<br><br>hso</div>
 <blockquote><a href="https://t.me/iv?rhash=a1e336d0d1348d&amp;url=https%3A%2F%2Fwww.landian.news%2Farchives%2F127939.html">多国户外广告屏遭到黑客攻击并播放色情视频 黑客称只是提醒广告屏管理系统有漏洞</a><br>#行业资讯 多国户外广告屏遭到黑客攻击并播放色情视频，黑客自称只是提醒广告屏管理系统有漏洞。目前在埃及、马来西亚和巴西都出现户外广告屏被黑然后播放色情视频的情况，事件发生后广告屏运营商临时关闭广告屏并进行调查。发起攻击的黑客则表示，其目的仅仅只是为了提醒这些广告屏管理系统有漏洞，黑客并未入侵后实施任何牟利行为。查看全文：https://ourl.co/127939</blockquote>]]></description>
   </item>
   <item>
     <title>【【导演作/官方授权】用半年! 制作「脑洞学生会」片尾影像-哔哩哔哩】 https://b23.tv/74OjGyE</title>
-    <link>https://t.me/mark11blog/1018</link>
-    <guid isPermaLink="false">mark11blog-1018</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1018</link>
+    <guid isPermaLink="false">mark014blog-1018</guid>
     <pubDate>Mon, 02 Nov 2026 14:49:53 +0000</pubDate>
     <description><![CDATA[<div>【【导演作/官方授权】用半年! 制作「脑洞学生会」片尾影像-哔哩哔哩】 <a href="https://b23.tv/74OjGyE" target="_blank" rel="noopener noreferrer">https://b23.tv/74OjGyE</a></div>
 <blockquote><a href="https://b23.tv/74OjGyE">【导演作/官方授权】用半年! 制作「脑洞学生会」片尾影像_哔哩哔哩_bilibili</a><br>全力以赴了！应今村亮老师的邀请，负责了脑洞学生会片尾的导演，分镜与大部分色彩概念，并亲自组建了团队。多亏了大家的热情与才华才能制作出这样的片尾，再次感谢这段时间内所有参与片尾的创作者们与帮助我的大家，与大家一起共事是我的光荣，再一起创作吧！エンディングアニメーション
@@ -310,23 +310,23 @@ Saitou
   </item>
   <item>
     <title>Proton 全力推动工程师转向 AI</title>
-    <link>https://t.me/mark11blog/1017</link>
-    <guid isPermaLink="false">mark11blog-1017</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1017</link>
+    <guid isPermaLink="false">mark014blog-1017</guid>
     <pubDate>Mon, 02 Nov 2026 13:55:26 +0000</pubDate>
     <description><![CDATA[<div><a href="https://www.solidot.org/story?sid=85773" target="_blank" rel="noopener noreferrer"><b><u>Proton 全力推动工程师转向 AI</u></b></a><br><button type="button" class="inline-tag" data-tag="人工智能">#人工智能</button><br><br>以提供隐私服务著称的 Proton 公司正全力推动工程师转向采用 AI，CEO Andy Yen 还在内部 Slack 频道训斥了提出安全顾虑的员工，称是“失败者的思维”。Proton 甚至计划对员工进行重新面试，要求员工说明他们如何使用 AI。如果员工没有充分使用 AI 他们可能会面临被解雇。在引发公众抗议之后，Proton 取消了重新面试。尽管如此，Proton 公布了一份 AI 宣言：“首先工程文化和工程师心态需要发生转变。你们的工作本质已经变了。你们的任务不再是编写代码，LLM 也不是为了帮助你们更快、更好地写代码。你们的工作，是帮助 LLM 更快更好地写代码。”<br><a href="https://www.404media.co/protons-ceo-cancels-ai-re-interviews/" target="_blank" rel="noopener noreferrer">https://www.404media.co/protons-ceo-cancels-ai-re-interviews/</a><br><a href="https://proton.me/blog/ai-manifesto" target="_blank" rel="noopener noreferrer">https://proton.me/blog/ai-manifesto</a></div>]]></description>
   </item>
   <item>
     <title>wordcraft 開文件的速度比 onlyoffice 快太多了</title>
-    <link>https://t.me/mark11blog/1016</link>
-    <guid isPermaLink="false">mark11blog-1016</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1016</link>
+    <guid isPermaLink="false">mark014blog-1016</guid>
     <pubDate>Mon, 02 Nov 2026 09:24:35 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/ULHgNXowa6UvgXVsc-cld0wSuj-3eUD8Tsyow_-wTDWTLFrdwj8KuXIoLhL2MaesTSsPPNh7DZZydd0GD_JpqW0r0Y4OKXZiAxxpiq1WDp9cwfNlpV0h-PAnpAR1IG9oYFe2BOTCXXbTWDXcQniQvFiEYVo-tNbZVcKFOZbw1EjXTaOk-cysSX5rHQIzPJch6NMD4pMu0b6oX250JxSlx2M_SrrEPkRwl9KHHYmMYBXSIe55gc9bgRqoLKJ3SRIPMNw9OgTJfvhiLRVhOk0IQIojFxy4iTou0GjsTUtzl95dyKW0Bv0PECEgXGR3mm8fycE8dhmEsUDdwSM-ZX7jhQ.jpg" alt="photo"></p>
 <div>wordcraft 開文件的速度比 onlyoffice 快太多了<br><br><a href="https://github.com/storytold/wordcraft" target="_blank" rel="noopener noreferrer">https://github.com/storytold/wordcraft</a></div>]]></description>
   </item>
   <item>
     <title>还会录屏我是没想到的 😄</title>
-    <link>https://t.me/mark11blog/1015</link>
-    <guid isPermaLink="false">mark11blog-1015</guid>
+    <link>https://marker1111014.github.io/mark014blog/?post=1015</link>
+    <guid isPermaLink="false">mark014blog-1015</guid>
     <pubDate>Mon, 02 Nov 2026 05:36:32 +0000</pubDate>
     <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/HtCVjlMNN4_aADeFtkqghvWnNq4v9-FSjQL-qx9M5WTroQMF1dozblVd6HGFS7XUbCGt4LM9U8pm9Fn3tHOL4ma9PQN0bf11JyT_JHLGWZjiClHVLIkFjnqxSZ63z8V-lEohfkowg9jNxbTtUdmAOZ8CRH6TRzmyqKl15relK95wb2YSKReqkdyclj9gSxmq7AQo3W03bSW1IYzpmHV_qu39x2ZCMAn7RrGOX5-N0yyhScFgmi59jU_HeDEnmIDnpx4oRRoPlT7Dmf3LyofqyGn6kXylq-uiCZLj_YVUCxGu_eC0A6UQEneOrInlXj6N5rwIdKa3b1n_0U6jEEDbpg.jpg" alt="photo"></p>
 <div>还会录屏我是没想到的 😄</div>]]></description>

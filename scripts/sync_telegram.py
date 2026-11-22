@@ -719,7 +719,13 @@ def generate_sitemap(posts: List[Dict[str, Any]], site_url: str, out_path: Path)
     out_path.write_text(sitemap, encoding="utf-8")
 
 
-def sync_from_live(channel: str, full: bool, max_pages: int, existing_posts: Dict[int, Dict[str, Any]]) -> Tuple[Dict[str, Any], Dict[int, Dict[str, Any]]]:
+def sync_from_live(
+    channel: str,
+    full: bool,
+    max_pages: int,
+    existing_posts: Dict[int, Dict[str, Any]],
+    wait_post_id: int = 0,
+) -> Tuple[Dict[str, Any], Dict[int, Dict[str, Any]]]:
     before: Optional[str] = None
     seen_before = set()
     site_info: Optional[Dict[str, Any]] = None
@@ -728,14 +734,33 @@ def sync_from_live(channel: str, full: bool, max_pages: int, existing_posts: Dic
     limit = 200 if full else max_pages
     for page_idx in range(1, limit + 1):
         url = f"https://t.me/s/{channel}" + (f"?before={before}" if before else "")
-        raw_html = fetch_url_with_retry(url).decode("utf-8")
-        tree = parse_html_tree(raw_html)
-        if site_info is None:
-            site_info = parse_channel_info(tree, channel)
 
-        page_posts, next_before = parse_messages_from_tree(tree, channel)
+        # When triggered immediately by a Bot webhook, t.me/s/<channel> can take 1-6s to reflect the brand-new post
+        attempts = 5 if (page_idx == 1 and wait_post_id > 0) else 1
+        page_posts: List[Dict[str, Any]] = []
+        next_before: Optional[str] = None
+        for w_try in range(attempts):
+            raw_html = fetch_url_with_retry(url).decode("utf-8")
+            tree = parse_html_tree(raw_html)
+            site_info = parse_channel_info(tree, channel)
+            page_posts, next_before = parse_messages_from_tree(tree, channel)
+            live_ids = {p["id"] for p in page_posts}
+            if wait_post_id <= 0 or wait_post_id in live_ids or (page_posts and max(live_ids) > wait_post_id):
+                break
+            if w_try < attempts - 1:
+                print(f"Waiting for post #{wait_post_id} to appear on t.me/s/{channel} (retry {w_try + 1}/{attempts - 1})...", flush=True)
+                time.sleep(3)
+
         if not page_posts:
             break
+
+        # Prune posts in this page's ID window if they were deleted on Telegram
+        if len(page_posts) >= 10:
+            live_ids = {p["id"] for p in page_posts}
+            min_pid, max_pid = min(live_ids), max(live_ids)
+            for eid in list(merged.keys()):
+                if min_pid <= eid <= max_pid and eid not in live_ids:
+                    del merged[eid]
 
         new_count = 0
         for p in page_posts:
@@ -831,10 +856,11 @@ def build_site_summary(site_info: Dict[str, Any], sorted_posts: List[Dict[str, A
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync public Telegram channel to static website JSON + RSS")
-    parser.add_argument("--channel", default="mark11blog", help="Telegram channel username (without @)")
+    parser.add_argument("--channel", default="mark014blog", help="Telegram channel username (without @)")
     parser.add_argument("--root", default=".", help="Website root directory")
     parser.add_argument("--full", action="store_true", help="Crawl entire channel history")
     parser.add_argument("--max-pages", type=int, default=5, help="Max pages in incremental mode (default: 5)")
+    parser.add_argument("--wait-post-id", type=int, default=0, help="Wait briefly until this post ID appears on Page 1 (for webhook triggers)")
     parser.add_argument("--html-dir", default=None, help="Optional directory of pre-downloaded HTML pages")
     parser.add_argument("--download-media", action="store_true", help="Cache photos, stickers, and video thumbs into media/")
     parser.add_argument("--site-url", default="", help="Public website base URL for RSS and sitemap")
@@ -860,7 +886,9 @@ def main() -> int:
     else:
         # Auto-fallback to full crawl if posts.json doesn't exist yet
         do_full = args.full or (len(existing_posts) == 0)
-        site_info, merged = sync_from_live(args.channel, do_full, args.max_pages, existing_posts)
+        site_info, merged = sync_from_live(
+            args.channel, do_full, args.max_pages, existing_posts, wait_post_id=args.wait_post_id
+        )
 
     sorted_posts = [merged[pid] for pid in sorted(merged.keys(), reverse=True)]
 

@@ -1,0 +1,12 @@
+name = "mark014blog-tg-sync"
+main = "telegram-webhook.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+CHANNEL_USERNAME = "mark014blog"
+GITHUB_OWNER = "marker1111014"
+GITHUB_REPO = "mark014blog"
+
+# 請使用 `wrangler secret put` 或在 Cloudflare 後台設定以下兩個機密變數：
+# - GITHUB_TOKEN
+# - TG_WEBHOOK_SECRET

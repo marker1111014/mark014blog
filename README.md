@@ -1,51 +1,59 @@
-# Mark's Blog (`@mark11blog`) 個人生活隨筆網站
+# Mark's Blog (`@mark014blog`) 個人生活隨筆網站
 
-將公開 Telegram 頻道 **[@mark11blog](https://t.me/mark11blog)** 的內容自動同步並呈現為個人靜態部落格 / 數位花園。
+將公開 Telegram 頻道 **[@mark014blog](https://t.me/mark014blog)** 的內容即時同步並呈現為個人靜態部落格 / 數位花園。
 
-## 功能特色
-
-- **零依賴純 Python 同步引擎**（[`scripts/sync_telegram.py`](scripts/sync_telegram.py)）：
-  - 支援完整歷史回溯（`--full`）與日常增量同步（自動捕捉最新貼文、編輯紀錄與瀏覽／反應數）。
-  - 完整解析純文字格式（粗體、斜體、程式碼區塊、引用、劇透遮罩、`#標籤`）、多圖相簿、影片、檔案附件、轉發來源、回覆引用與網頁連結預覽。
-  - 自動產生結構化 `data/posts.json`、`data/site.json`、標準 RSS 訂閱 [`feed.xml`](feed.xml) 與 SEO `sitemap.xml`。
-- **閱讀體驗設計**：
-  - 溫暖紙本筆記質感（支援淺色 / 深色主題一鍵切換）。
-  - 依日期分組的時間軸、**相片牆**專區、即時全文搜尋（快捷鍵 `/`）、月份歸檔、標籤過濾、圖片燈箱檢視、單則貼文獨立分享連結（`?post=1053`）以及「隨機回顧」功能。
+- 網站倉庫：[marker1111014/mark014blog](https://github.com/marker1111014/mark014blog)
+- GitHub Pages 網址：`https://marker1111014.github.io/mark014blog/`
 
 ---
 
-## 如何自動將 Telegram 內容轉到這個個人網站？
+## 方案二設定指南：Telegram Bot + Cloudflare Worker 毫秒級即時同步
 
-本專案提供兩種自動化方式（可單獨使用或搭配使用）：
+專案採用「**Bot Webhook 即時觸發 + GitHub Actions 備援排程**」雙架構：發完或改完 Telegram 貼文後，Telegram 會在毫秒內通知 Cloudflare Worker，Worker 立刻喚醒 GitHub Actions 抓取最新貼文、產生 `data/posts.json` 與 `feed.xml` 並自動發佈到 GitHub Pages。
 
-### 方案一：GitHub Actions 定時自動同步（零設定、免費、免 Bot Token）
+### 步驟 1：開啟 GitHub Pages 與 Actions 寫入權限
 
-> 原理：公開 Telegram 頻道均有官方網頁預覽 `https://t.me/s/mark11blog`，不需要伺服器或 Bot Token 即可自動抓取。
+1. 進入倉庫 **Settings → Pages**，將 **Source** 設為 **GitHub Actions**。
+2. 進入 **Settings → Actions → General → Workflow permissions**，勾選 **Read and write permissions** 後儲存。
 
-1. 將此專案推送到你的 GitHub 倉庫（例如 `mark11blog`）。
-2. 到 GitHub 倉庫的 **Settings → Pages**，將 **Source** 設為 **GitHub Actions**。
-3. 到 **Settings → Actions → General → Workflow permissions**，確認已勾選 **Read and write permissions**（讓 Actions 可以把新同步到的 `data/posts.json` 寫回倉庫）。
-4. 完成！內建的 [`.github/workflows/sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml) 會每 **30 分鐘**自動同步一次新貼文並重新部署網站，你隨時也能到 **Actions** 頁面手動按下 **Run workflow** 立即同步。
+### 步驟 2：建立 GitHub Token（供 Worker 觸發 Actions）
 
-### 方案二：Telegram Bot + Cloudflare Worker 即時同步（發文 30 秒內更新）
+1. 前往 GitHub **Settings → Developer settings → Personal access tokens → Fine-grained tokens**。
+2. **Repository access** 選擇 **Only select repositories → `marker1111014/mark014blog`**。
+3. **Repository permissions** 只需要設定 **Contents: Read and write**（`repository_dispatch` 需要 Contents 寫入權限）。
+4. 產生並記下這組 Token（以下稱 `GITHUB_TOKEN`）。
 
-若你不想等 30 分鐘排程，希望在頻道發完訊息就立刻更新網站：
+### 步驟 3：部署 Cloudflare Worker
 
-1. 在 Telegram 透過 `@BotFather` 建立一個機器人，將它加入 `@mark11blog` 並設為**管理員**（只需發佈/讀取訊息權限）。
-2. 將 [`worker/telegram-webhook.js`](worker/telegram-webhook.js) 部署到 Cloudflare Workers，並設定環境變數：
-   - `TG_WEBHOOK_SECRET`：自訂安全密碼
-   - `CHANNEL_USERNAME`：`mark11blog`
-   - `GITHUB_OWNER`：你的 GitHub 用戶名
-   - `GITHUB_REPO`：這個倉庫名稱
-   - `GITHUB_TOKEN`：具有 `repo`（或 Fine-grained token 的 `Actions: write` + `Contents: read`）權限的 Token
-3. 呼叫 Telegram API 設定 Webhook：
-   ```bash
-   curl -X POST "https://api.telegram.org/bot<你的BOT_TOKEN>/setWebhook" \
-     -d "url=https://<你的WORKER網址>/" \
-     -d "secret_token=<你的TG_WEBHOOK_SECRET>" \
-     -d 'allowed_updates=["channel_post","edited_channel_post"]'
-   ```
-4. 之後只要在頻道發新貼文或修改舊貼文，Worker 就會透過 `repository_dispatch` 立即觸發 GitHub Actions 同步並部署！
+可直接在 Cloudflare Dashboard 貼上 [`worker/telegram-webhook.js`](worker/telegram-webhook.js)，或在本機用 Wrangler CLI 部署：
+
+```bash
+cd worker
+npx wrangler deploy
+npx wrangler secret put GITHUB_TOKEN
+npx wrangler secret put TG_WEBHOOK_SECRET
+```
+
+> 若使用 Cloudflare Dashboard 貼上程式碼，程式內已預設 `mark014blog` 與 `marker1111014/mark014blog`，你只需在 **Settings → Variables and Secrets** 新增 `GITHUB_TOKEN` 與 `TG_WEBHOOK_SECRET`（自訂一串隨機英數字）即可。
+> 部署後直接用瀏覽器打開 Worker 網址，看到 `"github_token": true, "webhook_secret": true` 即代表準備就緒！
+
+### 步驟 4：建立 Telegram Bot 並綁定 Webhook
+
+1. 在 Telegram 找 `@BotFather` 執行 `/newbot` 建立機器人，取得 `BOT_TOKEN`。
+2. 打開頻道 `@mark014blog` → **Administrators（管理員）→ Add Admin**，將剛剛建立的機器人加為頻道管理員。
+3. 執行以下指令綁定 Webhook（替換 `<BOT_TOKEN>`、`<WORKER_URL>`、`<TG_WEBHOOK_SECRET>`）：
+
+```bash
+curl -X POST "https://api.telegram.org/bot<BOT_TOKEN>/setWebhook" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "url": "<WORKER_URL>",
+    "secret_token": "<TG_WEBHOOK_SECRET>",
+    "allowed_updates": ["channel_post", "edited_channel_post"]
+  }'
+```
+
+完成後，只要你在 `@mark014blog` 發新訊息或修改訊息，Worker 就會立刻透過 `repository_dispatch` 觸發部署，約 25～40 秒後網站就會同步更新！同時 [`.github/workflows/sync-and-deploy.yml`](.github/workflows/sync-and-deploy.yml) 也會每 2 小時定時巡檢一次瀏覽數與表情反應。
 
 ---
 
@@ -53,13 +61,13 @@
 
 ```bash
 # 增量同步（更新最新幾頁與近期編輯）
-python3 scripts/sync_telegram.py --channel mark11blog --root .
+python3 scripts/sync_telegram.py --channel mark014blog --root .
 
 # 完整重新抓取整個頻道歷史
-python3 scripts/sync_telegram.py --channel mark11blog --root . --full
+python3 scripts/sync_telegram.py --channel mark014blog --root . --full
 
-# 若希望把圖片與貼圖也下載備份到本機 media/ 目錄（防止外連失效）
-python3 scripts/sync_telegram.py --channel mark11blog --root . --download-media
+# 若希望把圖片與貼圖也下載備份到本機 media/ 目錄
+python3 scripts/sync_telegram.py --channel mark014blog --root . --download-media
 
 # 本機啟動靜態伺服器預覽
 python3 -m http.server 8080
