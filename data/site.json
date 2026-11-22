@@ -1,0 +1,267 @@
+{
+  "channel": "mark11blog",
+  "title": "Mark's Blog",
+  "username": "@mark11blog",
+  "url": "https://t.me/mark11blog",
+  "avatar_url": "https://cdn5.telesco.pe/file/BHZuNDJMf3186x03KT2LD_F1ddcxvPfsTo7GOmsCjTGH2Y6pxnLIijNU2BpbGip6SPVDLcl3u3ooFnHe02B6A34WQw1aroDT5SBMo93-ZRc-9nHbbq1Gntu0ZKD6yQOVne_bHdiEA0U607jx96rKqK7kRIrcUUIlH7tJ539FwFHeBx0nGR00l31_mkqc7ACGnpT9B9kpMFdT3LExXOQqxUrV2zDqXTHTa7fwUDkts9Wp4Q0aw1hp4yCoVT3GW7Uc8PXes0eRG1heEg3ILKGjYjFUQberyNi9jYu5zesNEuaWIBytvHiVG8xfk_Fn1LRqp9oStcl1wYHaCpm03-g0Ww.jpg",
+  "description_html": "想到什麼說什麼<br>可能是網路上的免費資源<br>也可能只是單純的感悟、發牢騷",
+  "description_text": "想到什麼說什麼\n可能是網路上的免費資源\n也可能只是單純的感悟、發牢騷",
+  "counters": {
+    "subscribers": "78",
+    "photos": "473",
+    "videos": "9",
+    "files": "4",
+    "links": "685"
+  },
+  "avatar_local": "media/avatar.jpg",
+  "last_synced_at": "2026-11-22T22:29:13.042293+08:00",
+  "stats": {
+    "total_posts": 938,
+    "total_photos": 473,
+    "total_videos": 11,
+    "total_with_links": 616,
+    "total_forwarded": 288,
+    "earliest_date": "2025-05-03",
+    "latest_date": "2026-11-22"
+  },
+  "months": [
+    {
+      "month": "2026-11",
+      "count": 42
+    },
+    {
+      "month": "2026-10",
+      "count": 77
+    },
+    {
+      "month": "2026-09",
+      "count": 49
+    },
+    {
+      "month": "2026-08",
+      "count": 47
+    },
+    {
+      "month": "2026-07",
+      "count": 47
+    },
+    {
+      "month": "2026-06",
+      "count": 54
+    },
+    {
+      "month": "2026-05",
+      "count": 73
+    },
+    {
+      "month": "2026-04",
+      "count": 79
+    },
+    {
+      "month": "2026-03",
+      "count": 83
+    },
+    {
+      "month": "2026-02",
+      "count": 76
+    },
+    {
+      "month": "2026-01",
+      "count": 79
+    },
+    {
+      "month": "2025-12",
+      "count": 40
+    },
+    {
+      "month": "2025-11",
+      "count": 32
+    },
+    {
+      "month": "2025-10",
+      "count": 15
+    },
+    {
+      "month": "2025-09",
+      "count": 37
+    },
+    {
+      "month": "2025-08",
+      "count": 20
+    },
+    {
+      "month": "2025-07",
+      "count": 16
+    },
+    {
+      "month": "2025-06",
+      "count": 17
+    },
+    {
+      "month": "2025-05",
+      "count": 55
+    }
+  ],
+  "tags": [
+    {
+      "tag": "科学",
+      "count": 11
+    },
+    {
+      "tag": "電子學",
+      "count": 9
+    },
+    {
+      "tag": "小众软件",
+      "count": 7
+    },
+    {
+      "tag": "想法",
+      "count": 7
+    },
+    {
+      "tag": "AI",
+      "count": 5
+    },
+    {
+      "tag": "安全",
+      "count": 5
+    },
+    {
+      "tag": "开源",
+      "count": 5
+    },
+    {
+      "tag": "人工智能",
+      "count": 4
+    },
+    {
+      "tag": "Twitter",
+      "count": 3
+    },
+    {
+      "tag": "好",
+      "count": 3
+    },
+    {
+      "tag": "工具",
+      "count": 3
+    },
+    {
+      "tag": "GitHub",
+      "count": 2
+    },
+    {
+      "tag": "Google",
+      "count": 2
+    },
+    {
+      "tag": "Windows",
+      "count": 2
+    },
+    {
+      "tag": "linux",
+      "count": 2
+    },
+    {
+      "tag": "telegram",
+      "count": 2
+    },
+    {
+      "tag": "互联网",
+      "count": 2
+    },
+    {
+      "tag": "剪切板",
+      "count": 2
+    },
+    {
+      "tag": "发现频道",
+      "count": 2
+    },
+    {
+      "tag": "图床",
+      "count": 2
+    },
+    {
+      "tag": "地球",
+      "count": 2
+    },
+    {
+      "tag": "數學",
+      "count": 2
+    },
+    {
+      "tag": "阅览",
+      "count": 2
+    },
+    {
+      "tag": "Amazon",
+      "count": 1
+    },
+    {
+      "tag": "Bug",
+      "count": 1
+    },
+    {
+      "tag": "Facebook",
+      "count": 1
+    },
+    {
+      "tag": "GITHUB",
+      "count": 1
+    },
+    {
+      "tag": "IT",
+      "count": 1
+    },
+    {
+      "tag": "Idle",
+      "count": 1
+    },
+    {
+      "tag": "Prompt",
+      "count": 1
+    },
+    {
+      "tag": "Tampermonkey",
+      "count": 1
+    },
+    {
+      "tag": "X",
+      "count": 1
+    },
+    {
+      "tag": "aigen",
+      "count": 1
+    },
+    {
+      "tag": "allow",
+      "count": 1
+    },
+    {
+      "tag": "arduino",
+      "count": 1
+    },
+    {
+      "tag": "blog",
+      "count": 1
+    },
+    {
+      "tag": "cloudflare",
+      "count": 1
+    },
+    {
+      "tag": "extension",
+      "count": 1
+    },
+    {
+      "tag": "news",
+      "count": 1
+    },
+    {
+      "tag": "security",
+      "count": 1
+    }
+  ]
+}

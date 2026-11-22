@@ -1,0 +1,101 @@
+name: Sync Telegram & Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    # 每 30 分鐘自動檢查 @mark11blog 新貼文與近期編輯
+    - cron: "*/30 * * * *"
+  repository_dispatch:
+    # 可由 Telegram Bot + Cloudflare Worker 毫秒級即時觸發
+    types: [telegram-update]
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "是否重新抓取頻道全部歷史貼文"
+        required: false
+        default: "false"
+        type: boolean
+      download_media:
+        description: "是否將圖片與貼圖下載備份到倉庫 media/ 目錄"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-sync"
+  cancel-in-progress: true
+
+jobs:
+  sync-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync Telegram channel (@mark11blog)
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          REPO="${{ github.event.repository.name }}"
+          if [ "$REPO" = "${OWNER}.github.io" ]; then
+            SITE_URL="https://${OWNER}.github.io"
+          else
+            SITE_URL="https://${OWNER}.github.io/${REPO}"
+          fi
+
+          FLAGS=""
+          if [ "${{ inputs.full_sync }}" = "true" ]; then
+            FLAGS="$FLAGS --full"
+          fi
+          if [ "${{ inputs.download_media }}" = "true" ]; then
+            FLAGS="$FLAGS --download-media"
+          fi
+
+          python3 scripts/sync_telegram.py \
+            --channel mark11blog \
+            --root . \
+            --site-url "$SITE_URL" \
+            $FLAGS
+
+      - name: Commit updated posts & RSS if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ media/ feed.xml sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync @mark11blog posts [skip ci]"
+            git push
+          else
+            echo "No content changes since last sync."
+          fi
+
+      - name: Prepare static bundle
+        run: |
+          mkdir -p _site
+          cp -r index.html css js data media feed.xml sitemap.xml _site/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
