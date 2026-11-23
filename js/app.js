@@ -231,6 +231,27 @@
   function renderLinkPreview(post) {
     const lp = post.link_preview;
     if (!lp || !lp.url) return '';
+
+    if (lp.telegraph_html) {
+      const isLong = (lp.telegraph_len || 0) > 480 || (lp.telegraph_imgs || 0) > 2;
+      return `
+        <div class="telegraph-card">
+          <div class="telegraph-header">
+            <div class="telegraph-meta">
+              <span class="lp-site">Telegraph</span>
+              ${lp.telegraph_author ? `<span class="telegraph-author">· ${escapeHtml(lp.telegraph_author)}</span>` : ''}
+            </div>
+            <a class="telegraph-ext" href="${escapeHtml(lp.url)}" target="_blank" rel="noopener noreferrer">開啟原文 ↗</a>
+          </div>
+          ${lp.title ? `<h4 class="telegraph-title"><a href="${escapeHtml(lp.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(lp.title)}</a></h4>` : ''}
+          <div class="telegraph-body ${isLong ? 'is-collapsed' : ''}">
+            ${lp.telegraph_html}
+          </div>
+          ${isLong ? '<button type="button" class="telegraph-toggle" data-toggle-telegraph>展開全文 ▾</button>' : ''}
+        </div>
+      `;
+    }
+
     const thumb = escapeHtml(lp.local_image || lp.image || '');
     return `
       <a class="link-preview-card" href="${escapeHtml(lp.url)}" target="_blank" rel="noopener noreferrer">
@@ -693,6 +714,30 @@
       if (galTile) {
         const idx = Number(galTile.dataset.galleryIndex || 0);
         openLightbox(state.galleryItems, idx);
+        return;
+      }
+
+      const tgToggle = e.target.closest('[data-toggle-telegraph]');
+      if (tgToggle) {
+        const card = tgToggle.closest('.telegraph-card');
+        const body = card?.querySelector('.telegraph-body');
+        if (body) {
+          const collapsed = body.classList.toggle('is-collapsed');
+          tgToggle.textContent = collapsed ? '展開全文 ▾' : '收起全文 ▴';
+        }
+        return;
+      }
+
+      const tgImg = e.target.closest('.telegraph-body img');
+      if (tgImg) {
+        const card = tgImg.closest('.telegraph-card');
+        const imgs = Array.from(card?.querySelectorAll('.telegraph-body img') || []);
+        const idx = Math.max(0, imgs.indexOf(tgImg));
+        const title = card?.querySelector('.telegraph-title')?.textContent?.trim() || '';
+        openLightbox(
+          imgs.map((img) => ({ src: img.src, caption: title })),
+          idx
+        );
         return;
       }
 

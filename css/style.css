@@ -1055,35 +1055,197 @@ button {
 }
 
 .lp-title {
-  font-size: 0.93rem;
+  font-size: 0.96rem;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.48;
   color: var(--ink);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .lp-desc {
-  margin-top: 4px;
-  font-size: 0.82rem;
-  line-height: 1.55;
+  margin-top: 6px;
+  font-size: 0.86rem;
+  line-height: 1.65;
   color: var(--ink-secondary);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .lp-thumb {
-  width: 84px;
-  height: 84px;
+  width: 120px;
+  height: 120px;
   border-radius: 0px;
   object-fit: cover;
   flex-shrink: 0;
   border: 1px solid var(--border);
   background: var(--bg-muted);
+}
+
+/* Inline Telegraph Reader Card */
+.telegraph-card {
+  padding: 18px 20px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  background: var(--bg);
+}
+
+.telegraph-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.telegraph-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.telegraph-meta .lp-site {
+  margin-bottom: 0;
+}
+
+.telegraph-author {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+}
+
+.telegraph-ext {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.telegraph-ext:hover {
+  color: var(--accent);
+}
+
+.telegraph-title {
+  margin: 0 0 12px;
+  font-family: var(--font-serif);
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.telegraph-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.telegraph-title a:hover {
+  color: var(--accent);
+}
+
+.telegraph-body {
+  position: relative;
+  font-size: 0.93rem;
+  line-height: 1.78;
+  color: var(--ink-secondary);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.telegraph-body.is-collapsed {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.telegraph-body.is-collapsed::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 76px;
+  background: linear-gradient(transparent, var(--bg));
+  pointer-events: none;
+}
+
+.telegraph-body p {
+  margin: 0 0 10px;
+}
+
+.telegraph-body p:last-child {
+  margin-bottom: 0;
+}
+
+.telegraph-body h3,
+.telegraph-body h4 {
+  margin: 14px 0 8px;
+  color: var(--ink);
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.telegraph-body blockquote,
+.telegraph-body aside {
+  margin: 10px 0;
+  padding: 8px 14px;
+  border-left: 3px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--ink-secondary);
+}
+
+.telegraph-body pre {
+  margin: 10px 0;
+  padding: 12px 14px;
+  background: var(--bg-muted);
+  border: 1px solid var(--border);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.83rem;
+}
+
+.telegraph-body ul,
+.telegraph-body ol {
+  margin: 8px 0 12px;
+  padding-left: 22px;
+}
+
+.telegraph-body figure {
+  margin: 12px 0;
+}
+
+.telegraph-body figure img {
+  display: block;
+  max-width: 100%;
+  max-height: 540px;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--border);
+  cursor: zoom-in;
+}
+
+.telegraph-body figcaption {
+  margin-top: 5px;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.telegraph-toggle {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  color: var(--accent);
+  font-size: 0.83rem;
+  font-weight: 500;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.telegraph-toggle:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
 }
 
 /* Post Footer */

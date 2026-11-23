@@ -639,6 +639,128 @@ def cache_media_locally(posts: List[Dict[str, Any]], site_info: Dict[str, Any], 
             print(f"  Processed media for {idx + 1}/{total} posts...", flush=True)
 
 
+TELEGRAPH_ALLOWED_TAGS = {
+    "p", "h3", "h4", "blockquote", "aside", "pre", "code", "ul", "ol", "li",
+    "b", "strong", "i", "em", "u", "s", "del", "br", "hr", "figure", "figcaption",
+    "img", "a",
+}
+
+
+def render_telegraph_nodes(nodes: Any, host: str = "telegra.ph") -> Tuple[str, int, int]:
+    """Render Telegraph API content AST into sanitized HTML and return (html, text_len, img_count)."""
+    if not nodes:
+        return "", 0, 0
+    html_parts: List[str] = []
+    text_len = 0
+    img_count = 0
+
+    for item in nodes:
+        if isinstance(item, str):
+            html_parts.append(html_lib.escape(item, quote=False))
+            text_len += len(item.strip())
+            continue
+        if not isinstance(item, dict):
+            continue
+
+        tag = (item.get("tag") or "").lower()
+        attrs = item.get("attrs") or {}
+        children = item.get("children") or []
+        inner_html, child_len, child_imgs = render_telegraph_nodes(children, host=host)
+        text_len += child_len
+        img_count += child_imgs
+
+        if tag not in TELEGRAPH_ALLOWED_TAGS:
+            html_parts.append(inner_html)
+            continue
+
+        if tag == "br":
+            html_parts.append("<br>")
+        elif tag == "hr":
+            html_parts.append("<hr>")
+        elif tag == "img":
+            src = (attrs.get("src") or "").strip()
+            if src.startswith("/"):
+                src = f"https://{host}{src}"
+            elif src.startswith("//"):
+                src = "https:" + src
+            if src.startswith("http"):
+                img_count += 1
+                html_parts.append(
+                    f'<img src="{html_lib.escape(src, quote=True)}" alt="" loading="lazy" referrerpolicy="no-referrer">'
+                )
+        elif tag == "a":
+            href = (attrs.get("href") or "").strip()
+            if href.startswith("/"):
+                href = f"https://{host}{href}"
+            if href:
+                html_parts.append(
+                    f'<a href="{html_lib.escape(href, quote=True)}" target="_blank" rel="noopener noreferrer">{inner_html}</a>'
+                )
+            else:
+                html_parts.append(inner_html)
+        else:
+            html_parts.append(f"<{tag}>{inner_html}</{tag}>")
+
+    return "".join(html_parts), text_len, img_count
+
+
+def fetch_telegraph_article(url: str) -> Optional[Dict[str, Any]]:
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.lower()
+    if host not in {"telegra.ph", "graph.org"}:
+        return None
+    path = parsed.path.strip("/")
+    if not path:
+        return None
+
+    api_host = "api.telegra.ph" if host == "telegra.ph" else "api.graph.org"
+    api_url = f"https://{api_host}/getPage/{path}?return_content=true"
+    try:
+        raw = fetch_url_with_retry(api_url, retries=3, timeout=15).decode("utf-8")
+        payload = json.loads(raw)
+        if not payload.get("ok") or not payload.get("result"):
+            return None
+        res = payload["result"]
+        body_html, text_len, img_count = render_telegraph_nodes(res.get("content") or [], host=host)
+        if not body_html:
+            return None
+        return {
+            "telegraph_html": body_html,
+            "telegraph_len": text_len,
+            "telegraph_imgs": img_count,
+            "telegraph_author": (res.get("author_name") or "").strip(),
+        }
+    except Exception as exc:
+        print(f"  [warn] Telegraph fetch skipped ({url[:60]}): {exc}", file=sys.stderr)
+        return None
+
+
+def enrich_telegraph_previews(posts: List[Dict[str, Any]], tg_cache: Dict[str, Dict[str, Any]]) -> None:
+    fetched = 0
+    for p in posts:
+        lp = p.get("link_preview")
+        if not lp or not lp.get("url"):
+            continue
+        url = lp["url"]
+        parsed = urllib.parse.urlparse(url)
+        if parsed.netloc.lower() not in {"telegra.ph", "graph.org"}:
+            continue
+
+        cached = tg_cache.get(url)
+        if cached and cached.get("telegraph_html"):
+            lp.update(cached)
+            continue
+
+        enriched = fetch_telegraph_article(url)
+        if enriched:
+            lp.update(enriched)
+            tg_cache[url] = enriched
+            fetched += 1
+            time.sleep(0.15)
+    if fetched:
+        print(f"Enriched {fetched} Telegraph article(s) inline.", flush=True)
+
+
 def generate_rss(site_info: Dict[str, Any], posts: List[Dict[str, Any]], site_url: str, out_path: Path) -> None:
     base = site_url.rstrip("/") if site_url else f"https://t.me/{site_info['channel']}"
     now_rfc = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -873,11 +995,21 @@ def main() -> int:
     site_path = data_dir / "site.json"
 
     existing_posts: Dict[int, Dict[str, Any]] = {}
-    if posts_path.exists() and not args.full:
+    tg_cache: Dict[str, Dict[str, Any]] = {}
+    if posts_path.exists():
         try:
             loaded = json.loads(posts_path.read_text(encoding="utf-8"))
             for item in loaded:
-                existing_posts[int(item["id"])] = item
+                lp = item.get("link_preview") or {}
+                if lp.get("url") and lp.get("telegraph_html"):
+                    tg_cache[lp["url"]] = {
+                        "telegraph_html": lp["telegraph_html"],
+                        "telegraph_len": lp.get("telegraph_len", 0),
+                        "telegraph_imgs": lp.get("telegraph_imgs", 0),
+                        "telegraph_author": lp.get("telegraph_author", ""),
+                    }
+                if not args.full:
+                    existing_posts[int(item["id"])] = item
         except Exception as exc:
             print(f"[warn] Could not load existing posts.json: {exc}", file=sys.stderr)
 
@@ -905,6 +1037,7 @@ def main() -> int:
                     if (root_dir / old["stickers"][i]["local_url"]).exists():
                         st["local_url"] = old["stickers"][i]["local_url"]
 
+    enrich_telegraph_previews(sorted_posts, tg_cache)
     cache_media_locally(sorted_posts, site_info, root_dir, download_all=args.download_media)
 
     site_summary = build_site_summary(site_info, sorted_posts)
