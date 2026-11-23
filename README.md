@@ -3,7 +3,7 @@
 將公開 Telegram 頻道 **[@mark014blog](https://t.me/mark014blog)** 的內容即時同步並呈現為個人靜態部落格 / 數位花園。
 
 - 網站倉庫：[marker1111014/mark014blog](https://github.com/marker1111014/mark014blog)
-- GitHub Pages 網址：`https://marker1111014.github.io/mark014blog/`
+- 網站網址：<https://blog.markfile.dpdns.org/>
 
 ---
 

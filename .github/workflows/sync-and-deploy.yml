@@ -49,13 +49,7 @@ jobs:
 
       - name: Sync Telegram channel (@mark014blog)
         run: |
-          OWNER="${{ github.repository_owner }}"
-          REPO="${{ github.event.repository.name }}"
-          if [ "$REPO" = "${OWNER}.github.io" ]; then
-            SITE_URL="https://${OWNER}.github.io"
-          else
-            SITE_URL="https://${OWNER}.github.io/${REPO}"
-          fi
+          SITE_URL="${{ vars.SITE_URL || 'https://blog.markfile.dpdns.org' }}"
 
           FLAGS=""
           if [ "${{ inputs.full_sync }}" = "true" ]; then

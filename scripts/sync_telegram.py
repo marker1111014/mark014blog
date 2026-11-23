@@ -917,7 +917,12 @@ def main() -> int:
             old_site = json.loads(site_path.read_text(encoding="utf-8"))
             old_cmp = {k: v for k, v in old_site.items() if k != "last_synced_at"}
             new_cmp = {k: v for k, v in site_summary.items() if k != "last_synced_at"}
-            if old_cmp == new_cmp and (root_dir / "feed.xml").exists() and (root_dir / "sitemap.xml").exists():
+            feed_file = root_dir / "feed.xml"
+            sitemap_file = root_dir / "sitemap.xml"
+            target_base = args.site_url.rstrip("/")
+            feed_ok = feed_file.exists() and (not target_base or f"<link>{xml_escape(target_base)}</link>" in feed_file.read_text(encoding="utf-8"))
+            sitemap_ok = sitemap_file.exists() and (not target_base or f"<loc>{xml_escape(target_base)}/</loc>" in sitemap_file.read_text(encoding="utf-8"))
+            if old_cmp == new_cmp and feed_ok and sitemap_ok:
                 print("No post or profile changes detected; skipping timestamp-only file writes.", flush=True)
                 return 0
         except Exception:
