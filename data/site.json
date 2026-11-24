@@ -3,31 +3,31 @@
   "title": "Mark's Blog",
   "username": "@mark014blog",
   "url": "https://t.me/mark014blog",
-  "avatar_url": "https://cdn5.telesco.pe/file/BK0Rdh0yi8PxXKqPxVf2j6sSairw4sRHjRHJj3Zu9YyuQldU9dtM3gx-ycB3XL5qU4Ee1QDGIWNCsZPbkQXnMV1SJ6K8p64w1g-I8exWG8tqxFcpT2lcMu4Y5QpFn_-RTPnK_IaNA_maiebUXhwbQ-1LLwJrVYY9l2aEmpAdeAq8poLviGZu3l2KygJdXkXYoZ51XR_R2n0ZVFXLrH9gtXQIrDsxPIR5uHSxoHTek8KDkJ6P1gKTzTHbYbueVBxtIhcMfo6Fz2pBiotSIlx1CE2-JJwjzmkuTvUgaOu6Fq549EGML6--dZmbYtlGBgeEn4yjT_HW_grUyaYMcleNdg.jpg",
+  "avatar_url": "https://cdn5.telesco.pe/file/swHUcLQvJ5WkLZEfv6wsIyAYIRTgdgzml_OvelRRooY_Oh4Qu3Ml8xDU3lWi57FwXPHPPvrOaPrbHgsiE57HNclb5TkYLXtERWuS0ql_0osWMu6_BkhWLG1y_JQ2PyhiiSQW6LUprWNm5LBJjQfG6g2KqrWkJ84UbcOsi9Sa70OBPJIrHGksgKZivR6eLIoVnp6AYILyMeqTIvJwzOCjrDHAEjuBlLb-V3tfDJlYh7Zij0mq2y3jUM8FLEkFkhZLFFR8pQQsC_bBHT_-2w5jACqkLLETf6jN2fYSiF0h-dFznejrWVLV32vOphXpGCLPBnhyWwkBR-Skl77qxXi3_w.jpg",
   "description_html": "想到什麼說什麼<br>可能是網路上的免費資源<br>也可能只是單純的感悟、發牢騷",
   "description_text": "想到什麼說什麼\n可能是網路上的免費資源\n也可能只是單純的感悟、發牢騷",
   "counters": {
     "subscribers": "78",
-    "photos": "475",
+    "photos": "478",
     "videos": "10",
     "files": "4",
-    "links": "689"
+    "links": "692"
   },
   "avatar_local": "media/avatar.jpg",
-  "last_synced_at": "2026-11-24T13:57:08.564048+08:00",
+  "last_synced_at": "2026-11-25T01:33:40.210459+08:00",
   "stats": {
-    "total_posts": 946,
-    "total_photos": 475,
+    "total_posts": 951,
+    "total_photos": 478,
     "total_videos": 12,
-    "total_with_links": 620,
-    "total_forwarded": 293,
+    "total_with_links": 622,
+    "total_forwarded": 296,
     "earliest_date": "2025-05-03",
     "latest_date": "2026-11-24"
   },
   "months": [
     {
       "month": "2026-11",
-      "count": 50
+      "count": 55
     },
     {
       "month": "2026-10",
@@ -192,6 +192,14 @@
       "count": 2
     },
     {
+      "tag": "网站",
+      "count": 2
+    },
+    {
+      "tag": "软件",
+      "count": 2
+    },
+    {
       "tag": "阅览",
       "count": 2
     },
@@ -201,6 +209,10 @@
     },
     {
       "tag": "Bug",
+      "count": 1
+    },
+    {
+      "tag": "CatGatekepper",
       "count": 1
     },
     {
@@ -249,18 +261,6 @@
     },
     {
       "tag": "cloudflare",
-      "count": 1
-    },
-    {
-      "tag": "extension",
-      "count": 1
-    },
-    {
-      "tag": "news",
-      "count": 1
-    },
-    {
-      "tag": "security",
       "count": 1
     }
   ]
