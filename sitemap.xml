@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://blog.markfile.dpdns.org/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://blog.markfile.dpdns.org/?post=1073</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://blog.markfile.dpdns.org/?post=1072</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://blog.markfile.dpdns.org/?post=1071</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://blog.markfile.dpdns.org/?post=1069</loc><lastmod>2026-11-25</lastmod></url>
   <url><loc>https://blog.markfile.dpdns.org/?post=1068</loc><lastmod>2026-11-24</lastmod></url>
@@ -199,6 +201,4 @@
   <url><loc>https://blog.markfile.dpdns.org/?post=864</loc><lastmod>2026-08-26</lastmod></url>
   <url><loc>https://blog.markfile.dpdns.org/?post=863</loc><lastmod>2026-08-24</lastmod></url>
   <url><loc>https://blog.markfile.dpdns.org/?post=862</loc><lastmod>2026-08-24</lastmod></url>
-  <url><loc>https://blog.markfile.dpdns.org/?post=861</loc><lastmod>2026-08-24</lastmod></url>
-  <url><loc>https://blog.markfile.dpdns.org/?post=860</loc><lastmod>2026-08-23</lastmod></url>
 </urlset>
