@@ -3,23 +3,23 @@
   "title": "Mark's Blog",
   "username": "@mark014blog",
   "url": "https://t.me/mark014blog",
-  "avatar_url": "https://cdn5.telesco.pe/file/JnMj5KxmPJ9aSLjQEdGrRLWipwmg-uUE8fcQBv5WvLniOu72NlhXrc8K3jWe7CTgsijbHVb19cW0fs6hgUfnFxjvH_hvWSa_Uwoc8x9J44_pPYwGZ7CoI9iUEfbgDpjWMSiD9FswQNVeg9AxnzmY6zsjjKyJ_qYWf-YS2oqxU-e6jgSf0lOvEKglN_8Uu2_r2Sf3bEk2oVUMRsHdUGzA-C4tj5u6mjv6n_vb4WNYUSnW-e8wU9LZTXJStXvflH-Qcu2Fm3tePfduTfbqvxa55PaZlQ4m6Ot--esKWt8kvaLQ6yNCmaNqwauiYD0q2y5XPjuI-_cJRxWbkgpYl7IPmA.jpg",
+  "avatar_url": "https://cdn5.telesco.pe/file/Xj4UygxJxs5hQaFTWicws9X-YYShltjrcnvSuprY_kkKgnGiKWkZdzWBl0-s0x-fxXntOwj-Y6WXb5MRAA7xoGUcr-PJsOzZOaEfOuWPRDzrdqBvsADZ3SxcwNAj6MiDfXjpoDsKvoPmKzBUW9IDXfi0NerM7rT-vkvfpdDqtHD9ephD32Qtv99zDlaLFqAqzcvSCyaBb2A8Y2vKC_V0VxnTwX62c0YFKG1fah7nfKj07itSvQoCBHh_c5XER1xlbvXUJinbkviDgV3PEpuBfx8n2v1sOcVkhEwJ-5DeIRNR8hNq8xzmhol_ZEbMEAdz5Er2-1Ok36hY7pyfXoQNKw.jpg",
   "description_html": "想到什麼說什麼<br>可能是網路上的免費資源<br>也可能只是單純的感悟、發牢騷",
   "description_text": "想到什麼說什麼\n可能是網路上的免費資源\n也可能只是單純的感悟、發牢騷",
   "counters": {
     "subscribers": "79",
-    "photos": "485",
+    "photos": "489",
     "videos": "10",
     "files": "4",
-    "links": "699"
+    "links": "701"
   },
   "avatar_local": "media/avatar.jpg",
-  "last_synced_at": "2026-11-27T12:18:22.824074+08:00",
+  "last_synced_at": "2026-11-27T21:19:34.504163+08:00",
   "stats": {
-    "total_posts": 961,
-    "total_photos": 484,
+    "total_posts": 964,
+    "total_photos": 488,
     "total_videos": 12,
-    "total_with_links": 628,
+    "total_with_links": 630,
     "total_forwarded": 300,
     "earliest_date": "2025-05-03",
     "latest_date": "2026-11-27"
@@ -27,7 +27,7 @@
   "months": [
     {
       "month": "2026-11",
-      "count": 65
+      "count": 68
     },
     {
       "month": "2026-10",

@@ -1,5 +1,100 @@
 [
   {
+    "id": 1083,
+    "url": "https://t.me/mark014blog/1083",
+    "datetime": "2026-11-27T09:13:12+00:00",
+    "date_local": "2026-11-27 17:13",
+    "month": "2026-11",
+    "edited": false,
+    "is_service": false,
+    "views": 2,
+    "views_label": "2",
+    "text": "打算直接讓AI幫我管理伺服器了",
+    "text_html": "打算直接讓AI幫我管理伺服器了",
+    "tags": [],
+    "photos": [
+      {
+        "url": "https://cdn5.telesco.pe/file/TVd7UgUa9TsaUM5LoQpNqGgjLfOHKzzyYpkwXdAzxnkvcZrrduukHmFxNf4N8fjhBllarhN0eyH0u_BMaVoffjitZLlAjVcAPaxFf2bm7Y_nz_zVQPbDBwLolC_7fYFBTg1oQMTeTjrE9qe3RW-pgFrMEppTuFHMuGpkIR-P-ZmyBdhOr--Xctn7a-O-ilLESV5xMU2DgHgfMFfufYZFmvvNVhO20eeNyX7CYPxDyhddlqMP3vGDLw8H-iAXkMnwkI0MqQB1DKDKhn9OJicsj53IQMl6oFc6IqKIXelII3Nr1aty0wAcs5_pxEyA8gwOpQ3xkEvp4WnQT8qRDvbagw.jpg",
+        "ratio": null,
+        "post_url": "https://t.me/mark014blog/1083"
+      }
+    ],
+    "videos": [],
+    "stickers": [],
+    "documents": [],
+    "link_preview": null,
+    "forwarded_from": null,
+    "reply_to": null,
+    "reactions": [],
+    "has_links": false,
+    "has_unsupported_media": false
+  },
+  {
+    "id": 1081,
+    "url": "https://t.me/mark014blog/1081",
+    "datetime": "2026-11-27T08:30:53+00:00",
+    "date_local": "2026-11-27 16:30",
+    "month": "2026-11",
+    "edited": false,
+    "is_service": false,
+    "views": 2,
+    "views_label": "2",
+    "text": "用海報牆介面索引並播放 Telegram 頻道/群組內的影視資源\n\n具體的用法是：\n先建一個頻道/群組，然後將電影檔案存進去\n在 TMPlayer 裡選擇該頻道/群組\n這樣就能用精美的UI能選取電影了\n如果沒自動抓取到該電影的海報也可以手動調整下\n\n電影資源可以直接進 btzhi電影發布頻道 裡用機器人轉存\n隨意搜了一下，大概 2024 年後的熱門電影都有\n\nhttps://tmplayer.org",
+    "text_html": "用海報牆介面索引並播放 Telegram 頻道/群組內的影視資源<br><br>具體的用法是：<br>先建一個頻道/群組，然後將電影檔案存進去<br>在 TMPlayer 裡選擇該頻道/群組<br>這樣就能用精美的UI能選取電影了<br>如果沒自動抓取到該電影的海報也可以手動調整下<br><br>電影資源可以直接進 <a href=\"https://t.me/+Bu4wTbzf_Zs1ZjM1\" target=\"_blank\" rel=\"noopener noreferrer\">btzhi電影發布頻道</a> 裡用機器人轉存<br>隨意搜了一下，大概 2024 年後的熱門電影都有<br><br><a href=\"https://tmplayer.org/\" target=\"_blank\" rel=\"noopener noreferrer\">https://tmplayer.org</a>",
+    "tags": [],
+    "photos": [
+      {
+        "url": "https://cdn5.telesco.pe/file/HQFPvNn7uQ-qBjcZnN6LQ-7C34TkYp868JzGOybZooi6GtqhYlPN9l756VIZfuddm_OavU5q8ursG3IFEqSBtfoT0E2cVMP0E6-mNuJqxsrwFjnx4upfbhVv5B8_V4oTuuJoLDnv0F817l_QvTGzVqgkDiibRz4CePYjflZZYdNv7iSBkGCkuVcWAiO_P1Gr7-rhh-0e7Bv6KrnMp_Tii4su8jEog70o4yvlQK-YflgitSmEo5sQcCbEm0VJIcpE9qxPV64yL-Qp0TCfcXsQjnTREfvIp6aTa8VnpLByJP8cnNa8i3qlDeW73pttOKbGx8sTf87DusiznlNBSLPkIQ.jpg",
+        "ratio": 1.4545,
+        "post_url": "https://t.me/mark014blog/1081?single"
+      },
+      {
+        "url": "https://cdn5.telesco.pe/file/ClzcFrGkfTYFpnlPCkB7Z1jAdD6_tss1cD_UrraWTA_ioFsG0zzCExtD1dBbNcZPcYc5AfOfXAidb7g4AvuDJldmnRHLiGqfCdYQhqCYCiVkBD9jMuNZRvp_mO7_bFruS_ih-fpk94DlUJN9t24cZdkNjzcB0N_VEh65XxmNhF6RhlVLPRTNcjLSGjHPJj9Xo-X3S8Gynhcgu5vj8nukSEn8oFP_LtqzC9Fy8OwONntbWnlUZoFLH5uv86mjhO9Kh_aEcohAQrg9ahHbX-dh9ooo6T5UQJLWpSMar2b7QIMQ_E7_L7Vo0mGxeplXJ8sfpSApYnj9k5cbIxUlsUyQPQ.jpg",
+        "ratio": 1.2987,
+        "post_url": "https://t.me/mark014blog/1082?single"
+      }
+    ],
+    "videos": [],
+    "stickers": [],
+    "documents": [],
+    "link_preview": null,
+    "forwarded_from": null,
+    "reply_to": null,
+    "reactions": [],
+    "has_links": true,
+    "has_unsupported_media": false
+  },
+  {
+    "id": 1080,
+    "url": "https://t.me/mark014blog/1080",
+    "datetime": "2026-11-27T08:07:18+00:00",
+    "date_local": "2026-11-27 16:07",
+    "month": "2026-11",
+    "edited": false,
+    "is_service": false,
+    "views": 2,
+    "views_label": "2",
+    "text": "已經有一大堆主機遊戲被反編譯了 (喜\n\nhttps://stage1st.com/2b/thread-2292779-1-1.html",
+    "text_html": "已經有一大堆主機遊戲被反編譯了 (喜<br><br><a href=\"https://stage1st.com/2b/thread-2292779-1-1.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://stage1st.com/2b/thread-2292779-1-1.html</a>",
+    "tags": [],
+    "photos": [
+      {
+        "url": "https://cdn5.telesco.pe/file/TNi_YHEmefoh6eFecj2HxneGSWqdffRTNUs2QoF09JJ_ztFWWmyCXGR-EkfDeiFM9_pttbTZpdpwygPoPiPaqgd7nackFtZhkNJc5YSBF61X-lihiQYhdBye9V02IKM0XJDR-NlyEHl4fBjLeMc1UihiBtPEo9ro-Wi0cXVUGADifuF5XbxudG3wLYrbzT7yOeepNBlaHxJaSll_BGBe--GUD-jGIJrlf0qSX_z3C4mitFR-FzTeZn56NkB3RVTcO0ZveUQMG_Rmtm32MuP-PJf_j2KA8jb6mAGroaqI9kHdNHocvTNuigyzLc8Eluqb9E94cQyIlqomuMaw4qEFlA.jpg",
+        "ratio": null,
+        "post_url": "https://t.me/mark014blog/1080"
+      }
+    ],
+    "videos": [],
+    "stickers": [],
+    "documents": [],
+    "link_preview": null,
+    "forwarded_from": null,
+    "reply_to": null,
+    "reactions": [],
+    "has_links": true,
+    "has_unsupported_media": false
+  },
+  {
     "id": 1079,
     "url": "https://t.me/mark014blog/1079",
     "datetime": "2026-11-27T04:14:26+00:00",
@@ -7,14 +102,14 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 1,
-    "views_label": "1",
+    "views": 2,
+    "views_label": "2",
     "text": "和 Claude 一起汉化了 Dead Estate —— 秋风塬上 🍁\n\n和 Claude😁 一起奋战两天，消耗了大概80USD（等值额度），做出了可能是最好的简/正体 Dead Estate（死亡庄园）游戏补丁，除汉化外，还提供超多丰富的内容。\n\n在此，作一个分享，希望各位喜欢❤️",
     "text_html": "<a href=\"https://awads.cc/index.php/archives/39/\" target=\"_blank\" rel=\"noopener noreferrer\">和 Claude 一起汉化了 Dead Estate —— 秋风塬上</a> 🍁<br><br>和 Claude😁 一起奋战两天，消耗了大概80USD（等值额度），做出了可能是最好的简/正体 Dead Estate（死亡庄园）游戏补丁，除汉化外，还提供超多丰富的内容。<br><br>在此，作一个分享，希望各位喜欢❤️",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/rLh3fs0VIt1-Ni9C19O-lWv_IzIRY5NIUQ-KQEMRYucM_uuzQUTVY-eBUdi1Hbs4eVFmxVSxfvI07Xme6iHkPy9epIvLU0wD3bofgHcwWgst0uI55P2bGR8LXkpR3t4tvnIhgR1cyx4HIZL6LmxM6FdA0DSON_TGpYzJ4CxwwYK7oIA0Wd2x_JKWVmO2frzjgsEa4llNi7TByb5mGN3GdJ8k2o768lnKCZRy3A_nvc1a8UP_ayurpKllpTFSJbX47r2huEDQUqPjdCdcmb-RYW6f7Mp7kzExGiaeaM1VZmi46dg2KZ76nTEf41dqFPz4Yg39I0Z8qERNRWBdzRQUvw.jpg",
+        "url": "https://cdn5.telesco.pe/file/cRkdgGMbO7rWtVB4vQ_J4jPY7jkYgSmCF_RJWLbXMLPffWqFWZwCyXJcM6QM4V0FNCgJ4S2u9mjx3ybXcudc-tyCPf6ktIwFBFg-lpwrtDzTz0OOa0K8XbUIOzqRdMHNHM-fouTmaAE-b9qe-Y76Ip1WcEemNyvXo6ZxnTJsgFycPslFbZdEmkSbEk80araO18NeDCAgHL5Z_jJBnkfXC94T63asLBEkL-sZyZZ3b5_Wq_oslnnyhvhExwME6xxydYsny3Gp-D6f8LL44pQbQMEPzwn56j7yYDj7Fu0zdeCZhPQjXwALamQFsH49dYxTZVXOuumQyLGgs03ezunjJg.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1079"
       }
@@ -43,8 +138,8 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "z-lib 新域名 https://fuckfbi.ru/",
     "text_html": "z-lib 新域名 <a href=\"https://fuckfbi.ru/\" target=\"_blank\" rel=\"noopener noreferrer\">https://fuckfbi.ru/</a>",
     "tags": [],
@@ -79,8 +174,8 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "via: https://x.com/locuralamia/status/2125726358596632818\nRubio de Palermo (@locuralamia)\n\n在 Instagram 上，每个人都开心，总是度假，每个人都有钱、有伴侣、有腹肌，这和 Twitter 完全不同，在这里我们全都胖、精神失常、有未了结的复仇计划。\n原文：\nEn Instagram son todos felices y están siempre de vacaciones, todos tienen dinero, parejas y abdominales, qué diferencia con Twitter, acá somos todos gordos trastornados, con desequilibrios mentales y venganzas pendientes\n点我看全文\n我看 TG 上也不遑多让",
     "text_html": "via: <a href=\"https://x.com/locuralamia/status/2125726358596632818\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/locuralamia/status/2125726358596632818</a><br>Rubio de Palermo (@locuralamia)<br><br>在 Instagram 上，每个人都开心，总是度假，每个人都有钱、有伴侣、有腹肌，这和 Twitter 完全不同，在这里我们全都胖、精神失常、有未了结的复仇计划。<br>原文：<br>En Instagram son todos felices y están siempre de vacaciones, todos tienen dinero, parejas y abdominales, qué diferencia con Twitter, acá somos todos gordos trastornados, con desequilibrios mentales y venganzas pendientes<br>点我看全文<br>我看 TG 上也不遑多让",
     "tags": [],
@@ -109,14 +204,14 @@
     "month": "2026-11",
     "edited": true,
     "is_service": false,
-    "views": 7,
-    "views_label": "7",
+    "views": 8,
+    "views_label": "8",
     "text": "中文字幕下載站\n\n挺好用的，搜了四部電影 (2002 ~ 2024) 都有找到\n還見到從沒接觸過的 .sup 格式的字幕檔\n裡面的每行字幕其實都是圖片\n\nhttps://r3sub.com/",
     "text_html": "中文字幕下載站<br><br>挺好用的，搜了四部電影 (2002 ~ 2024) 都有找到<br>還見到從沒接觸過的 .sup 格式的字幕檔<br>裡面的每行字幕其實都是圖片<br><br><a href=\"https://r3sub.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://r3sub.com/</a>",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/QX-kn23t92gpu0LECam4mYzDcc-XtipPAVS1Vg5BWtbOlOik2tVdQuKCew6u-u1Cul1m5-juV1Hl_ccjalVm0fcMuig9K_1D25snKht46fosacTY6su9Ph7Mv5IfpLD-ms3gXMEAZiOcyPOOr3rwwFB4ENG7lJZ8HLaKoJcwidRUYJasbf_5fi4KcADxEua0QZMaxgRuC0YhLw51IO-AS0K74KIAyZkcEeb5jzybLFaKF-A4_fzHH7cNcAtuJVuAJD_D4XLQI0__KNAPXU7dWx4_DDoksJcxEt5-AMx2_VuQJbijygfGliwAxh97F-YyxHoAzISDaWEgGnSp5zCsZg.jpg",
+        "url": "https://cdn5.telesco.pe/file/KqlVB2lS5wmj7DlAy8krpaK8PG12TM1rXxVsUtn7aVSrSjZPc0RIjRMqKeH8PUdOz4tBkgTn6FpguBborni7d_7lX2dPS71M2ueMouAPxm9M3pIRoIDJTaYUfCHKsNPi5GvXNoADJPKQq3RIkTpCFEtcu5VRa7UpfPW6Qsb5JD6vlrNXiwzV_o9XqzOPWGaXFz66c1vx6SNhCFcNhNkTIdW-JlDzDT0X_ptUpXcdcMxDshLQbayqUDRZKuslzXUA3v8eb9C2rQRfL9CgGO-hgPvRrgBzm98PHNvOYHEOoeeAlbOALw1mK-VS_JBC0mhNGovWBlbWfC8jz0HxuiI3yQ.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1076"
       }
@@ -139,14 +234,14 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "Muse AI 有插件可以裝\n這樣就能讓它訪問些平常會被擋下來的網站\n像是旋轉拍賣、露天市集，蝦皮好像還是不行\n雖然得開著電腦，但也還是能解放雙手\n\nhttps://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd",
     "text_html": "Muse AI 有插件可以裝<br>這樣就能讓它訪問些平常會被擋下來的網站<br>像是旋轉拍賣、露天市集，蝦皮好像還是不行<br>雖然得開著電腦，但也還是能解放雙手<br><br><a href=\"https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd\" target=\"_blank\" rel=\"noopener noreferrer\">https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd</a>",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/kNiolPakRcypfKY_jHz-caEP1lBUek_0nuvZ04pjeVducs-dzKiJtg_HQJiMrJ3AFwUjuBCQFmCdO4CAZsakcDB3pmv-gGy4qB9u0bZ4D5K7GzBVGZWha_9ZKXgPrTixzwVwHqJ5xtN13b5EOQWef612JERevzJTSEX9AXvisZ7yQveaR0C-l37hIrLHJq_Zk_Oh1DRvewu7TIjRjJd0jf2rZq0F8EUaanvbb-aBkmzFEQo0nl_sHBR891avDID3MY_DSWoozOdYgdB3ecxKrR1VnGAYSORWcv8PdJLYowvB26QM7r4Seo2WQRV0DdTk5VDevZzhVxOWDK5srCTQ7g.jpg",
+        "url": "https://cdn5.telesco.pe/file/MbUA8ID5FcAftqCKVxdxihbIJBPYwdj5cQlB30VzNhr2jeeBUU2IGJP_xDUTtJb0w6933hag39MUgNXF20mMWApcrVNbyTQ7-CuDuM-K8trXC0GsB9IZ6FSuAm5peraGWFPKlczJF8izZr1jPAm8HPYhf2jXsVaTpJLTLD9I7uZBFyIcE5qFrfGZ4E-feUTPuOl2XZpDTDJWIUB-302vAGVxZxhmMHWazCckovPKGbO5K9-5hrfwZJdKIWEJ44vW5HQ7ZEuv1MbIZjszYrBmFoR8kQkG0Qs7IkoHKil24CfH4OEwn2pkImFm8AzMxk20YubnnjEvh7mS9A2XzLYa6A.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1075"
       }
@@ -169,14 +264,14 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "T480 的內在\n這筆電是真的好拆，就擰鬆6個螺絲 (ˊ不用拿下來)\n用塑膠片把邊邊都弄撬，就能拿下來了\n但在做這些之前要先進 bios 停用內建電池供電\n左邊中間那黑色薄片是 WWAN 插槽\n接下來打算買個 B + M key 的 SSD 插上\n然後灌個 Arch Linux 系統作日用",
     "text_html": "T480 的內在<br>這筆電是真的好拆，就擰鬆6個螺絲 (ˊ不用拿下來)<br>用塑膠片把邊邊都弄撬，就能拿下來了<br>但在做這些之前要先進 bios 停用內建電池供電<br>左邊中間那黑色薄片是 WWAN 插槽<br>接下來打算買個 B + M key 的 SSD 插上<br>然後灌個 Arch Linux 系統作日用",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/FUk0Gjb3ehh1h-syXKOSen-JkYVNTywpA_tp6wIjoJTgwRr8000f2Gq78_ali8vx0M2PK516m9mSMpd7B_jkDiP26VRmX6i3m5_3en_t31WnoR9i6ic4Qr0WsdtzDfoe7o4ojxbGDmilTS4EWYk7MNFiFTbJ3JQ4wbBiqFOxHkRS3-UauZpvRr90Pohd_pVxQVSgZjL2QYjPTCKXZ49M-MANFyhHYVA7NN--SW0SAyR6Grxy1vntW979xCN-zj96RXQZgliDPZLdGwnn-dlj1L-2EGmMdaKDL_VQSGlsWnIaIO3pjIqO9P8PgSqvjt6uDyw-2oWT_XfT1dYTCT_lhA.jpg",
+        "url": "https://cdn5.telesco.pe/file/K20YOhYr-1Im3hARjzNVp4QQGbxYmZe8HKZVZqmDiSEXlxzwMNz_1s6C1Q8tgL0bcXuLgrQ5ZGn4te_eDEJyWP6Ms4Pq8iLyoPJg94SbsN4o9P5TdWJReuTMKFarla5S1OzWgdT69qy_rVaQMLTWDEiCAE8W1NU1cUW9Ej5KXPNn1A0xhCbBPx3erYBPw_nn0E2JgqOyywJbqJRX5K7R1mrF5Vaelk6PCfrW8ZfLkYngIdzLijtTek-d_BXCOHmJtzVnqq1GB5Jy84p9CQwoL3SWNX_faGNufEukbDMTzygfa9GSTkwNHiDc1RHnPa8BExBh2SlLjNggAbw0lk5SAw.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1074"
       }
@@ -199,14 +294,14 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 7,
-    "views_label": "7",
+    "views": 8,
+    "views_label": "8",
     "text": "",
     "text_html": "",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/Yy2ShSQpov2fRYiZxDTO5R9vCITbA8YnfzTyU3jIduC-UzXtZJ4l6zr96xPhBj1Q5ge_1LyXFaoGuN0bDT-NSqtwDOOyrHKluMb9vZFgdLyxjn1b3C3V3M5PGjy3IbnZfhTrr4EH_WEhvvod_Yq7mZe9EBCYLrwzD_wzQEBFWpLrNLYz2vtGK9STsc2EezFEHc4kWocohpvcifm0X-ausKHXGs9jTB6CDXKGEdhpbXamW8OnUBuvPgKaMrCFVxmVHuo7wRopac6CznthcULH-lcOymYmleC1kBlHcppIPE-EOWg7_UijVhSCQQcMDAwUnfTjb0zFtPG0pSeC0fcBdw.jpg",
+        "url": "https://cdn5.telesco.pe/file/Utg8_cW-cNjksM3HCwRl8EJhzK03UGMPLAQHmLmA3UyI53ag2UA7aUHb89MbyKWaCfzhhwGFjRehtinmxD11cU-9Amqw8t7s50nU8YCCjskGg6Z7_Q0whB3EgxlsGRIWS6oT7FWD93NuBQZZf5c3gkTSOdk49UrePERTOSfsmp_EPl0RvF7mzyY8N0LIcv1JXUh26udwlYMHw-J9so2Rqgk_DLFWIvzTKLXHQNskkyTSCFXYcMRm6Bqd1y_XFcGFO3jJhaLMo4z7KQ_g7LywHoeFmXbn2uGofkHA4hoMefEtmsJoL9Ce_3iXx5xjY0NmwMZ3GbKcXCg5kWgsvwKx4A.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1073"
       }
@@ -235,8 +330,8 @@
     "month": "2026-11",
     "edited": true,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "真安卓電腦\n\nhttps://www.youtube.com/watch?v=G4VxDW04KJo",
     "text_html": "真安卓電腦<br><br><a href=\"https://www.youtube.com/watch?v=G4VxDW04KJo\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.youtube.com/watch?v=G4VxDW04KJo</a>",
     "tags": [],
@@ -249,7 +344,7 @@
       "site_name": "YouTube",
       "title": "Can Google's Brand-New OS Save This Old Laptop?",
       "description": "Can Google's Brand-New OS Save This Old Laptop?\n\nIn this video, I'm installing Googlebook OS on a 9-year-old Dell Precision 7520! Powered by Android 17 and ChromeOS, Googlebook OS brings together the best of both worlds in one operating system.\n\nBut there's…",
-      "image": "https://cdn4.telesco.pe/file/d8DqyJ67puCXFfN5uihXdih2hK0Q-HYeO2aJCqSp52qRMSm_fB8MKCjKoOveWWj8nW0ppvXg_wGb1H_BGRfjdYz3yyEZyvHWYxY_sugZ1uKQcyGrOOZYC9EtHLFBpmNezzhkpxX-Szlz9iNzVAErtey6K0qEX6Mc6ZPblqGqnO-JVbhDlQZZy4ej0ilvw99QQ-FCNQmSj8BiBlp234Is5iRnIXduWENF5jItIqzCYiBTum64tNHI9Y-7wVwunDQA9I0WiK13poTnP8bt2HqYGn9RUtC7ifPfO1P4gTXDyoMy2_q5VIPHSjHwKdZ5TB6nJKZdOOemYxaIt9tUegdD4w.jpg"
+      "image": "https://cdn4.telesco.pe/file/p3f5TP3IAAiq_SMkfsFm1HtDOahJkRvGXtaEQHOPLanIbIKWu184jckP_ynFi2i3xEOTrDqsogLBrcAc5iADIBJZqnIJRALXm56GJEG7odzBlTo75lO3PkWFPSG_HDhrPNaaEJAuwRTfheKOB41Khu0_ZoLAMWez4uTVCfnKiOXlII9JAyj4z-8tOPKzP5FofU0Lym9LsILOrQSrljjOPLoUt0uDoP-lJIpWrTUTanodSesiqT1kWbIow1gOM7RJbUk7SERBd4r6374TIAYNszika3xUE5qV8QM5q1yYrebm507-eIaOW2fHXbilYRLjeKA8CZpk6KkHZNJGsH0ChQ.jpg"
     },
     "forwarded_from": null,
     "reply_to": null,
@@ -265,14 +360,14 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 7,
-    "views_label": "7",
+    "views": 8,
+    "views_label": "8",
     "text": "創投資本家暨Redd創投資本家暨Reddit共同創始人亞歷克西斯．瓦尼安（Alexis Ohanian）指出，\n我們通常“不會發現某個東西有缺陷，直到有人向我們指出更好的方法”。\n然而，我們沒發現日常流程有問題的另一個原因，在於那根本談不上是缺陷。\n從外在來看，不便之處像是缺陷，實際上卻流露非常有人情味的一面。\n\n—人生4千個禮拜\n\n出於好奇查了下原話的意思\n瓦安尼更多是站在商業利益的立場說出了這句話\n讓大眾知道這家公司是能解決痛點、造福人類的\n而作者則是用這句話來說明缺陷其實是能用來表達心意的\n\n同樣一句話，能解讀成兩種截然不同的意思，真有意思",
     "text_html": "創投資本家暨Redd創投資本家暨Reddit共同創始人亞歷克西斯．瓦尼安（Alexis Ohanian）指出，<br>我們通常“不會發現某個東西有缺陷，直到有人向我們指出更好的方法”。<br>然而，我們沒發現日常流程有問題的另一個原因，在於那根本談不上是缺陷。<br>從外在來看，不便之處像是缺陷，實際上卻流露非常有人情味的一面。<br><br>—人生4千個禮拜<br><br>出於好奇查了下原話的意思<br>瓦安尼更多是站在商業利益的立場說出了這句話<br>讓大眾知道這家公司是能解決痛點、造福人類的<br>而作者則是用這句話來說明缺陷其實是能用來表達心意的<br><br>同樣一句話，能解讀成兩種截然不同的意思，真有意思",
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/OLSwWe2CTLNuKx4R4HcEtAsDuaDvmz8w9dBiNJ4tfdw75lSC5O0T6jyjxkBzNW0KbeF4ulR3xI55WGRZ8otbTNYd7P2ytepzDSgAtKq_1NvgMoYGSJo7ovp9dqyxfJx2ZooWRA4qtg1jI6X5uXjp-iPJEAN1MTuJVcizQd9Npl6BbT5A3fhTotMQFZgJh6Cip5rmV4vgzfg-K3C5l9Owh6J7eA3QLyy6hnHbPSBVFWnFtJOW4VVNeo-HBQEcwZz2a8YyTV4ejMSM5NRA4QGsK0DEvj6DppqVBDND00ChPVQGxKPUZ37rGZe80kERxk02NYsZM_y1P8KcSqxunkEg8Q.jpg",
+        "url": "https://cdn5.telesco.pe/file/dMSqmbONylO5n7US_cozjkXfM4hOnqAamdXq5QVtoF3VgMWV3paVNbmKUEMcQlkzXYFUkhbSVzI4fGJmVAlU0d42svQ9F2udtCpi1cBoyg1AU-bDSgA_5sPXVYS9kVtPIsaf6iu5y6LcFzGxmMfSs2-fmStiSFOlfu8Kmy0ureIvmKm2hfzrj3tBG0_ga-MTxSZFDRhLEb15H-KtFsqVfIVeeg7Xvoj7880zPtDS7Rr475oXLnQ0k8I1yKLjX6IYZyFcw8tdpGahzsssOz8gKMQRHjdu8nsbNkC4R3BYrpE1-y0FP3lA92FAg00f4nqMrOU4wg64Z2-J_D4Xj214DQ.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1071"
       }
@@ -295,8 +390,8 @@
     "month": "2026-11",
     "edited": true,
     "is_service": false,
-    "views": 6,
-    "views_label": "6",
+    "views": 7,
+    "views_label": "7",
     "text": "https://youtu.be/lsrqCqI_tpo",
     "text_html": "<a href=\"https://youtu.be/lsrqCqI_tpo\" target=\"_blank\" rel=\"noopener noreferrer\">https://youtu.be/lsrqCqI_tpo</a>",
     "tags": [],
@@ -309,7 +404,7 @@
       "site_name": "YouTube",
       "title": "You're Learning Cybersecurity WRONG! FIX IT!!",
       "description": "Get started with TryHackMe for FREE!  https://tryhackme.com/dzumabf\nGet 40% off of TryHackMe annual and professional certs in Black Friday Sale with code: DZUMABF \n\n\n\n\nMERCH: https://dzuma.shop/\n\n----------------------------------------------------------…",
-      "image": "https://cdn4.telesco.pe/file/jO-M50a74eYikArbUdCSoSVwPrXV8tllpkInsZwXUfpm9NuxKlSfpwWZ4Vp_h7miiSmlLB5Az8ete2DC3oskgEYUnbfHnvCcfm3OP8t3l5yhf41WYZjpzdQMVLu_yT5UFIbEN3ru5txJC-7v9pHo9x9D061WXCXAXdMDIdQlBj3vZmbSfUxJg0vJIuyOdFEwaXrHsSaOvL-T8C5cnqsvM9-JSmj9niSpvjfhgfQoCeDniPjdO8oSldnjraeVRvUHy0_DPpzIfv_6CMtGR_LpJNOJ0U1DMbxJgF61HprB8uiY0agOixzee28TgVASomZee6v9zjnEMLMFpBq8GPSx9w.jpg"
+      "image": "https://cdn4.telesco.pe/file/iLir0liCsVOi5vrbaHEdBxSlR2BWNidg2kr5xVnK-hsB1Mxz43waNa7hYHTJycAGjdxPTwGdkxWn-LNaMMwZQbpfvobzJn9x9QpKlBQsgh1nlnKPEHP7mpftMuJqub3CQ2Lua4clCbgzYvPrObHaoUIKEtiMnY1hEwHyHUdee1JWNEw6A1XrTj17ksBMTawwbPn1kDF0ynfYsnxD3YUBEPVNX1VwMoIroM9ZXgLjvxNTB8SXjVdHApRtbcWA19JsBprnt58jepZ7w7QwG8XgFNjzcOAbOWksTmNfRYmylj1Mj6u65MfRkXCyR9Su-hOWbOdEzpvfjMKg4fuCAhTOew.jpg"
     },
     "forwarded_from": null,
     "reply_to": null,
@@ -325,8 +420,8 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 9,
-    "views_label": "9",
+    "views": 10,
+    "views_label": "10",
     "text": "Cat Gatekeeper\n\n以猫占用屏幕的形式阻挡人看电脑屏幕\n\n作者本意：防止花费过多时间在社交媒体上\n\n支持：浏览器扩展（Chrome和Firefox）和电脑程序（App Store和Microsoft Store）\n\n访问官网\n\n#网站 #CatGatekepper #浏览器扩展",
     "text_html": "<b>Cat Gatekeeper</b><br><br>以猫占用屏幕的形式阻挡人看电脑屏幕<br><br>作者本意：防止花费过多时间在社交媒体上<br><br>支持：浏览器扩展（Chrome和Firefox）和电脑程序（App Store和Microsoft Store）<br><br><a href=\"https://cat-gatekeeper.app/\" target=\"_blank\" rel=\"noopener noreferrer\">访问官网</a><br><br><button type=\"button\" class=\"inline-tag\" data-tag=\"网站\">#网站</button> <button type=\"button\" class=\"inline-tag\" data-tag=\"CatGatekepper\">#CatGatekepper</button> <button type=\"button\" class=\"inline-tag\" data-tag=\"浏览器扩展\">#浏览器扩展</button>",
     "tags": [
@@ -336,7 +431,7 @@
     ],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/Kw7o6pFbnaf3C1oL79P-X9CZbzu_WNJkSuRWFpFfS8kEjF4zO7Y3domNniTiJflWB3wP3zvls5LNV91RD1WpIpqL7wZ3tc-N34QEiy0YnEy7aSxB_5DpL9kpjA2kD0qKjKnkh0tuBisVZzck2pm7HFp3TDOGem69Y63IZBweS15sZsqYuy0ZLdIjD2jsXVwJhxvGUPizubP8hqM4g2vNzoCxKJMj_zB7bimpf6yxK0Q1IlLQKTd-Mql-BKeWIVTa5V2KSeqrsRgs3t3Ybl___OiHnv9Id1ME6peMvUvLykZgMdKPy5VUCi6dnh4r4qCTfvk-eHSUszhbfUjc0jAupg.jpg",
+        "url": "https://cdn5.telesco.pe/file/P_rKqz86pg1wNbKZqD5s2g5LnvhqdvQ8y8m5ETmcPdaOTCEpqYp8oUaBje4TrLCiTGHQPtmuFZGQVfGquW1XmmVdxfFPGdBpeor8ktcj5je_Nbg2T8DU3nYETHBWzYEcbq1-N6U_gekkmlxvb-sZi1J2dheuzZgiICczE_TavF1NqcR9KI4Yx8917TOX0-O4BQsqzDo9TYevGdwqsb_6txmJBYyKYAZJANg8PJQDIWWLALsn9QfzmaIGoLRhADDKJgArYi8SzLrT21GhEO1DW6BCpKYdrVJrDcLpr5mNeu42Z6-40jsOed3eVgSXSSL7VBgw_WS2oPlWKVBCQyfUMg.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1068"
       }
@@ -372,7 +467,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/WvrVPL4351SG5q1aT8Lm-NCbykhd356__wVeoWYhKqBQnXaifugsK8UIKuNONMe3_Dk29CVTeUnffsb8F-qStGZLqmTSnnGxc34roM5C5ZaSxsXPRStUieaGeWN0CkLfIH-bEHi_pyHPgdJiGCDXmF1gi2oMLZnydVQIKQxEt6JtJ1iZ0iTyKFBPC6O19bU0zjVNnXcH9VBdSgwAmgLwMzsgl_10CaCcQox7MKM4aGgGNF8_JMaATGYem0sZqrA5aQtQjJTcx5ExzjHfG9dHqGCDUtRxi20ybWo63t4EfzbaoNjuQCeKZS8FTN0VjAQdVs8Pvfrim5-xrWTjvBrqYg.jpg",
+        "url": "https://cdn5.telesco.pe/file/VA785rcUdGOsuksgPdsW8S8AmObwsyRSvaF6qKf1UGR9BS1WtNqBWKkiuxobBm7ER43liGG09Z6WwoVlAr6enQ-rBGXyA6eOGLaCg0HSPtWV1rLsk_MhpKdusAGQb4EznwxDWYp040g2idVWMVJkop3JPDzpj7wOhVgLF91HCNUJVsevPfs3T90MvJkAbyprKvblbpboo7_wLDuA_Gj1QAoZdRI7T3JeoxgMtJr9yR-8nUZp1oDG0OrfG9zMpogObvsEhvej3t7wcZImGnaRRC9FLiSstaB4qjWu43LFAJSy9ve-PItzVQq7XqZKIBmjRDkESSwAoxpnaRpOUaQ9ww.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1067"
       }
@@ -402,7 +497,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/BzLJwr4yR1Qn0NWqzvwiZA95tpjHVdQfpPkyloNKBkZOYzgwFo01Co8czFh59_fWh4wdtNo08v_upFg56365-2p3EquuNxe-DS8W9GYDvvYSTWe3goEhAOKNFVXdgkzdkyRyjJrfgQ10TPPPop5QhNWhxSJWLTT1QYezgk3rGgZFJpI4NyLvGVPWOvFhp0VakEwvNHp-6ZOVTNBaHRPPommiHqBsOKi-gwq3S8bduaAPk-J48CDfZ-nCS0iZi9nZZxsA43eAS-eMdzAGmYbY_Gdy99JmMvpfdGFqhV0tfx9mGPNL5_Mg3VW1NN9Vsg9vyIUA15i-nQvLu5Z94sTGtQ.jpg",
+        "url": "https://cdn5.telesco.pe/file/Cjdm4s4IJv1critCwH5D16-JUgxjqYUJfKw_RIvuJiGX3Dde96Oq7fKCcnNVTeKaOftiRBs7RJnSD9N_XUJ7LQeJ6s3V_Msgy0xzFWhRRGFywiESVb9UIF0tQLo_tdDKU0UXy-di2zmi3SsXQXcDbwThwwsdx7uFDxavjdzdQ5_xJI91FS2-1_3A8cYqLxVdpvY_9kz4t1YTsiOhHjwJNHVNTZWN-fri-7U0rcE-Z3Nmxmfas8TTN7-E6lq2ikVkqNNjxxtOXcWKz9q_sKfWXfPaI9pL1DEnPCe87fwmrxJlmYIcT8P95tRKza6hXhS5PGtzMmlT7D-hCOsdCEvkcw.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1066"
       }
@@ -425,8 +520,8 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 9,
-    "views_label": "9",
+    "views": 10,
+    "views_label": "10",
     "text": "刷推真的不如问ai。我现在几乎不会问别人问题。周末跟ai聊了2天学习美股以前的历史。\n\n世界上能比ai懂的没几个，比ai懂的也不会跟你说话，也没那么有耐心。\n\n与其天天厚着脸皮去问各种交易大神应该怎么操作，不如加强思考去问ai\n\nAi当然没办法对你负责，但是交易大神其实你不会对你负责，你觉得人更靠谱的，其实潜意识是“出错了我要道德绑架别人给我负责”\nhttps://x.com/dotyyds1234/status/2125033521328836610",
     "text_html": "<blockquote>刷推真的不如问ai。我现在几乎不会问别人问题。周末跟ai聊了2天学习美股以前的历史。<br><br>世界上能比ai懂的没几个，比ai懂的也不会跟你说话，也没那么有耐心。<br><br>与其天天厚着脸皮去问各种交易大神应该怎么操作，不如加强思考去问ai<br><br>Ai当然没办法对你负责，但是交易大神其实你不会对你负责，你觉得人更靠谱的，其实潜意识是“出错了我要道德绑架别人给我负责”</blockquote><br><a href=\"https://x.com/dotyyds1234/status/2125033521328836610\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/dotyyds1234/status/2125033521328836610</a>",
     "tags": [],
@@ -455,8 +550,8 @@
     "month": "2026-11",
     "edited": false,
     "is_service": false,
-    "views": 8,
-    "views_label": "8",
+    "views": 9,
+    "views_label": "9",
     "text": "新浏览器 Ladybird 释出首个 alpha 版本\n#软件\n\nSerenityOS 项目创始人 Andreas Kling 从 2025 年起带领一个团队开发一款全新的浏览器 Ladybird。Andreas Kling 在诺基亚和苹果工作时从事 WebKit 引擎相关工作。Ladybird 的引擎完全从零开始编写，不使用 Blink、WebKit、Gecko 或其它浏览器引擎的任何代码，常用功能如图像/音频/视频格式、加密、图形等将使用第三方库实现，但浏览器引擎不会使用其它浏览器引擎代码。现在 Ladybird 项目释出了第一个 Alpha 版本，支持 Linux 和 macOS 平台。既然是 Alpha 版本，它显然会存在很多问题，部分网站可能不能正常工作，软件也可能会崩溃。开发者欢迎用户将崩溃报告发送给他们。\nhttps://ladybird.org/posts/alpha/",
     "text_html": "<a href=\"https://www.solidot.org/story?sid=85972\" target=\"_blank\" rel=\"noopener noreferrer\"><b><u>新浏览器 Ladybird 释出首个 alpha 版本</u></b></a><br><button type=\"button\" class=\"inline-tag\" data-tag=\"软件\">#软件</button><br><br>SerenityOS 项目创始人 Andreas Kling 从 2025 年起带领一个团队开发一款全新的浏览器 Ladybird。Andreas Kling 在诺基亚和苹果工作时从事 WebKit 引擎相关工作。Ladybird 的引擎完全从零开始编写，不使用 Blink、WebKit、Gecko 或其它浏览器引擎的任何代码，常用功能如图像/音频/视频格式、加密、图形等将使用第三方库实现，但浏览器引擎不会使用其它浏览器引擎代码。现在 Ladybird 项目释出了第一个 Alpha 版本，支持 Linux 和 macOS 平台。既然是 Alpha 版本，它显然会存在很多问题，部分网站可能不能正常工作，软件也可能会崩溃。开发者欢迎用户将崩溃报告发送给他们。<br><a href=\"https://ladybird.org/posts/alpha/\" target=\"_blank\" rel=\"noopener noreferrer\">https://ladybird.org/posts/alpha/</a>",
     "tags": [
@@ -531,7 +626,7 @@
       "site_name": "Telegraph",
       "title": "ٰ (@yesimsvrfer)",
       "description": "source: https://x.com/yesimsvrfer/status/2124596153903952194 今年的成就： 1. 没有自杀 2. 没有杀害任何人 原文： achievements this year: 1. didn't kill myself 2. didn't kill anyone",
-      "image": "https://cdn4.telesco.pe/file/RJpBjsRRf8zCMGdPKOPnveWpEGm0WkCZQ25_NBnsnbonUle9Kaf2l5ybXhq6D_umjv3qAX0Q618pNlrR7sgdoO-lhkIp6tvlJXG3IhdiTvUCbzgtm0vR8ixSnJjPVbHJdy-va8gEfO4a0CToOjBGkxiqrbmagCs_RMEGU_iFWpJMOdOHFoX2kaT2L3ZnTMnNOpedvHmo0QfRRq5WCc1jBnu881OVe0tkCoJDOqh8Gjs_LKLraAgSTmDYbTb5fGhDjllBFQLGyeLRZNtuD5ax0PTaeYrWofoyOwDJgAZzJbv4JemGOKS06m-5Xt7pkLEJgchzptYd2D0o3w_EYo3qaA.jpg",
+      "image": "https://cdn4.telesco.pe/file/GsXMP0bR64ohZu66neqziu8iaUltx7Bie3vxaZqw6veH6ECNdtcAFaxKwQF0kYRGNEVr_yRTy5i-rDTA8Ltz_l4dm05_BLQ0KpuD-guzlcd_KlhPk9QQKx16cLu2LdlGu-yc6SmPaH6AC-2aM4W1dFrPI7A4EkQ7uYKzcLX2o0RlU1tLArL02BMFlP2WqtGXgYRyeKeiU98rJUUALPywKiO17FxhTDUSxKHt271SYkMgP9f_rvqDrAM6Zu-gIzCqgHxu4XSvhznGQ4cBNbru_xPQCQimjNPEnDrQU1wJEs_txUrfFTwE_HnTzRP6SAVRvV2SrtA233kzwHsrXsSPUA.jpg",
       "telegraph_html": "<p>source: <a href=\"https://x.com/yesimsvrfer/status/2124596153903952194\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/yesimsvrfer/status/2124596153903952194</a><br><br></p><p>今年的成就：</p><p>1. 没有自杀</p><p>2. 没有杀害任何人</p><p>原文：</p><p>achievements this year:</p><p>1. didn't kill myself</p><p>2. didn't kill anyone</p><figure><img src=\"https://xpost-k7i9ni3a-gentle-canyon-7.cloady.io/api/card/2124596153903952194\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></figure>",
       "telegraph_len": 150,
       "telegraph_imgs": 1,
@@ -571,7 +666,7 @@
       "site_name": "3DMGAME",
       "title": "继纸质抖音后，小学生们开始在纸上追短剧了",
       "description": "我重生了。上一世，极端太阳风暴席卷地球，全球电子设备遭受重创，人类无法收看短剧，San值暴减。这一世，我一定要让短剧脱离载体限制，在无法使用电子设备的极端环境下囤积居奇。",
-      "image": "https://cdn4.telesco.pe/file/UGXPt7UN0w2CL0afJExHZcP5H2FnOAyoZlAoRq1VqXtufg8wNdkJyz5FjUK1P64_Bz91C4ydl76oYy-7iEM_XmF0QJ6ChqBipgb2nb6DGZQLg8Hgy5Zjf46W9IGpwKizjIRcpWWwGRTnIsFMqjUnERWwfymjM899t1EP0Z-NzYdX_-miMxCVidi7FN1nWJwCX-e0pXqNNAJsgXVfPHd0FhkjluRZ4RsbMAZcZpJZjxiLLETfc89inCmJIguDc9Ff73kOuw6_uuYkZCzMjeqtMag-oXb2qWmnjco8q7w6ivsP2FctGCSegTKMP_Qokomeb5jT2yIWmlaKs9Qyo0pMvQ.jpg"
+      "image": "https://cdn4.telesco.pe/file/ZRTVomCcK3ryV6hBK96mn0MmlLKqWvIS3hHhXrrr0JDSTblWqmgRk8crrjyN05Q9xf3FjLjLAsqTO8eWbr7mgmf36oyfJNkXbKPLc4rbeFjERKJ06VyT-PQb5C8FXQXJS_W-r-okmMO77dzjHKOa_B9OLzKN_ecjMtL17m24F4hXcHl-TT64MRNCl3MpTj-LJO4FGIyiC9O0wNVZOsn-ZGEQ_T39eJmxDBSBjjBcVAvlAtnKjIIDY9mwVP6abWmXN3j3d2Vh4I_kqrc2A7PDe1c2kkyCXUv1Ai7OMNnGBuUZe_mSypEyXK3TPXURSSuTRriynDP9R78fk0Ba_aRBgA.jpg"
     },
     "forwarded_from": {
       "name": "每日消费电子观察",
@@ -600,7 +695,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/ll2HttIYbutKwxoUQWySrNCoDSJzCs9yiLGOncVm_2wBeFbZ2Wj4z2Lif9i239lN8sMZujKqvz8l07JtU8Yn43my6ad4lWh89Yb7WiJ1i4uzoBL_iaQ6gF3XCcUWLXVje7aqFmxAuuFS76JyHo8V-f8D5rzqY1ZPqPEOr-zcfE-cngUpYVW2OYRbRtJd7owa2Kso3znIng5QFlU8glsLkAxQ2LR8NUpdaJvcctjLJf0MM9GX-QAQZAEOGDuDaQwJn8n5xJuxDtQN4UkkFF50zH1e5VKPs4SwePBReF4YVQ4rptQKCgVUyLgApTzGgnaiw0KBA8ly3_LUuCQ_n2mYPg.jpg",
+        "url": "https://cdn5.telesco.pe/file/ViokPuaeqYeAVVGmrj_VCaixy3RyB1T-TBL2Aai2adncI-1EFEUxL-GFhiYXC8Mx3kwwDu_iZ7Canz-7l4BltS8mvQgVeloOOTSg8TTS7a_mgWjhP6ekJ3I4Juc1524C_iBjECWe3OnuQlwpj-peOOQcnfxsIIyTDxHs0DjVzenq96ipjDATYw3LSxlml-6R_hWfbEQaO2C6GSzx2KMAHoQG6V_bkDJwRuTkEWoSg3mg8vHv_rf5Rbtk0JnZKafOM6djh6CW-JT4yPth_YQ7PS_A0fmwsM7nZQgsfc7V17vq5neatqJuukxNtwkjGrCsNtd1zqKyXxGvPBRSusmq_w.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1060"
       }
@@ -630,7 +725,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/buwrYm-x6aNbICyh2geWfeznhCjL1ogPFObpZj9XiGlgv-0_S6jqB-HET1KIfjHPWH9GN0TYQPT-3YIdpHE2fcdC34z_e_zdR0vB6GT96CGTl91qqtQloP0RBulcLd7lZyoMhZOuv2PDqd8YMDhEtVxAFWaANtAI4QZV6B611hdLKzW_mrTVNURVe82snPtwjnbQNsRyPqvjGEjbytiYX9ZyVEPdXTwQynBn2rFIDoxQPvmIeWAjCwH2gqPusQhYtwgLE8nqHU-yAmxoJEmopWVVsOjRHigbkabT6zT4gz_IRusnEdcSfWYm1rFVUS0r_LcAubD0ElY5hMhJXxyUKQ.jpg",
+        "url": "https://cdn5.telesco.pe/file/JIxjwQ74R-E3AovtS2ibmwrlAz4oCXeeX9eYtdeEFAXX_1J9VYmZrxDBaBds5wt69GYMcu7_ip-EGGywvc4PrKmvWaW4o_aqaF2JFxPY69HBio-N3j4bFHmw7LdJ53wC90Rp2F3vMhNXSTQPf5ENTOPuKMl1dl3w89ZlyFqMuxnFtITrozZSiT-ZHE0sfQFoLI5LGQcjl4OkKkGNKJrgIIUwOXRu_pqjdUuH_E7uONJks-l5yoWzln5eIDz1Vd4hOOksL1Uv9F-qPQK-B-KEt07TIEoEcINWdWXU8kb9t2XK_SJbq145Z8_Ya_UV4o0kXJaAgAH3XUBJBVq3UywYnw.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1059"
       }
@@ -667,8 +762,8 @@
     "photos": [],
     "videos": [
       {
-        "url": "https://cdn5.telesco.pe/file/6ae82c3638.mp4?token=g0ymfdADJ79LC7tL0cP9ekT3AyG0waPPWwkLgPW8Utak2f6cBHrpz2bu43Vlg0odJgqLQznuOXzklNBDIE-F4nsl4rwGVhFnDEnk63nhj7DjgvkPFzfgd1_p36RNLgTlOpV0N4hrce-y6YuBbjP456TqLR4JvI72jiPPG6i6slsIMBVrm7Fc4qH4O-e13pEcCXzqD_Wwu4HQjvOlwL1WpwH7qGB4-JzOfRJk4blnjw-NdqBAXl-ESxVhROBmj3QQHMR7AkI0_9nhTvtSzNhDJZMJSuKVBjlOzSHayJPZfzqxqClo0vrn5gk8-kavwQCqXJURN-AcQmFEW4_qpQcBXg",
-        "thumb": "https://cdn5.telesco.pe/file/KNKRbyMXg-vpYtt_LWVqkozMA8rKd2NoPpU2OxXBEK3g1opyZ4WuZ2yvpEfy0Z7MSqgcLn8_hDnFd0dn93Uqx7e2o8-3iFiN4Aen2aLennLMSPahfe4BWdix3Ahny7JA3K2CW-JyLegNu26ul9xQEhLMuGUduNYug2nHqLe1ZwfDzHwbmRzNH2HwQJyLbSInSEsMXhUg0HpdVhoZ7Psnt_KuseIOXNi5yiTiTqpxd39YJK10ScRnNxnPbdDUDhugJUU9yWhNaziFRBEeoq1vgB4n5agYxcg5eRnT7MUtX9s7_UWCj27m5l-6jw4632_IqBM8M2liERD8RmvCQc-nNg",
+        "url": "https://cdn5.telesco.pe/file/6ae82c3638.mp4?token=JVrFt5ibFfOE295fQXIiBTvzUpwbUbaxC5IOGUzELnkvWDntf0a_EqUzQBcubPANA8AgDKI7421dn4WHfsCkb3hEvNpzEFh8fSuG2bx5sPbBcZxLFkSTMjx07QxzxMPUXV0XXxcWiMVoKWL9tJmJVnkQVpxccHgotf7cBS-FsCgzCUg2w74_ycTlqQoUg8hd23RCErRG8O73VDxNEAZmAXblAXLY7hf73M8jS8dR1n66DoqWjuqr7IXA82CoF-ScSoUZe8BvoOY2L7CscwPoEj05In9E3o67BoelSQ8PMexAQ3v9htmZy3dEI0f5f_csRGJ4ptKvQb1UAQTkhYaxrA",
+        "thumb": "https://cdn5.telesco.pe/file/OGo4rQmBsGLBdrIB_esRnGT3-RpcQdaK0xatwCZUKpzyPtOydYSqyT5GaOPhn1SBIQ4GPLYMp3DSC9Y2RvYhWWwwe2jj7CuqNC7_aqyk0wZzuuIikhCS69dhjMN-a2YUnLXIVHOaz3MuKtAKXg6-ul5wgkLH4AjT_V9KDx1mR2fnI3L5uhQJZX5u1BNTtwzJKbGY-eH-IJvjEITduBmYymcRR8WMv2Qsc4N4XMB561StZmnMlWeC1W508XwIUCi2WdEPiNWYK-aFQb0rsuTe_FrtZyJW2cR_4IoGUyCqHwnk0aPaVYsLOgHB_loYqe5rfpaeaWbM_IAWo8G4owGBFw",
         "duration": "0:07",
         "ratio": 1.6224,
         "is_round": false
@@ -680,7 +775,7 @@
     "forwarded_from": null,
     "reply_to": {
       "url": "https://t.me/mark014blog/1057",
-      "author": "",
+      "author": "厘米碎碎念",
       "text": "https://pet-the-cat.pages.dev/",
       "thumb": null
     },
@@ -764,7 +859,7 @@
       "site_name": "Telegraph",
       "title": "如何评价文章「让本科生做回本科生」？",
       "description": "回答正文 放在现在的小登可能很难想象，我在川大读书那会老师经常说的一句话是“外面太阳这么好就别窝教室了，今天早点下课，大家出去玩”。 躺在江安图书馆旁边的草坡晒太阳，骑着车沐浴着夕阳漫无目的地散心曾经是我重要的休闲活动，是的，有点无聊，也没啥意义，但的确是我回忆本科时候的第一印象。 我以为回了北京就不再有这种蜀犬吠日的地域笑话，可直到前两天我有事去石景山，回来路上坐了一段公交，看着路边像超市蔬菜摊一样在午后阳光下五彩斑斓的小树林，我才反应过来，我已经好久没晒过太阳了。 好笑吗？是的，很好笑——因为这几年…",
-      "image": "https://cdn4.telesco.pe/file/hUiGaaaqOr4OCGvBJrU5QsAqdUcs59cBhvYBH1hFt8yn7gDViGEAdTfaXIuq3LpklXTYILcBIYougOT4iHcERiMK_B5PgBKR1NTTqh7X_p5bmQzhPeqtpeo6i5wj6y3C26zxMfwF5H1zWezza66ay2BUbwnHO0mFY2zoF-vzWSnykeHj_O-sFy3yG9LVdQpIRmSdnycim038lqtZdjw6jmpRtFph8Eywb4P7YKv8Jqd_yBoL47yylHBN2e-eVB2LkXV7IlJMMwcJ2L0khbmX1mWn7ugcMp6Fd469DX-HZMIdPtFLcBBdVtabnuX4BN1ZpTJAhCFfvp4GcQCqMlYWGg.jpg",
+      "image": "https://cdn4.telesco.pe/file/fMaPt0rIuhJi9iUGyat2CtSnTk_rwNbTZ2Kirbhx_MRZbnzz3jeVsXujG4croNMfKLTHkgr-5t7JD1n3EmndALIdQpvQ77kyJ5b5GSZKzMy8Po6NAS6xQDbLclsTzHbMjb2wutPf0sln4DB9Le9YzYEBRRt9kmLAksewuqJ3Ba5aV26YA1ml36kHCy2eDL0QH4bSUYVKSstkSDlsC4NSrkcX5qrZWCWA1DaWL_NU2zv37jmT-7IsUB46CR5Fw54CcAobmP8wuzbOymUJLEHs_RF2K0XCC_XvHcUqKYc4A8RXEMKPUd_RuCCXMOFeL6Atf_5oBZxkj3PTsTN4KG4XaA.jpg",
       "telegraph_html": "<h3>回答正文</h3><p>放在现在的小登可能很难想象，我在川大读书那会老师经常说的一句话是“外面太阳这么好就别窝教室了，今天早点下课，大家出去玩”。</p><p>躺在江安图书馆旁边的草坡晒太阳，骑着车沐浴着夕阳漫无目的地散心曾经是我重要的休闲活动，是的，有点无聊，也没啥意义，但的确是我回忆本科时候的第一印象。</p><p>我以为回了北京就不再有这种蜀犬吠日的地域笑话，可直到前两天我有事去石景山，回来路上坐了一段公交，看着路边像超市蔬菜摊一样在午后阳光下五彩斑斓的小树林，我才反应过来，我已经好久没晒过太阳了。</p><p>好笑吗？是的，很好笑——因为这几年在北京的日常是从学校坐地铁去单位实习，是从宿舍到教学楼上课，是窝在图书馆写论文，是秋招赶各种各样的考试和面试。</p><p>不再有四川盆地特有的阴云，取而代之的是头顶闪着昏暗灯光的地铁车厢和教室与写字楼的天花板，以至于我真的好久没漫无目的地骑着车瞎逛，看看街边北京的秋天了。</p><p>北京的秋天那么近，那么美，触手可及，却和我三度擦肩而过。</p><p>其实没有什么人拦着我出门去赏秋，是我自己学会了温顺地缩在护栏里，告诉自己今天还有更重要的事，事已至此，先干活吧，事已至此，先写论文吧。会好的，会好的，一切都会好的。</p><p>以至于当我真的空闲下来，我甚至一下子有点茫然无措。</p><p>我被困在必然王国之中了——高中时的牢笼早已被砸碎，可我们已经学会给自己套上脚镣，学会怎么把自己困在最优化的轨道上前进。我们的命运似乎早已被写好了，我们能做的就只是继续这被扣了跳过键的沟槽的剧情，然后迎来终点。</p><p>在学校去地铁站的一小段路，看着阳光下金黄的行道树，我偶尔会会想起那个沐浴在夕阳下满川大绕圈子的无忧无虑的少年，那个脑子里只有做着进了数学系之后学校掏钱让他研究喜欢的东西的梦的傻福一样的自己。</p><p>那是我最后一次触碰到自由王国的虚像，一份遥不可及的梦，一份父母、学长、老师们最后尽力为我们送行的成人礼。</p><p>至少那个在13号线被挤得手机都掏不出来，被迫放空大脑的孩子，还能有最后一点温柔的回忆。</p><p>而随着经济上行和就业率越来越高，劳动保障越来越完善，叠加川大各种严查考勤、缩减社团联经费和权限等一桩又一桩烂事之后，连这份最后的温柔也不再了。</p><p>如今大一的学弟学妹就很积极地考虑入团、跟导师做科研、卷实习、卷绩点、卷学生干部……他们比我们那个时代更懂事了，更懂得少花些时间在一些毫无意义的事上——例如晒太阳，例如傻福一样骑个车在校园里绕圈。</p><p>那份自由王国的虚幻终究是一种虚幻，终究被必然王国的现实碾得粉碎。</p><p>我们从未逃离过最优化的定轨。</p><hr><h3>问题详情</h3><figure><img src=\"https://pic1.zhimg.com/v2-564083371e98dafcc830a0d401bb05b6_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://pic1.zhimg.com/v2-564083371e98dafcc830a0d401bb05b6_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><br></p><figure><img src=\"https://pica.zhimg.com/v2-00afb252cc824114b439fe2446819390_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://pica.zhimg.com/v2-00afb252cc824114b439fe2446819390_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><br></p><figure><img src=\"https://pic3.zhimg.com/v2-1aa94f89f3ac536ac0bea8c4d9050f30_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://pic3.zhimg.com/v2-1aa94f89f3ac536ac0bea8c4d9050f30_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><br></p><p><br></p><p><br></p><figure><img src=\"https://picx.zhimg.com/v2-1fbd86f6691f88369630c298f05be9a9_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://picx.zhimg.com/v2-1fbd86f6691f88369630c298f05be9a9_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><br></p><figure><img src=\"https://pic4.zhimg.com/v2-a23a2a3a2f7feeada431a8ad6e9d771b_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://pic4.zhimg.com/v2-a23a2a3a2f7feeada431a8ad6e9d771b_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><br></p><p><br></p><figure><img src=\"https://picx.zhimg.com/v2-5eded176bfb7030692b91b71d7030e6f_r.jpg\" alt=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer\"><figcaption><a href=\"https://picx.zhimg.com/v2-5eded176bfb7030692b91b71d7030e6f_r.jpg\" target=\"_blank\" rel=\"noopener noreferrer\">查看原图（外链）</a></figcaption></figure><p><a href=\"https://www.zhihu.com/question/2085831224610796441\" target=\"_blank\" rel=\"noopener noreferrer\">在知乎查看原问题</a></p><hr><p>更多值得留存的内容，欢迎关注 Telegram 频道：<a href=\"https://t.me/noticeboardthings\" target=\"_blank\" rel=\"noopener noreferrer\">Noticeboard Things ↗</a></p>",
       "telegraph_len": 1130,
       "telegraph_imgs": 6,
@@ -797,7 +892,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/MmqgG9O3GUBF_s_b0HpfxY8UlnEgEB7tirHfl1v7gLHWxlx2ovA92KYzPCVwIlMB8jAufPzMLNOgJXXEPyrwvvqyEjJmqVjamRQPoMHtlrkS4R-zFYtLqY3hZ0c6IV3JpB5usovx7yjinSe317Y2FqB5rqdMssLeLRiypUCfadHiWQFgWyUzXmBC_BsY34kVZcd0_WEiyvuhJhuCjuWwZZsFIi1nNOUsAEKIfnBJItcoH5WOYp06y0XRSxzBE-oTU1L3F86PuEy37IS3SHqat_xscoESkd_8FkERBKVL8oCkpdOMX_BE_F3NmA4jqaljS1lJvLWvUCjy2YyWKadbag.jpg",
+        "url": "https://cdn5.telesco.pe/file/KQbLSR8SiXpxZf1yHVXn8uC1-CgzB96j6wwfojp9UsLMKvSxdv3RPoKa-fJUxGpZDPv9xfPbKPCESbDYdoRhqKQd5B4J6R9JJEnp8_6ooU_Si5Ojdaj8udjfWKpjaqgv7V9gzJj38nJR34EnvBnPpAUFv9b240oUx2uYEVkQRJXa9rHIIOn-_V4Bgr5NjFHq4PEmEvRi1tvP1esO_9ejQFJPtF7rR6CgHOBf2P8WjkX_UHzlM-yX63GjAL9lZlXWAEH4m6z0bGc5jrMTRCVPy27Ni3W1W9IxtAs2Bq1PTrDiWMDbJ6PsD0fQKXR8vA4xb8RLq_pQkOqrSPcm5So8rg.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1053"
       }
@@ -1012,7 +1107,7 @@
       "site_name": "YouTube",
       "title": "【INMU KING】原発関連の公開討論で突然野獣ポーズをし、「お前やりますねぇスギ」と言う台湾の政治家　#淫夢 #INMU_KING #野獣先輩",
       "description": "ほんへ→ https://www.youtube.com/live/qYCofZZZJjI?si=DDPT3e1snuV4PKaB",
-      "image": "https://cdn4.telesco.pe/file/b5gaFH-UcOJ2MYu5qHS1gmW1ZrvSObvLAVZpqILncLGqwbR1Dj7ilJYMpR2-ttSoDtWJ1MBazBsMG82EucsvD4v-oWzaftoAqQKBQprcYn06umpl2Vh-s6ghfKCUChk6xD4O77AukHCpSCIq6Bqm5ZKmz9QZS9IIb-IZT8sxYz2zybbpomJRZGiNbY-dcCwX5HrGZc2Ep6s3c81CQqtg53mL8PwIJAnY2BkchLzqtZ0bPTkj9MzWslLlnlO-QuMFkhQPH2zeEsLRXzhxglCOWBZuAKMNsnsdjpi-mFtwWhGCVcIyPyXOPLzE-NYVNSDX5AF6KWFshUhxaN9M5p0g2w.jpg"
+      "image": "https://cdn4.telesco.pe/file/HRZC_SOdKegDcUmp9qAPRkBBmfFOEtPP7D18UDGN3CHlisvtT5MobXGHVsSU-3PKBtUkd7uxbexnZpJUELq9KgAEV_Fq7R8cdmrCjJK46VADNyPA_S_ERF7sno-iCJSpfG98FKZjofxTULUfXEgvqoCvLvgRToRd3sSOgBBEH7MWLqo1Jtdes3O0ymhInOXzJcG09-UQ8dMTEojgKZoDEHj8fgtG1D151nhfpnP9Ke3_m-sKO_srbQKlG2_htk5Ez1PuD9XAa5WDem-1JSrd-8bnogopWs6DKQUOYOwKEagk0pCkWlQDWiDatwkyjxuNKcJrNoPmRbKc8L8mN_yVsQ.jpg"
     },
     "forwarded_from": null,
     "reply_to": null,
@@ -1091,7 +1186,7 @@
     "tags": [],
     "photos": [
       {
-        "url": "https://cdn5.telesco.pe/file/CSURoyxCyuuur1d3dNxi2a86rR6WAAniCld4RzUgDs7zSE3fB5zn25JxV269mzO9K7O_noQN1vwQcGTPvpUd2_jvn-WtfyO_IphlRZJyyTaFZ0b6zhUCpybDcArIRedY151vNXDsRDrUPQ12s0FiqUulOGdHoVPyGOmG1rwcDBa3NhkgGVBZ1YDnsrs4duDyU8CPw24XX1yJtEUdqURbeK4_qdK8fMK_rUUo0UZzF-997I1i6CSAZ4SZ_Xb-MC8MFvkyM9sh2ks4EUmjvim7b_MNR_9HSDUHCay5TU0cloFxLMHnDAp731BlIZKCzefO5LJYalJ0GrqGm2zYeH81fw.jpg",
+        "url": "https://cdn5.telesco.pe/file/BCHvnc-cBL7ZVeTMnKuM7SjD_zGxVqk0QNjmuT-ynrU4fsS6y3GOv0GXlaVSHaXdXnvjdAeXIncaU-lJi2tBT3R0znnfMxvH6c9pkeMJzmSlO_DSU9GLd1ZtJKofG1dklux0CZChkScOP4BleuwslAgS7YzikVNme-kdFlGb8H7l-SWH3dDJvNHcpMLb2OrjZiKwoIAFhZsNPgosTj0YM6aDiihC5lC5HhXSMZiy-ik3aRHhYOynSgBpAMN65l0kspdYE7ZtxnnpB0zKz4oIMKnyJEcMJL0YGmlgE0dLTDIfMqG1byYt32bbYoVRdi-RvafLaKhD71p7sBYjjqFgEQ.jpg",
         "ratio": null,
         "post_url": "https://t.me/mark014blog/1044"
       }
