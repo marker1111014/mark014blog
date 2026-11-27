@@ -23,6 +23,7 @@ on:
         type: boolean
 
 permissions:
+  actions: read
   contents: write
   pages: write
   id-token: write
@@ -32,18 +33,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sync-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  sync-and-build:
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.sync_commit.outputs.should_deploy }}
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -73,33 +73,69 @@ jobs:
             $FLAGS
 
       - name: Commit updated posts & RSS if changed
+        id: sync_commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ media/ feed.xml sitemap.xml
+          CHANGED="false"
           if ! git diff --cached --quiet; then
             git commit -m "chore: sync @mark014blog posts [skip ci]"
             git pull --rebase origin main || true
             git push
+            CHANGED="true"
           else
             echo "No content changes since last sync."
           fi
 
+          if [ "$CHANGED" = "true" ] || [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Prepare static bundle
+        if: steps.sync_commit.outputs.should_deploy == 'true'
         run: |
           mkdir -p _site
           cp -r index.html css js data media feed.xml sitemap.xml _site/
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
+        if: steps.sync_commit.outputs.should_deploy == 'true'
+        uses: actions/configure-pages@v6
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        if: steps.sync_commit.outputs.should_deploy == 'true'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: "_site"
 
+  deploy:
+    needs: sync-and-build
+    if: needs.sync-and-build.outputs.should_deploy == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Wait for Pages artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 12); do
+            COUNT=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts" \
+              --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length' 2>/dev/null || echo "0")
+            echo "Attempt $i: found $COUNT github-pages artifact(s)"
+            if [ "${COUNT:-0}" -gt 0 ]; then
+              sleep 2
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::Timed out waiting for github-pages artifact to appear in Artifacts API."
+          exit 1
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
