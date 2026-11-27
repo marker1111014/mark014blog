@@ -8,26 +8,26 @@
   "description_text": "想到什麼說什麼\n可能是網路上的免費資源\n也可能只是單純的感悟、發牢騷",
   "counters": {
     "subscribers": "79",
-    "photos": "484",
+    "photos": "485",
     "videos": "10",
     "files": "4",
-    "links": "698"
+    "links": "699"
   },
   "avatar_local": "media/avatar.jpg",
-  "last_synced_at": "2026-11-27T12:03:27.045978+08:00",
+  "last_synced_at": "2026-11-27T12:17:48.337529+08:00",
   "stats": {
-    "total_posts": 960,
-    "total_photos": 483,
+    "total_posts": 961,
+    "total_photos": 484,
     "total_videos": 12,
-    "total_with_links": 627,
-    "total_forwarded": 299,
+    "total_with_links": 628,
+    "total_forwarded": 300,
     "earliest_date": "2025-05-03",
     "latest_date": "2026-11-27"
   },
   "months": [
     {
       "month": "2026-11",
-      "count": 64
+      "count": 65
     },
     {
       "month": "2026-10",

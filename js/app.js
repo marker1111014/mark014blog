@@ -265,6 +265,21 @@
     `;
   }
 
+  function renderUnsupportedNotice(post) {
+    if (!post.has_unsupported_media) return '';
+    const hasPartialContent = Boolean(post.text || post.link_preview);
+    const label = hasPartialContent
+      ? '此貼文包含圖片或 Telegram 網頁預覽尚未支援的媒體，點擊前往原文查看完整內容'
+      : '此貼文內容受 Telegram 網頁預覽限制無法顯示，請點擊前往 Telegram 原文查看';
+
+    return `
+      <a class="unsupported-notice" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">
+        <span class="unsupported-badge" aria-hidden="true">TG</span>
+        <span class="unsupported-text">${label} ↗</span>
+      </a>
+    `;
+  }
+
   function renderForwarded(post) {
     const fwd = post.forwarded_from;
     if (!fwd) return '';
@@ -324,6 +339,7 @@
         ${renderDocuments(post)}
         ${textHtml}
         ${renderLinkPreview(post)}
+        ${renderUnsupportedNotice(post)}
 
         <footer class="post-footer">
           <div class="post-footer-left">

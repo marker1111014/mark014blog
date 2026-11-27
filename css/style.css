@@ -1248,6 +1248,43 @@ button {
   border-color: var(--accent);
 }
 
+/* Unsupported Media / Preview Fallback Notice */
+.unsupported-notice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  margin-top: 12px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  background: var(--bg);
+  color: var(--ink-secondary);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.unsupported-notice:hover {
+  border-color: var(--accent);
+  background: var(--bg-muted);
+  color: var(--ink);
+}
+
+.unsupported-badge {
+  flex-shrink: 0;
+  padding: 2px 6px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.unsupported-text {
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
 /* Post Footer */
 .post-footer {
   display: flex;

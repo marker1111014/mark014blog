@@ -761,6 +761,101 @@ def enrich_telegraph_previews(posts: List[Dict[str, Any]], tg_cache: Dict[str, D
         print(f"Enriched {fetched} Telegraph article(s) inline.", flush=True)
 
 
+def plain_text_to_rich_html(text: str) -> str:
+    """Convert plain fallback text into safe HTML with clickable URLs, #tags, and <br> line breaks."""
+    url_re = re.compile(r"(https?://[^\s<>\"']+)")
+    tag_re = re.compile(r"(^|[\s(（\[「『])#([\w\u4e00-\u9fff\u3040-\u30ff\-]{2,30})")
+    out: List[str] = []
+    pos = 0
+
+    def render_plain_segment(seg: str) -> str:
+        res: List[str] = []
+        last = 0
+        for tm in tag_re.finditer(seg):
+            token = tm.group(2)
+            if re.fullmatch(r"[0-9]+", token) or re.fullmatch(r"[0-9a-fA-F]{3,8}", token):
+                continue
+            res.append(html_lib.escape(seg[last:tm.start()], quote=False))
+            prefix = tm.group(1)
+            if prefix:
+                res.append(html_lib.escape(prefix, quote=False))
+            clean_tag = html_lib.escape(token, quote=True)
+            res.append(
+                f'<button type="button" class="inline-tag" data-tag="{clean_tag}">'
+                f'#{html_lib.escape(token, quote=False)}</button>'
+            )
+            last = tm.end()
+        res.append(html_lib.escape(seg[last:], quote=False))
+        return "".join(res).replace("\n", "<br>")
+
+    for m in url_re.finditer(text):
+        out.append(render_plain_segment(text[pos:m.start()]))
+        raw_url = m.group(1)
+        safe_href = html_lib.escape(raw_url, quote=True)
+        out.append(
+            f'<a href="{safe_href}" target="_blank" rel="noopener noreferrer">'
+            f'{html_lib.escape(raw_url, quote=False)}</a>'
+        )
+        pos = m.end()
+    out.append(render_plain_segment(text[pos:]))
+    return "".join(out)
+
+
+def fetch_post_og_description(post_url: str, channel_bio: str = "") -> Optional[str]:
+    """Fetch og:description from an individual t.me/<channel>/<id> page when t.me/s hides the post body."""
+    try:
+        raw_html = fetch_url_with_retry(post_url, retries=3, timeout=15).decode("utf-8")
+        tree = parse_html_tree(raw_html)
+        meta = tree.find_first(lambda n: n.tag == "meta" and n.attrs.get("property") == "og:description")
+        if not meta:
+            return None
+        raw_desc = meta.attrs.get("content") or ""
+        lines = [
+            "" if line.strip("\u00a0 \t\r") == "" else line.rstrip()
+            for line in raw_desc.replace("\r\n", "\n").split("\n")
+        ]
+        clean = "\n".join(lines).strip()
+        if not clean:
+            return None
+        if channel_bio and clean == channel_bio.strip():
+            return None
+        return clean
+    except Exception as exc:
+        print(f"  [warn] OG fallback skipped ({post_url}): {exc}", file=sys.stderr)
+        return None
+
+
+def enrich_unsupported_posts(
+    posts: List[Dict[str, Any]],
+    existing_posts: Dict[int, Dict[str, Any]],
+    site_info: Dict[str, Any],
+) -> None:
+    channel_bio = site_info.get("description_text") or ""
+    enriched = 0
+    for p in posts:
+        if not p.get("has_unsupported_media") or p.get("text"):
+            continue
+        fallback_text = fetch_post_og_description(p["url"], channel_bio=channel_bio)
+        if not fallback_text:
+            old = existing_posts.get(p["id"])
+            if old and old.get("text"):
+                p["text"] = old["text"]
+                p["text_html"] = old.get("text_html") or plain_text_to_rich_html(old["text"])
+                p["tags"] = old.get("tags") or extract_hashtags(old["text"], None)
+                p["has_links"] = bool(old.get("has_links") or p.get("link_preview"))
+            continue
+
+        p["text"] = fallback_text
+        p["text_html"] = plain_text_to_rich_html(fallback_text)
+        p["tags"] = extract_hashtags(fallback_text, None)
+        urls_in_text = re.findall(r"https?://[^\s<>\"']+", fallback_text)
+        p["has_links"] = bool(p.get("link_preview") or urls_in_text)
+        enriched += 1
+        time.sleep(0.15)
+    if enriched:
+        print(f"Recovered text via OG metadata for {enriched} unsupported-preview post(s).", flush=True)
+
+
 def generate_rss(site_info: Dict[str, Any], posts: List[Dict[str, Any]], site_url: str, out_path: Path) -> None:
     base = site_url.rstrip("/") if site_url else f"https://t.me/{site_info['channel']}"
     now_rfc = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -1024,7 +1119,7 @@ def main() -> int:
 
     sorted_posts = [merged[pid] for pid in sorted(merged.keys(), reverse=True)]
 
-    # Preserve previously cached local_url fields when incremental sync refreshes a post object
+    # Preserve previously cached local_url and forwarded_from fields when incremental sync refreshes a post object
     for p in sorted_posts:
         old = existing_posts.get(p["id"])
         if old:
@@ -1036,7 +1131,20 @@ def main() -> int:
                 if i < len(old.get("stickers", [])) and old["stickers"][i].get("local_url"):
                     if (root_dir / old["stickers"][i]["local_url"]).exists():
                         st["local_url"] = old["stickers"][i]["local_url"]
+            old_fwd = old.get("forwarded_from")
+            new_fwd = p.get("forwarded_from")
+            if new_fwd and old_fwd:
+                if not new_fwd.get("name") and old_fwd.get("name"):
+                    new_fwd["name"] = old_fwd["name"]
+                if not new_fwd.get("url") and old_fwd.get("url"):
+                    new_fwd["url"] = old_fwd["url"]
+                if not new_fwd.get("via_bot") and old_fwd.get("via_bot"):
+                    new_fwd["via_bot"] = old_fwd["via_bot"]
+                    new_fwd["via_bot_url"] = old_fwd.get("via_bot_url")
+            elif not new_fwd and old_fwd and p.get("has_unsupported_media"):
+                p["forwarded_from"] = old_fwd
 
+    enrich_unsupported_posts(sorted_posts, existing_posts, site_info)
     enrich_telegraph_previews(sorted_posts, tg_cache)
     cache_media_locally(sorted_posts, site_info, root_dir, download_all=args.download_media)
 

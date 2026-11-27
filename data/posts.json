@@ -1,5 +1,41 @@
 [
   {
+    "id": 1079,
+    "url": "https://t.me/mark014blog/1079",
+    "datetime": "2026-11-27T04:14:26+00:00",
+    "date_local": "2026-11-27 12:14",
+    "month": "2026-11",
+    "edited": false,
+    "is_service": false,
+    "views": 1,
+    "views_label": "1",
+    "text": "和 Claude 一起汉化了 Dead Estate —— 秋风塬上 🍁\n\n和 Claude😁 一起奋战两天，消耗了大概80USD（等值额度），做出了可能是最好的简/正体 Dead Estate（死亡庄园）游戏补丁，除汉化外，还提供超多丰富的内容。\n\n在此，作一个分享，希望各位喜欢❤️",
+    "text_html": "<a href=\"https://awads.cc/index.php/archives/39/\" target=\"_blank\" rel=\"noopener noreferrer\">和 Claude 一起汉化了 Dead Estate —— 秋风塬上</a> 🍁<br><br>和 Claude😁 一起奋战两天，消耗了大概80USD（等值额度），做出了可能是最好的简/正体 Dead Estate（死亡庄园）游戏补丁，除汉化外，还提供超多丰富的内容。<br><br>在此，作一个分享，希望各位喜欢❤️",
+    "tags": [],
+    "photos": [
+      {
+        "url": "https://cdn5.telesco.pe/file/rLh3fs0VIt1-Ni9C19O-lWv_IzIRY5NIUQ-KQEMRYucM_uuzQUTVY-eBUdi1Hbs4eVFmxVSxfvI07Xme6iHkPy9epIvLU0wD3bofgHcwWgst0uI55P2bGR8LXkpR3t4tvnIhgR1cyx4HIZL6LmxM6FdA0DSON_TGpYzJ4CxwwYK7oIA0Wd2x_JKWVmO2frzjgsEa4llNi7TByb5mGN3GdJ8k2o768lnKCZRy3A_nvc1a8UP_ayurpKllpTFSJbX47r2huEDQUqPjdCdcmb-RYW6f7Mp7kzExGiaeaM1VZmi46dg2KZ76nTEf41dqFPz4Yg39I0Z8qERNRWBdzRQUvw.jpg",
+        "ratio": null,
+        "post_url": "https://t.me/mark014blog/1079"
+      }
+    ],
+    "videos": [],
+    "stickers": [],
+    "documents": [],
+    "link_preview": null,
+    "forwarded_from": {
+      "name": "秋风のとおり道",
+      "url": "https://t.me/AWAvenue/1200",
+      "author": "",
+      "via_bot": null,
+      "via_bot_url": null
+    },
+    "reply_to": null,
+    "reactions": [],
+    "has_links": false,
+    "has_unsupported_media": false
+  },
+  {
     "id": 1078,
     "url": "https://t.me/mark014blog/1078",
     "datetime": "2026-11-26T16:03:38+00:00",
@@ -45,8 +81,8 @@
     "is_service": false,
     "views": 6,
     "views_label": "6",
-    "text": "",
-    "text_html": "",
+    "text": "via: https://x.com/locuralamia/status/2125726358596632818\nRubio de Palermo (@locuralamia)\n\n在 Instagram 上，每个人都开心，总是度假，每个人都有钱、有伴侣、有腹肌，这和 Twitter 完全不同，在这里我们全都胖、精神失常、有未了结的复仇计划。\n原文：\nEn Instagram son todos felices y están siempre de vacaciones, todos tienen dinero, parejas y abdominales, qué diferencia con Twitter, acá somos todos gordos trastornados, con desequilibrios mentales y venganzas pendientes\n点我看全文\n我看 TG 上也不遑多让",
+    "text_html": "via: <a href=\"https://x.com/locuralamia/status/2125726358596632818\" target=\"_blank\" rel=\"noopener noreferrer\">https://x.com/locuralamia/status/2125726358596632818</a><br>Rubio de Palermo (@locuralamia)<br><br>在 Instagram 上，每个人都开心，总是度假，每个人都有钱、有伴侣、有腹肌，这和 Twitter 完全不同，在这里我们全都胖、精神失常、有未了结的复仇计划。<br>原文：<br>En Instagram son todos felices y están siempre de vacaciones, todos tienen dinero, parejas y abdominales, qué diferencia con Twitter, acá somos todos gordos trastornados, con desequilibrios mentales y venganzas pendientes<br>点我看全文<br>我看 TG 上也不遑多让",
     "tags": [],
     "photos": [],
     "videos": [],
@@ -62,7 +98,7 @@
     },
     "reply_to": null,
     "reactions": [],
-    "has_links": false,
+    "has_links": true,
     "has_unsupported_media": true
   },
   {

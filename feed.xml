@@ -7,8 +7,16 @@
 可能是網路上的免費資源
 也可能只是單純的感悟、發牢騷</description>
   <language>zh-Hant</language>
-  <lastBuildDate>Fri, 27 Nov 2026 04:03:27 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 04:17:48 +0000</lastBuildDate>
   <atom:link href="https://blog.markfile.dpdns.org/feed.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>和 Claude 一起汉化了 Dead Estate —— 秋风塬上 🍁</title>
+    <link>https://blog.markfile.dpdns.org/?post=1079</link>
+    <guid isPermaLink="false">mark014blog-1079</guid>
+    <pubDate>Fri, 27 Nov 2026 04:14:26 +0000</pubDate>
+    <description><![CDATA[<p><img src="https://cdn5.telesco.pe/file/rLh3fs0VIt1-Ni9C19O-lWv_IzIRY5NIUQ-KQEMRYucM_uuzQUTVY-eBUdi1Hbs4eVFmxVSxfvI07Xme6iHkPy9epIvLU0wD3bofgHcwWgst0uI55P2bGR8LXkpR3t4tvnIhgR1cyx4HIZL6LmxM6FdA0DSON_TGpYzJ4CxwwYK7oIA0Wd2x_JKWVmO2frzjgsEa4llNi7TByb5mGN3GdJ8k2o768lnKCZRy3A_nvc1a8UP_ayurpKllpTFSJbX47r2huEDQUqPjdCdcmb-RYW6f7Mp7kzExGiaeaM1VZmi46dg2KZ76nTEf41dqFPz4Yg39I0Z8qERNRWBdzRQUvw.jpg" alt="photo"></p>
+<div><a href="https://awads.cc/index.php/archives/39/" target="_blank" rel="noopener noreferrer">和 Claude 一起汉化了 Dead Estate —— 秋风塬上</a> 🍁<br><br>和 Claude😁 一起奋战两天，消耗了大概80USD（等值额度），做出了可能是最好的简/正体 Dead Estate（死亡庄园）游戏补丁，除汉化外，还提供超多丰富的内容。<br><br>在此，作一个分享，希望各位喜欢❤️</div>]]></description>
+  </item>
   <item>
     <title>z-lib 新域名 https://fuckfbi.ru/</title>
     <link>https://blog.markfile.dpdns.org/?post=1078</link>
@@ -18,11 +26,11 @@
 <blockquote><a href="https://fuckfbi.ru/">Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.</a><br>Z-Library is an online library dedicated to enhancing global education through easy access to books. Recognizing books as a valuable source of knowledge throughout history, we aim to provide free literature access to those in need.</blockquote>]]></description>
   </item>
   <item>
-    <title>Mark's Blog #1077</title>
+    <title>via: https://x.com/locuralamia/status/2125726358596632818</title>
     <link>https://blog.markfile.dpdns.org/?post=1077</link>
     <guid isPermaLink="false">mark014blog-1077</guid>
     <pubDate>Thu, 26 Nov 2026 14:43:31 +0000</pubDate>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<div>via: <a href="https://x.com/locuralamia/status/2125726358596632818" target="_blank" rel="noopener noreferrer">https://x.com/locuralamia/status/2125726358596632818</a><br>Rubio de Palermo (@locuralamia)<br><br>在 Instagram 上，每个人都开心，总是度假，每个人都有钱、有伴侣、有腹肌，这和 Twitter 完全不同，在这里我们全都胖、精神失常、有未了结的复仇计划。<br>原文：<br>En Instagram son todos felices y están siempre de vacaciones, todos tienen dinero, parejas y abdominales, qué diferencia con Twitter, acá somos todos gordos trastornados, con desequilibrios mentales y venganzas pendientes<br>点我看全文<br>我看 TG 上也不遑多让</div>]]></description>
   </item>
   <item>
     <title>中文字幕下載站</title>
@@ -318,13 +326,6 @@ MERCH: https://dzuma.shop/
     <pubDate>Fri, 13 Nov 2026 12:50:10 +0000</pubDate>
     <description><![CDATA[<div>Gemini 新模型(Hydrogen)有料<br>許願把動畫瘋的彈幕跟 anime1的無廣告片頭片源結合起來<br>一次就成功，都不需要像之前還要把報錯來回溝通好幾次<br>再看能不能把動畫瘋的界面風格復刻進去<br>腳本完成後再上傳到 greay fork</div>
 <blockquote><a href="https://greasyfork.org/zh-TW/scripts/605388-anime1-me-%E5%8B%95%E7%95%AB%E7%98%8B%E5%BD%88%E5%B9%95">Anime1.me 動畫瘋彈幕</a><br>在 anime1.me 播放動畫時，自動根據當前動畫系列與集數載入巴哈姆特動畫瘋彈幕，支援時間軸偏移、樣式設定與手動配對</blockquote>]]></description>
-  </item>
-  <item>
-    <title>灌 win11 還得登入微軟帳號才能用</title>
-    <link>https://blog.markfile.dpdns.org/?post=1037</link>
-    <guid isPermaLink="false">mark014blog-1037</guid>
-    <pubDate>Fri, 13 Nov 2026 10:22:29 +0000</pubDate>
-    <description><![CDATA[<div>灌 win11 還得登入微軟帳號才能用<br>還是用 IOT Enterprise 版好了<br>不知道日常用會不會有啥問題</div>]]></description>
   </item>
 </channel>
 </rss>
